@@ -4911,7 +4911,7 @@
               const { data, error } = await supabaseClient.auth.signUp({ email, password, options: { ...(redirectTo ? { emailRedirectTo: redirectTo } : {}), data: { username, avatar: selectedAvatar } } });
               if (error) throw error;
               if (!data.session) {
-                setProfileMessage("حساب ساخته شد. ایمیل تأیید را باز کن؛ بعد از تأیید دوباره وارد شو.", "success");
+                setProfileMessage(" حساب ساخته شد. ایمیل تأیید را باز کن؛ بعد از تأیید دوباره وارد شو. (پوشه اسپم رو هم چک کن(", "success");
               } else {
                 setProfileMessage("حساب ساخته شد.", "success");
               }
