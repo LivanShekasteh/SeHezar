@@ -1,0 +1,5922 @@
+{
+  "abandon": {
+    "verb": {
+      "present": "abandon (abandons)",
+      "past": "abandonned",
+      "future": "will abandon"
+    }
+  },
+  "accept": {
+    "verb": {
+      "present": "accept (accepts)",
+      "past": "accepted",
+      "future": "will accept"
+    }
+  },
+  "access": {
+    "verb": {
+      "present": "access (accesses)",
+      "past": "accessed",
+      "future": "will access"
+    }
+  },
+  "accompany": {
+    "verb": {
+      "present": "accompany (accompanies)",
+      "past": "accompanied",
+      "future": "will accompany"
+    }
+  },
+  "account": {
+    "verb": {
+      "present": "account (accounts)",
+      "past": "accounted",
+      "future": "will account"
+    }
+  },
+  "accuse": {
+    "verb": {
+      "present": "accuse (accuses)",
+      "past": "accused",
+      "future": "will accuse"
+    }
+  },
+  "achieve": {
+    "verb": {
+      "present": "achieve (achieves)",
+      "past": "achieved",
+      "future": "will achieve"
+    }
+  },
+  "acknowledge": {
+    "verb": {
+      "present": "acknowledge (acknowledges)",
+      "past": "acknowledged",
+      "future": "will acknowledge"
+    }
+  },
+  "acquire": {
+    "verb": {
+      "present": "acquire (acquires)",
+      "past": "acquired",
+      "future": "will acquire"
+    }
+  },
+  "act": {
+    "verb": {
+      "present": "act (acts)",
+      "past": "acted",
+      "future": "will act"
+    }
+  },
+  "activity": {
+    "singular": "activity",
+    "plural": "activities"
+  },
+  "adapt": {
+    "verb": {
+      "present": "adapt (adapts)",
+      "past": "adapted",
+      "future": "will adapt"
+    }
+  },
+  "add": {
+    "verb": {
+      "present": "add (adds)",
+      "past": "added",
+      "future": "will add"
+    }
+  },
+  "address": {
+    "verb": {
+      "present": "address (addresses)",
+      "past": "addressed",
+      "future": "will address"
+    }
+  },
+  "admire": {
+    "verb": {
+      "present": "admire (admires)",
+      "past": "admired",
+      "future": "will admire"
+    }
+  },
+  "admit": {
+    "verb": {
+      "present": "admit (admits)",
+      "past": "admitted",
+      "future": "will admit"
+    }
+  },
+  "adopt": {
+    "verb": {
+      "present": "adopt (adopts)",
+      "past": "adopted",
+      "future": "will adopt"
+    }
+  },
+  "advance": {
+    "verb": {
+      "present": "advance (advances)",
+      "past": "advanced",
+      "future": "will advance"
+    }
+  },
+  "advertise": {
+    "verb": {
+      "present": "advertise (advertises)",
+      "past": "advertised",
+      "future": "will advertise"
+    }
+  },
+  "advise": {
+    "verb": {
+      "present": "advise (advises)",
+      "past": "advised",
+      "future": "will advise"
+    }
+  },
+  "affect": {
+    "verb": {
+      "present": "affect (affects)",
+      "past": "affected",
+      "future": "will affect"
+    }
+  },
+  "afford": {
+    "verb": {
+      "present": "afford (affords)",
+      "past": "afforded",
+      "future": "will afford"
+    }
+  },
+  "age": {
+    "verb": {
+      "present": "age (ages)",
+      "past": "aged",
+      "future": "will age"
+    }
+  },
+  "agree": {
+    "verb": {
+      "present": "agree (agrees)",
+      "past": "agreed",
+      "future": "will agree"
+    }
+  },
+  "aid": {
+    "verb": {
+      "present": "aid (aids)",
+      "past": "aided",
+      "future": "will aid"
+    }
+  },
+  "aim": {
+    "verb": {
+      "present": "aim (aims)",
+      "past": "aimed",
+      "future": "will aim"
+    }
+  },
+  "aircraft": {
+    "singular": "aircraft",
+    "plural": "aircraft"
+  },
+  "alarm": {
+    "verb": {
+      "present": "alarm (alarms)",
+      "past": "alarmed",
+      "future": "will alarm"
+    }
+  },
+  "allow": {
+    "verb": {
+      "present": "allow (allows)",
+      "past": "allowed",
+      "future": "will allow"
+    }
+  },
+  "alter": {
+    "verb": {
+      "present": "alter (alters)",
+      "past": "alterred",
+      "future": "will alter"
+    }
+  },
+  "amount": {
+    "verb": {
+      "present": "amount (amounts)",
+      "past": "amounted",
+      "future": "will amount"
+    }
+  },
+  "analysis": {
+    "singular": "analysis",
+    "plural": "analyses"
+  },
+  "analyze": {
+    "verb": {
+      "present": "analyze (analyzes)",
+      "past": "analyzed",
+      "future": "will analyze"
+    }
+  },
+  "announce": {
+    "verb": {
+      "present": "announce (announces)",
+      "past": "announced",
+      "future": "will announce"
+    }
+  },
+  "annoy": {
+    "verb": {
+      "present": "annoy (annoys)",
+      "past": "annoyed",
+      "future": "will annoy"
+    }
+  },
+  "answer": {
+    "verb": {
+      "present": "answer (answers)",
+      "past": "answerred",
+      "future": "will answer"
+    }
+  },
+  "apologize": {
+    "verb": {
+      "present": "apologize (apologizes)",
+      "past": "apologized",
+      "future": "will apologize"
+    }
+  },
+  "appeal": {
+    "verb": {
+      "present": "appeal (appeals)",
+      "past": "appealed",
+      "future": "will appeal"
+    }
+  },
+  "appear": {
+    "verb": {
+      "present": "appear (appears)",
+      "past": "appeared",
+      "future": "will appear"
+    }
+  },
+  "apply": {
+    "verb": {
+      "present": "apply (applies)",
+      "past": "applied",
+      "future": "will apply"
+    }
+  },
+  "appreciate": {
+    "verb": {
+      "present": "appreciate (appreciates)",
+      "past": "appreciated",
+      "future": "will appreciate"
+    }
+  },
+  "approach": {
+    "verb": {
+      "present": "approach (approaches)",
+      "past": "approached",
+      "future": "will approach"
+    }
+  },
+  "approve": {
+    "verb": {
+      "present": "approve (approves)",
+      "past": "approved",
+      "future": "will approve"
+    }
+  },
+  "argue": {
+    "verb": {
+      "present": "argue (argues)",
+      "past": "argued",
+      "future": "will argue"
+    }
+  },
+  "arise": {
+    "verb": {
+      "present": "arise (arises)",
+      "past": "arose",
+      "future": "will arise"
+    }
+  },
+  "arrange": {
+    "verb": {
+      "present": "arrange (arranges)",
+      "past": "arranged",
+      "future": "will arrange"
+    }
+  },
+  "arrest": {
+    "verb": {
+      "present": "arrest (arrests)",
+      "past": "arrested",
+      "future": "will arrest"
+    }
+  },
+  "arrive": {
+    "verb": {
+      "present": "arrive (arrives)",
+      "past": "arrived",
+      "future": "will arrive"
+    }
+  },
+  "ask": {
+    "verb": {
+      "present": "ask (asks)",
+      "past": "asked",
+      "future": "will ask"
+    }
+  },
+  "assess": {
+    "verb": {
+      "present": "assess (assesses)",
+      "past": "assessed",
+      "future": "will assess"
+    }
+  },
+  "assist": {
+    "verb": {
+      "present": "assist (assists)",
+      "past": "assisted",
+      "future": "will assist"
+    }
+  },
+  "associate": {
+    "verb": {
+      "present": "associate (associates)",
+      "past": "associated",
+      "future": "will associate"
+    }
+  },
+  "assume": {
+    "verb": {
+      "present": "assume (assumes)",
+      "past": "assumed",
+      "future": "will assume"
+    }
+  },
+  "attach": {
+    "verb": {
+      "present": "attach (attaches)",
+      "past": "attached",
+      "future": "will attach"
+    }
+  },
+  "attack": {
+    "verb": {
+      "present": "attack (attacks)",
+      "past": "attacked",
+      "future": "will attack"
+    }
+  },
+  "attempt": {
+    "verb": {
+      "present": "attempt (attempts)",
+      "past": "attempted",
+      "future": "will attempt"
+    }
+  },
+  "attend": {
+    "verb": {
+      "present": "attend (attends)",
+      "past": "attended",
+      "future": "will attend"
+    }
+  },
+  "attract": {
+    "verb": {
+      "present": "attract (attracts)",
+      "past": "attracted",
+      "future": "will attract"
+    }
+  },
+  "average": {
+    "verb": {
+      "present": "average (averages)",
+      "past": "averaged",
+      "future": "will average"
+    }
+  },
+  "avoid": {
+    "verb": {
+      "present": "avoid (avoids)",
+      "past": "avoided",
+      "future": "will avoid"
+    }
+  },
+  "award": {
+    "verb": {
+      "present": "award (awards)",
+      "past": "awarded",
+      "future": "will award"
+    }
+  },
+  "baby": {
+    "singular": "baby",
+    "plural": "babies"
+  },
+  "back": {
+    "verb": {
+      "present": "back (backs)",
+      "past": "backed",
+      "future": "will back"
+    }
+  },
+  "bacteria": {
+    "singular": "bacterium",
+    "plural": "bacteria"
+  },
+  "bake": {
+    "verb": {
+      "present": "bake (bakes)",
+      "past": "baked",
+      "future": "will bake"
+    }
+  },
+  "balance": {
+    "verb": {
+      "present": "balance (balances)",
+      "past": "balanced",
+      "future": "will balance"
+    }
+  },
+  "ban": {
+    "verb": {
+      "present": "ban (bans)",
+      "past": "banned",
+      "future": "will ban"
+    }
+  },
+  "bar": {
+    "verb": {
+      "present": "bar (bars)",
+      "past": "barred",
+      "future": "will bar"
+    }
+  },
+  "base": {
+    "verb": {
+      "present": "base (bases)",
+      "past": "based",
+      "future": "will base"
+    }
+  },
+  "basis": {
+    "singular": "basis",
+    "plural": "bases"
+  },
+  "battle": {
+    "verb": {
+      "present": "battle (battles)",
+      "past": "battled",
+      "future": "will battle"
+    }
+  },
+  "be": {
+    "verb": {
+      "present": "am / is / are",
+      "past": "was / were",
+      "future": "will be"
+    }
+  },
+  "bear (deal with)": {
+    "verb": {
+      "present": "bear",
+      "past": "bore",
+      "future": "will bear"
+    }
+  },
+  "beat": {
+    "verb": {
+      "present": "beat (beats)",
+      "past": "beat",
+      "future": "will beat"
+    }
+  },
+  "become": {
+    "verb": {
+      "present": "become (becomes)",
+      "past": "became",
+      "future": "will become"
+    }
+  },
+  "beg": {
+    "verb": {
+      "present": "beg (begs)",
+      "past": "begged",
+      "future": "will beg"
+    }
+  },
+  "begin": {
+    "verb": {
+      "present": "begin (begins)",
+      "past": "began",
+      "future": "will begin"
+    }
+  },
+  "behave": {
+    "verb": {
+      "present": "behave (behaves)",
+      "past": "behaved",
+      "future": "will behave"
+    }
+  },
+  "believe": {
+    "verb": {
+      "present": "believe (believes)",
+      "past": "believed",
+      "future": "will believe"
+    }
+  },
+  "belong": {
+    "verb": {
+      "present": "belong (belongs)",
+      "past": "belonged",
+      "future": "will belong"
+    }
+  },
+  "bend": {
+    "verb": {
+      "present": "bend (bends)",
+      "past": "bent",
+      "future": "will bend"
+    }
+  },
+  "benefit": {
+    "verb": {
+      "present": "benefit (benefits)",
+      "past": "benefitted",
+      "future": "will benefit"
+    }
+  },
+  "bet": {
+    "verb": {
+      "present": "bet (bets)",
+      "past": "bet",
+      "future": "will bet"
+    }
+  },
+  "bill": {
+    "verb": {
+      "present": "bill (bills)",
+      "past": "billed",
+      "future": "will bill"
+    }
+  },
+  "bite": {
+    "verb": {
+      "present": "bite (bites)",
+      "past": "bit",
+      "future": "will bite"
+    }
+  },
+  "blame": {
+    "verb": {
+      "present": "blame (blames)",
+      "past": "blamed",
+      "future": "will blame"
+    }
+  },
+  "block": {
+    "verb": {
+      "present": "block (blocks)",
+      "past": "blocked",
+      "future": "will block"
+    }
+  },
+  "blow": {
+    "verb": {
+      "present": "blow (blows)",
+      "past": "blew",
+      "future": "will blow"
+    }
+  },
+  "board": {
+    "verb": {
+      "present": "board (boards)",
+      "past": "boarded",
+      "future": "will board"
+    }
+  },
+  "body": {
+    "singular": "body",
+    "plural": "bodies"
+  },
+  "boil": {
+    "verb": {
+      "present": "boil (boils)",
+      "past": "boiled",
+      "future": "will boil"
+    }
+  },
+  "bomb": {
+    "verb": {
+      "present": "bomb (bombs)",
+      "past": "bombed",
+      "future": "will bomb"
+    }
+  },
+  "book": {
+    "verb": {
+      "present": "book (books)",
+      "past": "booked",
+      "future": "will book"
+    }
+  },
+  "border": {
+    "verb": {
+      "present": "border (borders)",
+      "past": "borderred",
+      "future": "will border"
+    }
+  },
+  "born": {
+    "verb": {
+      "present": "born (borns)",
+      "past": "borned",
+      "future": "will born"
+    }
+  },
+  "borrow": {
+    "verb": {
+      "present": "borrow (borrows)",
+      "past": "borrowed",
+      "future": "will borrow"
+    }
+  },
+  "bother": {
+    "verb": {
+      "present": "bother (bothers)",
+      "past": "botherred",
+      "future": "will bother"
+    }
+  },
+  "brand": {
+    "verb": {
+      "present": "brand (brands)",
+      "past": "branded",
+      "future": "will brand"
+    }
+  },
+  "break": {
+    "verb": {
+      "present": "break (breaks)",
+      "past": "broke",
+      "future": "will break"
+    }
+  },
+  "breathe": {
+    "verb": {
+      "present": "breathe (breathes)",
+      "past": "breathed",
+      "future": "will breathe"
+    }
+  },
+  "bring": {
+    "verb": {
+      "present": "bring (brings)",
+      "past": "brought",
+      "future": "will bring"
+    }
+  },
+  "broadcast": {
+    "verb": {
+      "present": "broadcast (broadcasts)",
+      "past": "broadcast",
+      "future": "will broadcast"
+    }
+  },
+  "brush": {
+    "verb": {
+      "present": "brush (brushes)",
+      "past": "brushed",
+      "future": "will brush"
+    }
+  },
+  "build": {
+    "verb": {
+      "present": "build (builds)",
+      "past": "built",
+      "future": "will build"
+    }
+  },
+  "burn": {
+    "verb": {
+      "present": "burn (burns)",
+      "past": "burned",
+      "future": "will burn"
+    }
+  },
+  "bury": {
+    "verb": {
+      "present": "bury (buries)",
+      "past": "buried",
+      "future": "will bury"
+    }
+  },
+  "buy": {
+    "verb": {
+      "present": "buy (buys)",
+      "past": "bought",
+      "future": "will buy"
+    }
+  },
+  "calculate": {
+    "verb": {
+      "present": "calculate (calculates)",
+      "past": "calculated",
+      "future": "will calculate"
+    }
+  },
+  "call": {
+    "verb": {
+      "present": "call (calls)",
+      "past": "called",
+      "future": "will call"
+    }
+  },
+  "calm": {
+    "verb": {
+      "present": "calm (calms)",
+      "past": "calmed",
+      "future": "will calm"
+    }
+  },
+  "camp": {
+    "verb": {
+      "present": "camp (camps)",
+      "past": "camped",
+      "future": "will camp"
+    }
+  },
+  "campaign": {
+    "verb": {
+      "present": "campaign (campaigns)",
+      "past": "campaigned",
+      "future": "will campaign"
+    }
+  },
+  "cancel": {
+    "verb": {
+      "present": "cancel (cancels)",
+      "past": "canceled",
+      "future": "will cancel"
+    }
+  },
+  "capture": {
+    "verb": {
+      "present": "capture (captures)",
+      "past": "captured",
+      "future": "will capture"
+    }
+  },
+  "care": {
+    "verb": {
+      "present": "care (cares)",
+      "past": "cared",
+      "future": "will care"
+    }
+  },
+  "carry": {
+    "verb": {
+      "present": "carry (carries)",
+      "past": "carried",
+      "future": "will carry"
+    }
+  },
+  "cast": {
+    "verb": {
+      "present": "cast (casts)",
+      "past": "casted",
+      "future": "will cast"
+    }
+  },
+  "catch": {
+    "verb": {
+      "present": "catch (catches)",
+      "past": "caught",
+      "future": "will catch"
+    }
+  },
+  "category": {
+    "singular": "category",
+    "plural": "categories"
+  },
+  "cause": {
+    "verb": {
+      "present": "cause (causes)",
+      "past": "caused",
+      "future": "will cause"
+    }
+  },
+  "celebrate": {
+    "verb": {
+      "present": "celebrate (celebrates)",
+      "past": "celebrated",
+      "future": "will celebrate"
+    }
+  },
+  "center": {
+    "verb": {
+      "present": "center (centers)",
+      "past": "centerred",
+      "future": "will center"
+    }
+  },
+  "century": {
+    "singular": "century",
+    "plural": "centuries"
+  },
+  "chain": {
+    "verb": {
+      "present": "chain (chains)",
+      "past": "chained",
+      "future": "will chain"
+    }
+  },
+  "chair": {
+    "verb": {
+      "present": "chair (chairs)",
+      "past": "chaired",
+      "future": "will chair"
+    }
+  },
+  "challenge": {
+    "verb": {
+      "present": "challenge (challenges)",
+      "past": "challenged",
+      "future": "will challenge"
+    }
+  },
+  "change": {
+    "verb": {
+      "present": "change (changes)",
+      "past": "changed",
+      "future": "will change"
+    }
+  },
+  "charge": {
+    "verb": {
+      "present": "charge (charges)",
+      "past": "charged",
+      "future": "will charge"
+    }
+  },
+  "charity": {
+    "singular": "charity",
+    "plural": "charities"
+  },
+  "chart": {
+    "verb": {
+      "present": "chart (charts)",
+      "past": "charted",
+      "future": "will chart"
+    }
+  },
+  "chat": {
+    "verb": {
+      "present": "chat (chats)",
+      "past": "chatted",
+      "future": "will chat"
+    }
+  },
+  "cheat": {
+    "verb": {
+      "present": "cheat (cheats)",
+      "past": "cheated",
+      "future": "will cheat"
+    }
+  },
+  "check": {
+    "verb": {
+      "present": "check (checks)",
+      "past": "checked",
+      "future": "will check"
+    }
+  },
+  "child": {
+    "singular": "child",
+    "plural": "children"
+  },
+  "choose": {
+    "verb": {
+      "present": "choose (chooses)",
+      "past": "chose",
+      "future": "will choose"
+    }
+  },
+  "circle": {
+    "verb": {
+      "present": "circle (circles)",
+      "past": "circled",
+      "future": "will circle"
+    }
+  },
+  "cite": {
+    "verb": {
+      "present": "cite (cites)",
+      "past": "cited",
+      "future": "will cite"
+    }
+  },
+  "city": {
+    "singular": "city",
+    "plural": "cities"
+  },
+  "claim": {
+    "verb": {
+      "present": "claim (claims)",
+      "past": "claimed",
+      "future": "will claim"
+    }
+  },
+  "clean": {
+    "verb": {
+      "present": "clean (cleans)",
+      "past": "cleaned",
+      "future": "will clean"
+    }
+  },
+  "clear": {
+    "verb": {
+      "present": "clear (clears)",
+      "past": "cleared",
+      "future": "will clear"
+    }
+  },
+  "click": {
+    "verb": {
+      "present": "click (clicks)",
+      "past": "clicked",
+      "future": "will click"
+    }
+  },
+  "climb": {
+    "verb": {
+      "present": "climb (climbs)",
+      "past": "climbed",
+      "future": "will climb"
+    }
+  },
+  "close1": {
+    "verb": {
+      "present": "close (closes)",
+      "past": "closed",
+      "future": "will close"
+    }
+  },
+  "coach": {
+    "verb": {
+      "present": "coach (coaches)",
+      "past": "coached",
+      "future": "will coach"
+    }
+  },
+  "collapse": {
+    "verb": {
+      "present": "collapse (collapses)",
+      "past": "collapsed",
+      "future": "will collapse"
+    }
+  },
+  "collect": {
+    "verb": {
+      "present": "collect (collects)",
+      "past": "collected",
+      "future": "will collect"
+    }
+  },
+  "combine": {
+    "verb": {
+      "present": "combine (combines)",
+      "past": "combined",
+      "future": "will combine"
+    }
+  },
+  "come": {
+    "verb": {
+      "present": "come (comes)",
+      "past": "came",
+      "future": "will come"
+    }
+  },
+  "comfort": {
+    "verb": {
+      "present": "comfort (comforts)",
+      "past": "comforted",
+      "future": "will comfort"
+    }
+  },
+  "command": {
+    "verb": {
+      "present": "command (commands)",
+      "past": "commanded",
+      "future": "will command"
+    }
+  },
+  "comment": {
+    "verb": {
+      "present": "comment (comments)",
+      "past": "commented",
+      "future": "will comment"
+    }
+  },
+  "commission": {
+    "verb": {
+      "present": "commission (commissions)",
+      "past": "commissioned",
+      "future": "will commission"
+    }
+  },
+  "commit": {
+    "verb": {
+      "present": "commit (commits)",
+      "past": "committed",
+      "future": "will commit"
+    }
+  },
+  "communicate": {
+    "verb": {
+      "present": "communicate (communicates)",
+      "past": "communicated",
+      "future": "will communicate"
+    }
+  },
+  "community": {
+    "singular": "community",
+    "plural": "communities"
+  },
+  "company": {
+    "singular": "company",
+    "plural": "companies"
+  },
+  "compare": {
+    "verb": {
+      "present": "compare (compares)",
+      "past": "compared",
+      "future": "will compare"
+    }
+  },
+  "compete": {
+    "verb": {
+      "present": "compete (competes)",
+      "past": "competed",
+      "future": "will compete"
+    }
+  },
+  "complain": {
+    "verb": {
+      "present": "complain (complains)",
+      "past": "complained",
+      "future": "will complain"
+    }
+  },
+  "complete": {
+    "verb": {
+      "present": "complete (completes)",
+      "past": "completed",
+      "future": "will complete"
+    }
+  },
+  "concentrate": {
+    "verb": {
+      "present": "concentrate (concentrates)",
+      "past": "concentrated",
+      "future": "will concentrate"
+    }
+  },
+  "concern": {
+    "verb": {
+      "present": "concern (concerns)",
+      "past": "concerned",
+      "future": "will concern"
+    }
+  },
+  "conclude": {
+    "verb": {
+      "present": "conclude (concludes)",
+      "past": "concluded",
+      "future": "will conclude"
+    }
+  },
+  "conduct": {
+    "verb": {
+      "present": "conduct (conducts)",
+      "past": "conducted",
+      "future": "will conduct"
+    }
+  },
+  "confirm": {
+    "verb": {
+      "present": "confirm (confirms)",
+      "past": "confirmed",
+      "future": "will confirm"
+    }
+  },
+  "conflict": {
+    "verb": {
+      "present": "conflict (conflicts)",
+      "past": "conflicted",
+      "future": "will conflict"
+    }
+  },
+  "confuse": {
+    "verb": {
+      "present": "confuse (confuses)",
+      "past": "confused",
+      "future": "will confuse"
+    }
+  },
+  "connect": {
+    "verb": {
+      "present": "connect (connects)",
+      "past": "connected",
+      "future": "will connect"
+    }
+  },
+  "consider": {
+    "verb": {
+      "present": "consider (considers)",
+      "past": "considerred",
+      "future": "will consider"
+    }
+  },
+  "consist": {
+    "verb": {
+      "present": "consist (consists)",
+      "past": "consisted",
+      "future": "will consist"
+    }
+  },
+  "construct": {
+    "verb": {
+      "present": "construct (constructs)",
+      "past": "constructed",
+      "future": "will construct"
+    }
+  },
+  "consume": {
+    "verb": {
+      "present": "consume (consumes)",
+      "past": "consumed",
+      "future": "will consume"
+    }
+  },
+  "contact": {
+    "verb": {
+      "present": "contact (contacts)",
+      "past": "contacted",
+      "future": "will contact"
+    }
+  },
+  "contain": {
+    "verb": {
+      "present": "contain (contains)",
+      "past": "contained",
+      "future": "will contain"
+    }
+  },
+  "contest": {
+    "verb": {
+      "present": "contest (contests)",
+      "past": "contested",
+      "future": "will contest"
+    }
+  },
+  "continue": {
+    "verb": {
+      "present": "continue (continues)",
+      "past": "continued",
+      "future": "will continue"
+    }
+  },
+  "contract": {
+    "verb": {
+      "present": "contract (contracts)",
+      "past": "contracted",
+      "future": "will contract"
+    }
+  },
+  "contrast": {
+    "verb": {
+      "present": "contrast (contrasts)",
+      "past": "contrasted",
+      "future": "will contrast"
+    }
+  },
+  "contribute": {
+    "verb": {
+      "present": "contribute (contributes)",
+      "past": "contributed",
+      "future": "will contribute"
+    }
+  },
+  "control": {
+    "verb": {
+      "present": "control (controls)",
+      "past": "controlled",
+      "future": "will control"
+    }
+  },
+  "convert": {
+    "verb": {
+      "present": "convert (converts)",
+      "past": "converted",
+      "future": "will convert"
+    }
+  },
+  "convince": {
+    "verb": {
+      "present": "convince (convinces)",
+      "past": "convinced",
+      "future": "will convince"
+    }
+  },
+  "cook": {
+    "verb": {
+      "present": "cook (cooks)",
+      "past": "cooked",
+      "future": "will cook"
+    }
+  },
+  "cool": {
+    "verb": {
+      "present": "cool (cools)",
+      "past": "cooled",
+      "future": "will cool"
+    }
+  },
+  "copy": {
+    "verb": {
+      "present": "copy (copies)",
+      "past": "copied",
+      "future": "will copy"
+    }
+  },
+  "correct": {
+    "verb": {
+      "present": "correct (corrects)",
+      "past": "corrected",
+      "future": "will correct"
+    }
+  },
+  "cost": {
+    "verb": {
+      "present": "cost (costs)",
+      "past": "cost",
+      "future": "will cost"
+    }
+  },
+  "count": {
+    "verb": {
+      "present": "count (counts)",
+      "past": "counted",
+      "future": "will count"
+    }
+  },
+  "country": {
+    "singular": "country",
+    "plural": "countries"
+  },
+  "cover": {
+    "verb": {
+      "present": "cover (covers)",
+      "past": "covered",
+      "future": "will cover"
+    }
+  },
+  "crash": {
+    "verb": {
+      "present": "crash (crashes)",
+      "past": "crashed",
+      "future": "will crash"
+    }
+  },
+  "create": {
+    "verb": {
+      "present": "create (creates)",
+      "past": "created",
+      "future": "will create"
+    }
+  },
+  "credit": {
+    "verb": {
+      "present": "credit (credits)",
+      "past": "creditted",
+      "future": "will credit"
+    }
+  },
+  "crisis": {
+    "singular": "crisis",
+    "plural": "crises"
+  },
+  "criterion": {
+    "singular": "criterion",
+    "plural": "criteria"
+  },
+  "criticize": {
+    "verb": {
+      "present": "criticize (criticizes)",
+      "past": "criticized",
+      "future": "will criticize"
+    }
+  },
+  "cross": {
+    "verb": {
+      "present": "cross (crosses)",
+      "past": "crossed",
+      "future": "will cross"
+    }
+  },
+  "cry": {
+    "verb": {
+      "present": "cry (cries)",
+      "past": "cried",
+      "future": "will cry"
+    }
+  },
+  "cure": {
+    "verb": {
+      "present": "cure (cures)",
+      "past": "cured",
+      "future": "will cure"
+    }
+  },
+  "curve": {
+    "verb": {
+      "present": "curve (curves)",
+      "past": "curved",
+      "future": "will curve"
+    }
+  },
+  "cut": {
+    "verb": {
+      "present": "cut (cuts)",
+      "past": "cut",
+      "future": "will cut"
+    }
+  },
+  "cycle": {
+    "verb": {
+      "present": "cycle (cycles)",
+      "past": "cycled",
+      "future": "will cycle"
+    }
+  },
+  "damage": {
+    "verb": {
+      "present": "damage (damages)",
+      "past": "damaged",
+      "future": "will damage"
+    }
+  },
+  "dance": {
+    "verb": {
+      "present": "dance (dances)",
+      "past": "danced",
+      "future": "will dance"
+    }
+  },
+  "data": {
+    "singular": "datum",
+    "plural": "data"
+  },
+  "date": {
+    "verb": {
+      "present": "date (dates)",
+      "past": "dated",
+      "future": "will date"
+    }
+  },
+  "deal": {
+    "verb": {
+      "present": "deal (deals)",
+      "past": "dealt",
+      "future": "will deal"
+    }
+  },
+  "debate": {
+    "verb": {
+      "present": "debate (debates)",
+      "past": "debated",
+      "future": "will debate"
+    }
+  },
+  "decide": {
+    "verb": {
+      "present": "decide (decides)",
+      "past": "decided",
+      "future": "will decide"
+    }
+  },
+  "declare": {
+    "verb": {
+      "present": "declare (declares)",
+      "past": "declared",
+      "future": "will declare"
+    }
+  },
+  "decline": {
+    "verb": {
+      "present": "decline (declines)",
+      "past": "declined",
+      "future": "will decline"
+    }
+  },
+  "decorate": {
+    "verb": {
+      "present": "decorate (decorates)",
+      "past": "decorated",
+      "future": "will decorate"
+    }
+  },
+  "decrease": {
+    "verb": {
+      "present": "decrease (decreases)",
+      "past": "decreased",
+      "future": "will decrease"
+    }
+  },
+  "defeat": {
+    "verb": {
+      "present": "defeat (defeats)",
+      "past": "defeated",
+      "future": "will defeat"
+    }
+  },
+  "defend": {
+    "verb": {
+      "present": "defend (defends)",
+      "past": "defended",
+      "future": "will defend"
+    }
+  },
+  "define": {
+    "verb": {
+      "present": "define (defines)",
+      "past": "defined",
+      "future": "will define"
+    }
+  },
+  "delay": {
+    "verb": {
+      "present": "delay (delays)",
+      "past": "delayed",
+      "future": "will delay"
+    }
+  },
+  "deliver": {
+    "verb": {
+      "present": "deliver (delivers)",
+      "past": "deliverred",
+      "future": "will deliver"
+    }
+  },
+  "delivery": {
+    "singular": "delivery",
+    "plural": "deliveries"
+  },
+  "demand": {
+    "verb": {
+      "present": "demand (demands)",
+      "past": "demanded",
+      "future": "will demand"
+    }
+  },
+  "demonstrate": {
+    "verb": {
+      "present": "demonstrate (demonstrates)",
+      "past": "demonstrated",
+      "future": "will demonstrate"
+    }
+  },
+  "deny": {
+    "verb": {
+      "present": "deny (denies)",
+      "past": "denied",
+      "future": "will deny"
+    }
+  },
+  "depend": {
+    "verb": {
+      "present": "depend (depends)",
+      "past": "depended",
+      "future": "will depend"
+    }
+  },
+  "describe": {
+    "verb": {
+      "present": "describe (describes)",
+      "past": "described",
+      "future": "will describe"
+    }
+  },
+  "desert": {
+    "verb": {
+      "present": "desert (deserts)",
+      "past": "deserted",
+      "future": "will desert"
+    }
+  },
+  "deserve": {
+    "verb": {
+      "present": "deserve (deserves)",
+      "past": "deserved",
+      "future": "will deserve"
+    }
+  },
+  "design": {
+    "verb": {
+      "present": "design (designs)",
+      "past": "designed",
+      "future": "will design"
+    }
+  },
+  "desire": {
+    "verb": {
+      "present": "desire (desires)",
+      "past": "desired",
+      "future": "will desire"
+    }
+  },
+  "destroy": {
+    "verb": {
+      "present": "destroy (destroys)",
+      "past": "destroyed",
+      "future": "will destroy"
+    }
+  },
+  "detail": {
+    "verb": {
+      "present": "detail (details)",
+      "past": "detailed",
+      "future": "will detail"
+    }
+  },
+  "detect": {
+    "verb": {
+      "present": "detect (detects)",
+      "past": "detected",
+      "future": "will detect"
+    }
+  },
+  "determine": {
+    "verb": {
+      "present": "determine (determines)",
+      "past": "determined",
+      "future": "will determine"
+    }
+  },
+  "develop": {
+    "verb": {
+      "present": "develop (develops)",
+      "past": "developped",
+      "future": "will develop"
+    }
+  },
+  "diary": {
+    "singular": "diary",
+    "plural": "diaries"
+  },
+  "dictionary": {
+    "singular": "dictionary",
+    "plural": "dictionaries"
+  },
+  "die": {
+    "verb": {
+      "present": "die (dies)",
+      "past": "died",
+      "future": "will die"
+    }
+  },
+  "difficulty": {
+    "singular": "difficulty",
+    "plural": "difficulties"
+  },
+  "dig": {
+    "verb": {
+      "present": "dig (digs)",
+      "past": "dug",
+      "future": "will dig"
+    }
+  },
+  "direct": {
+    "verb": {
+      "present": "direct (directs)",
+      "past": "directed",
+      "future": "will direct"
+    }
+  },
+  "disagree": {
+    "verb": {
+      "present": "disagree (disagrees)",
+      "past": "disagreed",
+      "future": "will disagree"
+    }
+  },
+  "disappear": {
+    "verb": {
+      "present": "disappear (disappears)",
+      "past": "disappeared",
+      "future": "will disappear"
+    }
+  },
+  "discount": {
+    "verb": {
+      "present": "discount (discounts)",
+      "past": "discounted",
+      "future": "will discount"
+    }
+  },
+  "discover": {
+    "verb": {
+      "present": "discover (discovers)",
+      "past": "discoverred",
+      "future": "will discover"
+    }
+  },
+  "discovery": {
+    "singular": "discovery",
+    "plural": "discoveries"
+  },
+  "discuss": {
+    "verb": {
+      "present": "discuss (discusses)",
+      "past": "discussed",
+      "future": "will discuss"
+    }
+  },
+  "dislike": {
+    "verb": {
+      "present": "dislike (dislikes)",
+      "past": "disliked",
+      "future": "will dislike"
+    }
+  },
+  "dismiss": {
+    "verb": {
+      "present": "dismiss (dismisses)",
+      "past": "dismissed",
+      "future": "will dismiss"
+    }
+  },
+  "display": {
+    "verb": {
+      "present": "display (displays)",
+      "past": "displayed",
+      "future": "will display"
+    }
+  },
+  "distribute": {
+    "verb": {
+      "present": "distribute (distributes)",
+      "past": "distributed",
+      "future": "will distribute"
+    }
+  },
+  "divide": {
+    "verb": {
+      "present": "divide (divides)",
+      "past": "divided",
+      "future": "will divide"
+    }
+  },
+  "do1": {
+    "verb": {
+      "present": "do (does)",
+      "past": "did",
+      "future": "will do"
+    }
+  },
+  "document": {
+    "verb": {
+      "present": "document (documents)",
+      "past": "documented",
+      "future": "will document"
+    }
+  },
+  "dominate": {
+    "verb": {
+      "present": "dominate (dominates)",
+      "past": "dominated",
+      "future": "will dominate"
+    }
+  },
+  "donate": {
+    "verb": {
+      "present": "donate (donates)",
+      "past": "donated",
+      "future": "will donate"
+    }
+  },
+  "double": {
+    "verb": {
+      "present": "double (doubles)",
+      "past": "doubled",
+      "future": "will double"
+    }
+  },
+  "doubt": {
+    "verb": {
+      "present": "doubt (doubts)",
+      "past": "doubted",
+      "future": "will doubt"
+    }
+  },
+  "download": {
+    "verb": {
+      "present": "download (downloads)",
+      "past": "downloaded",
+      "future": "will download"
+    }
+  },
+  "draft": {
+    "verb": {
+      "present": "draft (drafts)",
+      "past": "drafted",
+      "future": "will draft"
+    }
+  },
+  "drag": {
+    "verb": {
+      "present": "drag (drags)",
+      "past": "dragged",
+      "future": "will drag"
+    }
+  },
+  "draw": {
+    "verb": {
+      "present": "draw (draws)",
+      "past": "drew",
+      "future": "will draw"
+    }
+  },
+  "dream": {
+    "verb": {
+      "present": "dream (dreams)",
+      "past": "dreamed",
+      "future": "will dream"
+    }
+  },
+  "dress": {
+    "verb": {
+      "present": "dress (dresses)",
+      "past": "dressed",
+      "future": "will dress"
+    }
+  },
+  "drink": {
+    "verb": {
+      "present": "drink (drinks)",
+      "past": "drank",
+      "future": "will drink"
+    }
+  },
+  "drive": {
+    "verb": {
+      "present": "drive (drives)",
+      "past": "drove",
+      "future": "will drive"
+    }
+  },
+  "drop": {
+    "verb": {
+      "present": "drop (drops)",
+      "past": "dropped",
+      "future": "will drop"
+    }
+  },
+  "dry": {
+    "verb": {
+      "present": "dry (dries)",
+      "past": "dried",
+      "future": "will dry"
+    }
+  },
+  "earn": {
+    "verb": {
+      "present": "earn (earns)",
+      "past": "earned",
+      "future": "will earn"
+    }
+  },
+  "eat": {
+    "verb": {
+      "present": "eat (eats)",
+      "past": "ate",
+      "future": "will eat"
+    }
+  },
+  "edit": {
+    "verb": {
+      "present": "edit (edits)",
+      "past": "editted",
+      "future": "will edit"
+    }
+  },
+  "educate": {
+    "verb": {
+      "present": "educate (educates)",
+      "past": "educated",
+      "future": "will educate"
+    }
+  },
+  "elect": {
+    "verb": {
+      "present": "elect (elects)",
+      "past": "elected",
+      "future": "will elect"
+    }
+  },
+  "email": {
+    "verb": {
+      "present": "email (emails)",
+      "past": "emailed",
+      "future": "will email"
+    }
+  },
+  "emerge": {
+    "verb": {
+      "present": "emerge (emerges)",
+      "past": "emerged",
+      "future": "will emerge"
+    }
+  },
+  "emphasize": {
+    "verb": {
+      "present": "emphasize (emphasizes)",
+      "past": "emphasized",
+      "future": "will emphasize"
+    }
+  },
+  "employ": {
+    "verb": {
+      "present": "employ (employs)",
+      "past": "employed",
+      "future": "will employ"
+    }
+  },
+  "empty": {
+    "verb": {
+      "present": "empty (empties)",
+      "past": "emptied",
+      "future": "will empty"
+    }
+  },
+  "enable": {
+    "verb": {
+      "present": "enable (enables)",
+      "past": "enabled",
+      "future": "will enable"
+    }
+  },
+  "encounter": {
+    "verb": {
+      "present": "encounter (encounters)",
+      "past": "encounterred",
+      "future": "will encounter"
+    }
+  },
+  "encourage": {
+    "verb": {
+      "present": "encourage (encourages)",
+      "past": "encouraged",
+      "future": "will encourage"
+    }
+  },
+  "end": {
+    "verb": {
+      "present": "end (ends)",
+      "past": "ended",
+      "future": "will end"
+    }
+  },
+  "enemy": {
+    "singular": "enemy",
+    "plural": "enemies"
+  },
+  "engage": {
+    "verb": {
+      "present": "engage (engages)",
+      "past": "engaged",
+      "future": "will engage"
+    }
+  },
+  "enhance": {
+    "verb": {
+      "present": "enhance (enhances)",
+      "past": "enhanced",
+      "future": "will enhance"
+    }
+  },
+  "enjoy": {
+    "verb": {
+      "present": "enjoy (enjoys)",
+      "past": "enjoyed",
+      "future": "will enjoy"
+    }
+  },
+  "ensure": {
+    "verb": {
+      "present": "ensure (ensures)",
+      "past": "ensured",
+      "future": "will ensure"
+    }
+  },
+  "enter": {
+    "verb": {
+      "present": "enter (enters)",
+      "past": "entered",
+      "future": "will enter"
+    }
+  },
+  "entertain": {
+    "verb": {
+      "present": "entertain (entertains)",
+      "past": "entertained",
+      "future": "will entertain"
+    }
+  },
+  "equal": {
+    "verb": {
+      "present": "equal (equals)",
+      "past": "equaled",
+      "future": "will equal"
+    }
+  },
+  "escape": {
+    "verb": {
+      "present": "escape (escapes)",
+      "past": "escaped",
+      "future": "will escape"
+    }
+  },
+  "establish": {
+    "verb": {
+      "present": "establish (establishes)",
+      "past": "established",
+      "future": "will establish"
+    }
+  },
+  "estimate": {
+    "verb": {
+      "present": "estimate (estimates)",
+      "past": "estimated",
+      "future": "will estimate"
+    }
+  },
+  "evaluate": {
+    "verb": {
+      "present": "evaluate (evaluates)",
+      "past": "evaluated",
+      "future": "will evaluate"
+    }
+  },
+  "examine": {
+    "verb": {
+      "present": "examine (examines)",
+      "past": "examined",
+      "future": "will examine"
+    }
+  },
+  "exchange": {
+    "verb": {
+      "present": "exchange (exchanges)",
+      "past": "exchanged",
+      "future": "will exchange"
+    }
+  },
+  "excuse": {
+    "verb": {
+      "present": "excuse (excuses)",
+      "past": "excused",
+      "future": "will excuse"
+    }
+  },
+  "exercise": {
+    "verb": {
+      "present": "exercise (exercises)",
+      "past": "exercised",
+      "future": "will exercise"
+    }
+  },
+  "exhibit": {
+    "verb": {
+      "present": "exhibit (exhibits)",
+      "past": "exhibitted",
+      "future": "will exhibit"
+    }
+  },
+  "exist": {
+    "verb": {
+      "present": "exist (exists)",
+      "past": "existed",
+      "future": "will exist"
+    }
+  },
+  "exit": {
+    "verb": {
+      "present": "exit (exits)",
+      "past": "exitted",
+      "future": "will exit"
+    }
+  },
+  "expand": {
+    "verb": {
+      "present": "expand (expands)",
+      "past": "expanded",
+      "future": "will expand"
+    }
+  },
+  "expect": {
+    "verb": {
+      "present": "expect (expects)",
+      "past": "expected",
+      "future": "will expect"
+    }
+  },
+  "experience": {
+    "verb": {
+      "present": "experience (experiences)",
+      "past": "experienced",
+      "future": "will experience"
+    }
+  },
+  "experiment": {
+    "verb": {
+      "present": "experiment (experiments)",
+      "past": "experimented",
+      "future": "will experiment"
+    }
+  },
+  "explain": {
+    "verb": {
+      "present": "explain (explains)",
+      "past": "explained",
+      "future": "will explain"
+    }
+  },
+  "explode": {
+    "verb": {
+      "present": "explode (explodes)",
+      "past": "exploded",
+      "future": "will explode"
+    }
+  },
+  "explore": {
+    "verb": {
+      "present": "explore (explores)",
+      "past": "explored",
+      "future": "will explore"
+    }
+  },
+  "export": {
+    "verb": {
+      "present": "export (exports)",
+      "past": "exported",
+      "future": "will export"
+    }
+  },
+  "expose": {
+    "verb": {
+      "present": "expose (exposes)",
+      "past": "exposed",
+      "future": "will expose"
+    }
+  },
+  "express": {
+    "verb": {
+      "present": "express (expresses)",
+      "past": "expressed",
+      "future": "will express"
+    }
+  },
+  "extend": {
+    "verb": {
+      "present": "extend (extends)",
+      "past": "extended",
+      "future": "will extend"
+    }
+  },
+  "face": {
+    "verb": {
+      "present": "face (faces)",
+      "past": "faced",
+      "future": "will face"
+    }
+  },
+  "factory": {
+    "singular": "factory",
+    "plural": "factories"
+  },
+  "fail": {
+    "verb": {
+      "present": "fail (fails)",
+      "past": "failed",
+      "future": "will fail"
+    }
+  },
+  "fall": {
+    "verb": {
+      "present": "fall (falls)",
+      "past": "fell",
+      "future": "will fall"
+    }
+  },
+  "family": {
+    "singular": "family",
+    "plural": "families"
+  },
+  "farm": {
+    "verb": {
+      "present": "farm (farms)",
+      "past": "farmed",
+      "future": "will farm"
+    }
+  },
+  "fasten": {
+    "verb": {
+      "present": "fasten (fastens)",
+      "past": "fastenned",
+      "future": "will fasten"
+    }
+  },
+  "favor": {
+    "verb": {
+      "present": "favor (favors)",
+      "past": "favorred",
+      "future": "will favor"
+    }
+  },
+  "fear": {
+    "verb": {
+      "present": "fear (fears)",
+      "past": "feared",
+      "future": "will fear"
+    }
+  },
+  "feature": {
+    "verb": {
+      "present": "feature (features)",
+      "past": "featured",
+      "future": "will feature"
+    }
+  },
+  "feed": {
+    "verb": {
+      "present": "feed (feeds)",
+      "past": "fed",
+      "future": "will feed"
+    }
+  },
+  "feel": {
+    "verb": {
+      "present": "feel (feels)",
+      "past": "felt",
+      "future": "will feel"
+    }
+  },
+  "fight": {
+    "verb": {
+      "present": "fight (fights)",
+      "past": "fought",
+      "future": "will fight"
+    }
+  },
+  "figure": {
+    "verb": {
+      "present": "figure (figures)",
+      "past": "figured",
+      "future": "will figure"
+    }
+  },
+  "file": {
+    "verb": {
+      "present": "file (files)",
+      "past": "filed",
+      "future": "will file"
+    }
+  },
+  "fill": {
+    "verb": {
+      "present": "fill (fills)",
+      "past": "filled",
+      "future": "will fill"
+    }
+  },
+  "film": {
+    "verb": {
+      "present": "film (films)",
+      "past": "filmed",
+      "future": "will film"
+    }
+  },
+  "finance": {
+    "verb": {
+      "present": "finance (finances)",
+      "past": "financed",
+      "future": "will finance"
+    }
+  },
+  "find": {
+    "verb": {
+      "present": "find (finds)",
+      "past": "found",
+      "future": "will find"
+    }
+  },
+  "finish": {
+    "verb": {
+      "present": "finish (finishes)",
+      "past": "finished",
+      "future": "will finish"
+    }
+  },
+  "fire": {
+    "verb": {
+      "present": "fire (fires)",
+      "past": "fired",
+      "future": "will fire"
+    }
+  },
+  "fish": {
+    "singular": "fish",
+    "plural": "fish",
+    "verb": {
+      "present": "fish (fishes)",
+      "past": "fished",
+      "future": "will fish"
+    }
+  },
+  "fit": {
+    "verb": {
+      "present": "fit (fits)",
+      "past": "fitted",
+      "future": "will fit"
+    }
+  },
+  "fix": {
+    "verb": {
+      "present": "fix (fixes)",
+      "past": "fixed",
+      "future": "will fix"
+    }
+  },
+  "flash": {
+    "verb": {
+      "present": "flash (flashes)",
+      "past": "flashed",
+      "future": "will flash"
+    }
+  },
+  "float": {
+    "verb": {
+      "present": "float (floats)",
+      "past": "floated",
+      "future": "will float"
+    }
+  },
+  "flood": {
+    "verb": {
+      "present": "flood (floods)",
+      "past": "flooded",
+      "future": "will flood"
+    }
+  },
+  "flow": {
+    "verb": {
+      "present": "flow (flows)",
+      "past": "flowed",
+      "future": "will flow"
+    }
+  },
+  "fly": {
+    "verb": {
+      "present": "fly (flies)",
+      "past": "flew",
+      "future": "will fly"
+    }
+  },
+  "focus": {
+    "verb": {
+      "present": "focus (focuses)",
+      "past": "focused",
+      "future": "will focus"
+    }
+  },
+  "fold": {
+    "verb": {
+      "present": "fold (folds)",
+      "past": "folded",
+      "future": "will fold"
+    }
+  },
+  "follow": {
+    "verb": {
+      "present": "follow (follows)",
+      "past": "followed",
+      "future": "will follow"
+    }
+  },
+  "foot": {
+    "singular": "foot",
+    "plural": "feet"
+  },
+  "force": {
+    "verb": {
+      "present": "force (forces)",
+      "past": "forced",
+      "future": "will force"
+    }
+  },
+  "forget": {
+    "verb": {
+      "present": "forget (forgets)",
+      "past": "forgot",
+      "future": "will forget"
+    }
+  },
+  "forgive": {
+    "verb": {
+      "present": "forgive (forgives)",
+      "past": "forgave",
+      "future": "will forgive"
+    }
+  },
+  "form": {
+    "verb": {
+      "present": "form (forms)",
+      "past": "formed",
+      "future": "will form"
+    }
+  },
+  "found": {
+    "verb": {
+      "present": "found (founds)",
+      "past": "founded",
+      "future": "will found"
+    }
+  },
+  "frame": {
+    "verb": {
+      "present": "frame (frames)",
+      "past": "framed",
+      "future": "will frame"
+    }
+  },
+  "free": {
+    "verb": {
+      "present": "free (frees)",
+      "past": "freed",
+      "future": "will free"
+    }
+  },
+  "freeze": {
+    "verb": {
+      "present": "freeze (freezes)",
+      "past": "froze",
+      "future": "will freeze"
+    }
+  },
+  "frighten": {
+    "verb": {
+      "present": "frighten (frightens)",
+      "past": "frightenned",
+      "future": "will frighten"
+    }
+  },
+  "fry": {
+    "verb": {
+      "present": "fry (fries)",
+      "past": "fried",
+      "future": "will fry"
+    }
+  },
+  "fuel": {
+    "verb": {
+      "present": "fuel (fuels)",
+      "past": "fueled",
+      "future": "will fuel"
+    }
+  },
+  "function": {
+    "verb": {
+      "present": "function (functions)",
+      "past": "functioned",
+      "future": "will function"
+    }
+  },
+  "fund": {
+    "verb": {
+      "present": "fund (funds)",
+      "past": "funded",
+      "future": "will fund"
+    }
+  },
+  "gain": {
+    "verb": {
+      "present": "gain (gains)",
+      "past": "gained",
+      "future": "will gain"
+    }
+  },
+  "gather": {
+    "verb": {
+      "present": "gather (gathers)",
+      "past": "gatherred",
+      "future": "will gather"
+    }
+  },
+  "generate": {
+    "verb": {
+      "present": "generate (generates)",
+      "past": "generated",
+      "future": "will generate"
+    }
+  },
+  "get": {
+    "verb": {
+      "present": "get (gets)",
+      "past": "got",
+      "future": "will get"
+    }
+  },
+  "give": {
+    "verb": {
+      "present": "give (gives)",
+      "past": "gave",
+      "future": "will give"
+    }
+  },
+  "go": {
+    "verb": {
+      "present": "go (goes)",
+      "past": "went",
+      "future": "will go"
+    }
+  },
+  "govern": {
+    "verb": {
+      "present": "govern (governs)",
+      "past": "governed",
+      "future": "will govern"
+    }
+  },
+  "grab": {
+    "verb": {
+      "present": "grab (grabs)",
+      "past": "grabbed",
+      "future": "will grab"
+    }
+  },
+  "grade": {
+    "verb": {
+      "present": "grade (grades)",
+      "past": "graded",
+      "future": "will grade"
+    }
+  },
+  "graduate": {
+    "verb": {
+      "present": "graduate (graduates)",
+      "past": "graduated",
+      "future": "will graduate"
+    }
+  },
+  "grant": {
+    "verb": {
+      "present": "grant (grants)",
+      "past": "granted",
+      "future": "will grant"
+    }
+  },
+  "greet": {
+    "verb": {
+      "present": "greet (greets)",
+      "past": "greeted",
+      "future": "will greet"
+    }
+  },
+  "grow": {
+    "verb": {
+      "present": "grow (grows)",
+      "past": "grew",
+      "future": "will grow"
+    }
+  },
+  "guarantee": {
+    "verb": {
+      "present": "guarantee (guarantees)",
+      "past": "guaranteed",
+      "future": "will guarantee"
+    }
+  },
+  "guard": {
+    "verb": {
+      "present": "guard (guards)",
+      "past": "guarded",
+      "future": "will guard"
+    }
+  },
+  "guess": {
+    "verb": {
+      "present": "guess (guesses)",
+      "past": "guessed",
+      "future": "will guess"
+    }
+  },
+  "guide": {
+    "verb": {
+      "present": "guide (guides)",
+      "past": "guided",
+      "future": "will guide"
+    }
+  },
+  "half": {
+    "singular": "half",
+    "plural": "halves"
+  },
+  "hand": {
+    "verb": {
+      "present": "hand (hands)",
+      "past": "handed",
+      "future": "will hand"
+    }
+  },
+  "handle": {
+    "verb": {
+      "present": "handle (handles)",
+      "past": "handled",
+      "future": "will handle"
+    }
+  },
+  "hang": {
+    "verb": {
+      "present": "hang (hangs)",
+      "past": "hung",
+      "future": "will hang"
+    }
+  },
+  "happen": {
+    "verb": {
+      "present": "happen (happens)",
+      "past": "happened",
+      "future": "will happen"
+    }
+  },
+  "harm": {
+    "verb": {
+      "present": "harm (harms)",
+      "past": "harmed",
+      "future": "will harm"
+    }
+  },
+  "hate": {
+    "verb": {
+      "present": "hate (hates)",
+      "past": "hated",
+      "future": "will hate"
+    }
+  },
+  "have": {
+    "verb": {
+      "present": "have (has)",
+      "past": "had",
+      "future": "will have"
+    }
+  },
+  "have to": {
+    "verb": {
+      "present": "have to",
+      "past": "had to",
+      "future": "will have to"
+    }
+  },
+  "head": {
+    "verb": {
+      "present": "head (heads)",
+      "past": "headed",
+      "future": "will head"
+    }
+  },
+  "hear": {
+    "verb": {
+      "present": "hear (hears)",
+      "past": "heard",
+      "future": "will hear"
+    }
+  },
+  "heat": {
+    "verb": {
+      "present": "heat (heats)",
+      "past": "heated",
+      "future": "will heat"
+    }
+  },
+  "help": {
+    "verb": {
+      "present": "help (helps)",
+      "past": "helped",
+      "future": "will help"
+    }
+  },
+  "hesitate": {
+    "verb": {
+      "present": "hesitate (hesitates)",
+      "past": "hesitated",
+      "future": "will hesitate"
+    }
+  },
+  "hide": {
+    "verb": {
+      "present": "hide (hides)",
+      "past": "hid",
+      "future": "will hide"
+    }
+  },
+  "highlight": {
+    "verb": {
+      "present": "highlight (highlights)",
+      "past": "highlighted",
+      "future": "will highlight"
+    }
+  },
+  "hire": {
+    "verb": {
+      "present": "hire (hires)",
+      "past": "hired",
+      "future": "will hire"
+    }
+  },
+  "hit": {
+    "verb": {
+      "present": "hit (hits)",
+      "past": "hit",
+      "future": "will hit"
+    }
+  },
+  "hold": {
+    "verb": {
+      "present": "hold (holds)",
+      "past": "held",
+      "future": "will hold"
+    }
+  },
+  "honor": {
+    "verb": {
+      "present": "honor (honors)",
+      "past": "honorred",
+      "future": "will honor"
+    }
+  },
+  "hope": {
+    "verb": {
+      "present": "hope (hopes)",
+      "past": "hoped",
+      "future": "will hope"
+    }
+  },
+  "host": {
+    "verb": {
+      "present": "host (hosts)",
+      "past": "hosted",
+      "future": "will host"
+    }
+  },
+  "house": {
+    "verb": {
+      "present": "house (houses)",
+      "past": "housed",
+      "future": "will house"
+    }
+  },
+  "hunt": {
+    "verb": {
+      "present": "hunt (hunts)",
+      "past": "hunted",
+      "future": "will hunt"
+    }
+  },
+  "hurry": {
+    "verb": {
+      "present": "hurry (hurries)",
+      "past": "hurried",
+      "future": "will hurry"
+    }
+  },
+  "hurt": {
+    "verb": {
+      "present": "hurt (hurts)",
+      "past": "hurt",
+      "future": "will hurt"
+    }
+  },
+  "identify": {
+    "verb": {
+      "present": "identify (identifies)",
+      "past": "identified",
+      "future": "will identify"
+    }
+  },
+  "ignore": {
+    "verb": {
+      "present": "ignore (ignores)",
+      "past": "ignored",
+      "future": "will ignore"
+    }
+  },
+  "illustrate": {
+    "verb": {
+      "present": "illustrate (illustrates)",
+      "past": "illustrated",
+      "future": "will illustrate"
+    }
+  },
+  "imagine": {
+    "verb": {
+      "present": "imagine (imagines)",
+      "past": "imagined",
+      "future": "will imagine"
+    }
+  },
+  "impact": {
+    "verb": {
+      "present": "impact (impacts)",
+      "past": "impacted",
+      "future": "will impact"
+    }
+  },
+  "imply": {
+    "verb": {
+      "present": "imply (implies)",
+      "past": "implied",
+      "future": "will imply"
+    }
+  },
+  "import": {
+    "verb": {
+      "present": "import (imports)",
+      "past": "imported",
+      "future": "will import"
+    }
+  },
+  "impose": {
+    "verb": {
+      "present": "impose (imposes)",
+      "past": "imposed",
+      "future": "will impose"
+    }
+  },
+  "impress": {
+    "verb": {
+      "present": "impress (impresses)",
+      "past": "impressed",
+      "future": "will impress"
+    }
+  },
+  "improve": {
+    "verb": {
+      "present": "improve (improves)",
+      "past": "improved",
+      "future": "will improve"
+    }
+  },
+  "include": {
+    "verb": {
+      "present": "include (includes)",
+      "past": "included",
+      "future": "will include"
+    }
+  },
+  "increase": {
+    "verb": {
+      "present": "increase (increases)",
+      "past": "increased",
+      "future": "will increase"
+    }
+  },
+  "indicate": {
+    "verb": {
+      "present": "indicate (indicates)",
+      "past": "indicated",
+      "future": "will indicate"
+    }
+  },
+  "influence": {
+    "verb": {
+      "present": "influence (influences)",
+      "past": "influenced",
+      "future": "will influence"
+    }
+  },
+  "inform": {
+    "verb": {
+      "present": "inform (informs)",
+      "past": "informed",
+      "future": "will inform"
+    }
+  },
+  "injure": {
+    "verb": {
+      "present": "injure (injures)",
+      "past": "injured",
+      "future": "will injure"
+    }
+  },
+  "injury": {
+    "singular": "injury",
+    "plural": "injuries"
+  },
+  "insist": {
+    "verb": {
+      "present": "insist (insists)",
+      "past": "insisted",
+      "future": "will insist"
+    }
+  },
+  "inspire": {
+    "verb": {
+      "present": "inspire (inspires)",
+      "past": "inspired",
+      "future": "will inspire"
+    }
+  },
+  "install": {
+    "verb": {
+      "present": "install (installs)",
+      "past": "installed",
+      "future": "will install"
+    }
+  },
+  "intend": {
+    "verb": {
+      "present": "intend (intends)",
+      "past": "intended",
+      "future": "will intend"
+    }
+  },
+  "interest": {
+    "verb": {
+      "present": "interest (interests)",
+      "past": "interested",
+      "future": "will interest"
+    }
+  },
+  "interpret": {
+    "verb": {
+      "present": "interpret (interprets)",
+      "past": "interpretted",
+      "future": "will interpret"
+    }
+  },
+  "interrupt": {
+    "verb": {
+      "present": "interrupt (interrupts)",
+      "past": "interrupted",
+      "future": "will interrupt"
+    }
+  },
+  "interview": {
+    "verb": {
+      "present": "interview (interviews)",
+      "past": "interviewed",
+      "future": "will interview"
+    }
+  },
+  "introduce": {
+    "verb": {
+      "present": "introduce (introduces)",
+      "past": "introduced",
+      "future": "will introduce"
+    }
+  },
+  "invent": {
+    "verb": {
+      "present": "invent (invents)",
+      "past": "invented",
+      "future": "will invent"
+    }
+  },
+  "invest": {
+    "verb": {
+      "present": "invest (invests)",
+      "past": "invested",
+      "future": "will invest"
+    }
+  },
+  "investigate": {
+    "verb": {
+      "present": "investigate (investigates)",
+      "past": "investigated",
+      "future": "will investigate"
+    }
+  },
+  "invite": {
+    "verb": {
+      "present": "invite (invites)",
+      "past": "invited",
+      "future": "will invite"
+    }
+  },
+  "involve": {
+    "verb": {
+      "present": "involve (involves)",
+      "past": "involved",
+      "future": "will involve"
+    }
+  },
+  "iron": {
+    "verb": {
+      "present": "iron (irons)",
+      "past": "ironned",
+      "future": "will iron"
+    }
+  },
+  "issue": {
+    "verb": {
+      "present": "issue (issues)",
+      "past": "issued",
+      "future": "will issue"
+    }
+  },
+  "join": {
+    "verb": {
+      "present": "join (joins)",
+      "past": "joined",
+      "future": "will join"
+    }
+  },
+  "joke": {
+    "verb": {
+      "present": "joke (jokes)",
+      "past": "joked",
+      "future": "will joke"
+    }
+  },
+  "judge": {
+    "verb": {
+      "present": "judge (judges)",
+      "past": "judged",
+      "future": "will judge"
+    }
+  },
+  "jump": {
+    "verb": {
+      "present": "jump (jumps)",
+      "past": "jumped",
+      "future": "will jump"
+    }
+  },
+  "justify": {
+    "verb": {
+      "present": "justify (justifies)",
+      "past": "justified",
+      "future": "will justify"
+    }
+  },
+  "keep": {
+    "verb": {
+      "present": "keep (keeps)",
+      "past": "kept",
+      "future": "will keep"
+    }
+  },
+  "key": {
+    "verb": {
+      "present": "key (keys)",
+      "past": "keyed",
+      "future": "will key"
+    }
+  },
+  "kick": {
+    "verb": {
+      "present": "kick (kicks)",
+      "past": "kicked",
+      "future": "will kick"
+    }
+  },
+  "kill": {
+    "verb": {
+      "present": "kill (kills)",
+      "past": "killed",
+      "future": "will kill"
+    }
+  },
+  "kiss": {
+    "verb": {
+      "present": "kiss (kisses)",
+      "past": "kissed",
+      "future": "will kiss"
+    }
+  },
+  "knife": {
+    "singular": "knife",
+    "plural": "knives"
+  },
+  "knock": {
+    "verb": {
+      "present": "knock (knocks)",
+      "past": "knocked",
+      "future": "will knock"
+    }
+  },
+  "know": {
+    "verb": {
+      "present": "know (knows)",
+      "past": "knew",
+      "future": "will know"
+    }
+  },
+  "label": {
+    "verb": {
+      "present": "label (labels)",
+      "past": "labeled",
+      "future": "will label"
+    }
+  },
+  "lack": {
+    "verb": {
+      "present": "lack (lacks)",
+      "past": "lacked",
+      "future": "will lack"
+    }
+  },
+  "land": {
+    "verb": {
+      "present": "land (lands)",
+      "past": "landed",
+      "future": "will land"
+    }
+  },
+  "last1 (taking time)": {
+    "verb": {
+      "present": "last",
+      "past": "lasted",
+      "future": "will last"
+    }
+  },
+  "laugh": {
+    "verb": {
+      "present": "laugh (laughs)",
+      "past": "laughed",
+      "future": "will laugh"
+    }
+  },
+  "launch": {
+    "verb": {
+      "present": "launch (launches)",
+      "past": "launched",
+      "future": "will launch"
+    }
+  },
+  "lay": {
+    "verb": {
+      "present": "lay (lays)",
+      "past": "laid",
+      "future": "will lay"
+    }
+  },
+  "lead1": {
+    "verb": {
+      "present": "lead (leads)",
+      "past": "led",
+      "future": "will lead"
+    }
+  },
+  "leaf": {
+    "singular": "leaf",
+    "plural": "leaves"
+  },
+  "lean": {
+    "verb": {
+      "present": "lean (leans)",
+      "past": "leaned",
+      "future": "will lean"
+    }
+  },
+  "learn": {
+    "verb": {
+      "present": "learn (learns)",
+      "past": "learned",
+      "future": "will learn"
+    }
+  },
+  "leave": {
+    "verb": {
+      "present": "leave (leaves)",
+      "past": "left",
+      "future": "will leave"
+    }
+  },
+  "lecture": {
+    "verb": {
+      "present": "lecture (lectures)",
+      "past": "lectured",
+      "future": "will lecture"
+    }
+  },
+  "lend": {
+    "verb": {
+      "present": "lend (lends)",
+      "past": "lent",
+      "future": "will lend"
+    }
+  },
+  "let": {
+    "verb": {
+      "present": "let (lets)",
+      "past": "let",
+      "future": "will let"
+    }
+  },
+  "level": {
+    "verb": {
+      "present": "level (levels)",
+      "past": "levelled",
+      "future": "will level"
+    }
+  },
+  "library": {
+    "singular": "library",
+    "plural": "libraries"
+  },
+  "lie1": {
+    "verb": {
+      "present": "lie (lies)",
+      "past": "lay",
+      "future": "will lie"
+    }
+  },
+  "lie2 (tell a lie)": {
+    "verb": {
+      "present": "lie",
+      "past": "lied",
+      "future": "will lie"
+    }
+  },
+  "life": {
+    "singular": "life",
+    "plural": "lives"
+  },
+  "lift": {
+    "verb": {
+      "present": "lift (lifts)",
+      "past": "lifted",
+      "future": "will lift"
+    }
+  },
+  "light (from the sun/a lamp)": {
+    "verb": {
+      "present": "light",
+      "past": "lit",
+      "future": "will light"
+    }
+  },
+  "like (find sb/sth pleasant)": {
+    "verb": {
+      "present": "like (likes)",
+      "past": "liked",
+      "future": "will like"
+    }
+  },
+  "limit": {
+    "verb": {
+      "present": "limit (limits)",
+      "past": "limitted",
+      "future": "will limit"
+    }
+  },
+  "line": {
+    "verb": {
+      "present": "line (lines)",
+      "past": "lined",
+      "future": "will line"
+    }
+  },
+  "link": {
+    "verb": {
+      "present": "link (links)",
+      "past": "linked",
+      "future": "will link"
+    }
+  },
+  "list": {
+    "verb": {
+      "present": "list (lists)",
+      "past": "listed",
+      "future": "will list"
+    }
+  },
+  "listen": {
+    "verb": {
+      "present": "listen (listens)",
+      "past": "listened",
+      "future": "will listen"
+    }
+  },
+  "live1": {
+    "verb": {
+      "present": "live (lives)",
+      "past": "lived",
+      "future": "will live"
+    }
+  },
+  "load": {
+    "verb": {
+      "present": "load (loads)",
+      "past": "loaded",
+      "future": "will load"
+    }
+  },
+  "locate": {
+    "verb": {
+      "present": "locate (locates)",
+      "past": "located",
+      "future": "will locate"
+    }
+  },
+  "lock": {
+    "verb": {
+      "present": "lock (locks)",
+      "past": "locked",
+      "future": "will lock"
+    }
+  },
+  "look": {
+    "verb": {
+      "present": "look (looks)",
+      "past": "looked",
+      "future": "will look"
+    }
+  },
+  "lose": {
+    "verb": {
+      "present": "lose (loses)",
+      "past": "lost",
+      "future": "will lose"
+    }
+  },
+  "love": {
+    "verb": {
+      "present": "love (loves)",
+      "past": "loved",
+      "future": "will love"
+    }
+  },
+  "lower": {
+    "verb": {
+      "present": "lower (lowers)",
+      "past": "lowerred",
+      "future": "will lower"
+    }
+  },
+  "mail": {
+    "verb": {
+      "present": "mail (mails)",
+      "past": "mailed",
+      "future": "will mail"
+    }
+  },
+  "maintain": {
+    "verb": {
+      "present": "maintain (maintains)",
+      "past": "maintained",
+      "future": "will maintain"
+    }
+  },
+  "make": {
+    "verb": {
+      "present": "make (makes)",
+      "past": "made",
+      "future": "will make"
+    }
+  },
+  "man": {
+    "singular": "man",
+    "plural": "men"
+  },
+  "manage": {
+    "verb": {
+      "present": "manage (manages)",
+      "past": "managed",
+      "future": "will manage"
+    }
+  },
+  "map": {
+    "verb": {
+      "present": "map (maps)",
+      "past": "mapped",
+      "future": "will map"
+    }
+  },
+  "mark": {
+    "verb": {
+      "present": "mark (marks)",
+      "past": "marked",
+      "future": "will mark"
+    }
+  },
+  "market": {
+    "verb": {
+      "present": "market (markets)",
+      "past": "marketted",
+      "future": "will market"
+    }
+  },
+  "marry": {
+    "verb": {
+      "present": "marry (marries)",
+      "past": "married",
+      "future": "will marry"
+    }
+  },
+  "master": {
+    "verb": {
+      "present": "master (masters)",
+      "past": "masterred",
+      "future": "will master"
+    }
+  },
+  "match (contest/correspond)": {
+    "verb": {
+      "present": "match (matches)",
+      "past": "matched",
+      "future": "will match"
+    }
+  },
+  "matter": {
+    "verb": {
+      "present": "matter (matters)",
+      "past": "matterred",
+      "future": "will matter"
+    }
+  },
+  "mean": {
+    "verb": {
+      "present": "mean (means)",
+      "past": "meant",
+      "future": "will mean"
+    }
+  },
+  "measure": {
+    "verb": {
+      "present": "measure (measures)",
+      "past": "measured",
+      "future": "will measure"
+    }
+  },
+  "media": {
+    "singular": "medium",
+    "plural": "media"
+  },
+  "medium": {
+    "singular": "medium",
+    "plural": "media"
+  },
+  "meet": {
+    "verb": {
+      "present": "meet (meets)",
+      "past": "met",
+      "future": "will meet"
+    }
+  },
+  "melt": {
+    "verb": {
+      "present": "melt (melts)",
+      "past": "melted",
+      "future": "will melt"
+    }
+  },
+  "memory": {
+    "singular": "memory",
+    "plural": "memories"
+  },
+  "mention": {
+    "verb": {
+      "present": "mention (mentions)",
+      "past": "mentioned",
+      "future": "will mention"
+    }
+  },
+  "mess": {
+    "verb": {
+      "present": "mess (messes)",
+      "past": "messed",
+      "future": "will mess"
+    }
+  },
+  "mind": {
+    "verb": {
+      "present": "mind (minds)",
+      "past": "minded",
+      "future": "will mind"
+    }
+  },
+  "miss": {
+    "verb": {
+      "present": "miss (misses)",
+      "past": "missed",
+      "future": "will miss"
+    }
+  },
+  "mistake": {
+    "verb": {
+      "present": "mistake (mistakes)",
+      "past": "mistook",
+      "future": "will mistake"
+    }
+  },
+  "mix": {
+    "verb": {
+      "present": "mix (mixes)",
+      "past": "mixed",
+      "future": "will mix"
+    }
+  },
+  "model": {
+    "verb": {
+      "present": "model (models)",
+      "past": "modeled",
+      "future": "will model"
+    }
+  },
+  "modify": {
+    "verb": {
+      "present": "modify (modifies)",
+      "past": "modified",
+      "future": "will modify"
+    }
+  },
+  "monitor": {
+    "verb": {
+      "present": "monitor (monitors)",
+      "past": "monitorred",
+      "future": "will monitor"
+    }
+  },
+  "mount": {
+    "verb": {
+      "present": "mount (mounts)",
+      "past": "mounted",
+      "future": "will mount"
+    }
+  },
+  "mouse": {
+    "singular": "mouse",
+    "plural": "mice"
+  },
+  "move": {
+    "verb": {
+      "present": "move (moves)",
+      "past": "moved",
+      "future": "will move"
+    }
+  },
+  "multiply": {
+    "verb": {
+      "present": "multiply (multiplies)",
+      "past": "multiplied",
+      "future": "will multiply"
+    }
+  },
+  "murder": {
+    "verb": {
+      "present": "murder (murders)",
+      "past": "murderred",
+      "future": "will murder"
+    }
+  },
+  "name": {
+    "verb": {
+      "present": "name (names)",
+      "past": "named",
+      "future": "will name"
+    }
+  },
+  "narrow": {
+    "verb": {
+      "present": "narrow (narrows)",
+      "past": "narrowed",
+      "future": "will narrow"
+    }
+  },
+  "need": {
+    "verb": {
+      "present": "need (needs)",
+      "past": "needed",
+      "future": "will need"
+    }
+  },
+  "note": {
+    "verb": {
+      "present": "note (notes)",
+      "past": "noted",
+      "future": "will note"
+    }
+  },
+  "notice": {
+    "verb": {
+      "present": "notice (notices)",
+      "past": "noticed",
+      "future": "will notice"
+    }
+  },
+  "number": {
+    "verb": {
+      "present": "number (numbers)",
+      "past": "numberred",
+      "future": "will number"
+    }
+  },
+  "obey": {
+    "verb": {
+      "present": "obey (obeys)",
+      "past": "obeyed",
+      "future": "will obey"
+    }
+  },
+  "object": {
+    "verb": {
+      "present": "object (objects)",
+      "past": "objected",
+      "future": "will object"
+    }
+  },
+  "observe": {
+    "verb": {
+      "present": "observe (observes)",
+      "past": "observed",
+      "future": "will observe"
+    }
+  },
+  "obtain": {
+    "verb": {
+      "present": "obtain (obtains)",
+      "past": "obtained",
+      "future": "will obtain"
+    }
+  },
+  "occur": {
+    "verb": {
+      "present": "occur (occurs)",
+      "past": "occurred",
+      "future": "will occur"
+    }
+  },
+  "offend": {
+    "verb": {
+      "present": "offend (offends)",
+      "past": "offended",
+      "future": "will offend"
+    }
+  },
+  "offer": {
+    "verb": {
+      "present": "offer (offers)",
+      "past": "offered",
+      "future": "will offer"
+    }
+  },
+  "open": {
+    "verb": {
+      "present": "open (opens)",
+      "past": "opened",
+      "future": "will open"
+    }
+  },
+  "operate": {
+    "verb": {
+      "present": "operate (operates)",
+      "past": "operated",
+      "future": "will operate"
+    }
+  },
+  "opportunity": {
+    "singular": "opportunity",
+    "plural": "opportunities"
+  },
+  "oppose": {
+    "verb": {
+      "present": "oppose (opposes)",
+      "past": "opposed",
+      "future": "will oppose"
+    }
+  },
+  "order": {
+    "verb": {
+      "present": "order (orders)",
+      "past": "ordered",
+      "future": "will order"
+    }
+  },
+  "organize": {
+    "verb": {
+      "present": "organize (organizes)",
+      "past": "organized",
+      "future": "will organize"
+    }
+  },
+  "outline": {
+    "verb": {
+      "present": "outline (outlines)",
+      "past": "outlined",
+      "future": "will outline"
+    }
+  },
+  "owe": {
+    "verb": {
+      "present": "owe (owes)",
+      "past": "owed",
+      "future": "will owe"
+    }
+  },
+  "own": {
+    "verb": {
+      "present": "own (owns)",
+      "past": "owned",
+      "future": "will own"
+    }
+  },
+  "pace": {
+    "verb": {
+      "present": "pace (paces)",
+      "past": "paced",
+      "future": "will pace"
+    }
+  },
+  "pack": {
+    "verb": {
+      "present": "pack (packs)",
+      "past": "packed",
+      "future": "will pack"
+    }
+  },
+  "package": {
+    "verb": {
+      "present": "package (packages)",
+      "past": "packaged",
+      "future": "will package"
+    }
+  },
+  "paint": {
+    "verb": {
+      "present": "paint (paints)",
+      "past": "painted",
+      "future": "will paint"
+    }
+  },
+  "park": {
+    "verb": {
+      "present": "park (parks)",
+      "past": "parked",
+      "future": "will park"
+    }
+  },
+  "participate": {
+    "verb": {
+      "present": "participate (participates)",
+      "past": "participated",
+      "future": "will participate"
+    }
+  },
+  "party": {
+    "singular": "party",
+    "plural": "parties"
+  },
+  "pass": {
+    "verb": {
+      "present": "pass (passes)",
+      "past": "passed",
+      "future": "will pass"
+    }
+  },
+  "pay": {
+    "verb": {
+      "present": "pay (pays)",
+      "past": "paid",
+      "future": "will pay"
+    }
+  },
+  "people": {
+    "singular": "person",
+    "plural": "people"
+  },
+  "perform": {
+    "verb": {
+      "present": "perform (performs)",
+      "past": "performed",
+      "future": "will perform"
+    }
+  },
+  "permit": {
+    "verb": {
+      "present": "permit (permits)",
+      "past": "permitted",
+      "future": "will permit"
+    }
+  },
+  "person": {
+    "singular": "person",
+    "plural": "people"
+  },
+  "persuade": {
+    "verb": {
+      "present": "persuade (persuades)",
+      "past": "persuaded",
+      "future": "will persuade"
+    }
+  },
+  "phenomenon": {
+    "singular": "phenomenon",
+    "plural": "phenomena"
+  },
+  "phone": {
+    "verb": {
+      "present": "phone (phones)",
+      "past": "phoned",
+      "future": "will phone"
+    }
+  },
+  "photograph": {
+    "verb": {
+      "present": "photograph (photographs)",
+      "past": "photographed",
+      "future": "will photograph"
+    }
+  },
+  "pick": {
+    "verb": {
+      "present": "pick (picks)",
+      "past": "picked",
+      "future": "will pick"
+    }
+  },
+  "picture": {
+    "verb": {
+      "present": "picture (pictures)",
+      "past": "pictured",
+      "future": "will picture"
+    }
+  },
+  "pile": {
+    "verb": {
+      "present": "pile (piles)",
+      "past": "piled",
+      "future": "will pile"
+    }
+  },
+  "pin": {
+    "verb": {
+      "present": "pin (pins)",
+      "past": "pinned",
+      "future": "will pin"
+    }
+  },
+  "place": {
+    "verb": {
+      "present": "place (places)",
+      "past": "placed",
+      "future": "will place"
+    }
+  },
+  "plan": {
+    "verb": {
+      "present": "plan (plans)",
+      "past": "planned",
+      "future": "will plan"
+    }
+  },
+  "plant": {
+    "verb": {
+      "present": "plant (plants)",
+      "past": "planted",
+      "future": "will plant"
+    }
+  },
+  "play": {
+    "verb": {
+      "present": "play (plays)",
+      "past": "played",
+      "future": "will play"
+    }
+  },
+  "please": {
+    "verb": {
+      "present": "please (pleases)",
+      "past": "pleased",
+      "future": "will please"
+    }
+  },
+  "plot": {
+    "verb": {
+      "present": "plot (plots)",
+      "past": "plotted",
+      "future": "will plot"
+    }
+  },
+  "point": {
+    "verb": {
+      "present": "point (points)",
+      "past": "pointed",
+      "future": "will point"
+    }
+  },
+  "poison": {
+    "verb": {
+      "present": "poison (poisons)",
+      "past": "poisonned",
+      "future": "will poison"
+    }
+  },
+  "pose": {
+    "verb": {
+      "present": "pose (poses)",
+      "past": "posed",
+      "future": "will pose"
+    }
+  },
+  "position": {
+    "verb": {
+      "present": "position (positions)",
+      "past": "positioned",
+      "future": "will position"
+    }
+  },
+  "possess": {
+    "verb": {
+      "present": "possess (possesses)",
+      "past": "possessed",
+      "future": "will possess"
+    }
+  },
+  "post": {
+    "verb": {
+      "present": "post (posts)",
+      "past": "posted",
+      "future": "will post"
+    }
+  },
+  "pour": {
+    "verb": {
+      "present": "pour (pours)",
+      "past": "poured",
+      "future": "will pour"
+    }
+  },
+  "power": {
+    "verb": {
+      "present": "power (powers)",
+      "past": "powerred",
+      "future": "will power"
+    }
+  },
+  "practice": {
+    "verb": {
+      "present": "practice (practices)",
+      "past": "practiced",
+      "future": "will practice"
+    }
+  },
+  "praise": {
+    "verb": {
+      "present": "praise (praises)",
+      "past": "praised",
+      "future": "will praise"
+    }
+  },
+  "pray": {
+    "verb": {
+      "present": "pray (prays)",
+      "past": "prayed",
+      "future": "will pray"
+    }
+  },
+  "predict": {
+    "verb": {
+      "present": "predict (predicts)",
+      "past": "predicted",
+      "future": "will predict"
+    }
+  },
+  "prefer": {
+    "verb": {
+      "present": "prefer (prefers)",
+      "past": "preferred",
+      "future": "will prefer"
+    }
+  },
+  "prepare": {
+    "verb": {
+      "present": "prepare (prepares)",
+      "past": "prepared",
+      "future": "will prepare"
+    }
+  },
+  "present": {
+    "verb": {
+      "present": "present (presents)",
+      "past": "presented",
+      "future": "will present"
+    }
+  },
+  "preserve": {
+    "verb": {
+      "present": "preserve (preserves)",
+      "past": "preserved",
+      "future": "will preserve"
+    }
+  },
+  "press": {
+    "verb": {
+      "present": "press (presses)",
+      "past": "pressed",
+      "future": "will press"
+    }
+  },
+  "pretend": {
+    "verb": {
+      "present": "pretend (pretends)",
+      "past": "pretended",
+      "future": "will pretend"
+    }
+  },
+  "prevent": {
+    "verb": {
+      "present": "prevent (prevents)",
+      "past": "prevented",
+      "future": "will prevent"
+    }
+  },
+  "price": {
+    "verb": {
+      "present": "price (prices)",
+      "past": "priced",
+      "future": "will price"
+    }
+  },
+  "print": {
+    "verb": {
+      "present": "print (prints)",
+      "past": "printed",
+      "future": "will print"
+    }
+  },
+  "process": {
+    "verb": {
+      "present": "process (processes)",
+      "past": "processed",
+      "future": "will process"
+    }
+  },
+  "produce": {
+    "verb": {
+      "present": "produce (produces)",
+      "past": "produced",
+      "future": "will produce"
+    }
+  },
+  "program": {
+    "verb": {
+      "present": "program (programs)",
+      "past": "programmed",
+      "future": "will program"
+    }
+  },
+  "progress": {
+    "verb": {
+      "present": "progress (progresses)",
+      "past": "progressed",
+      "future": "will progress"
+    }
+  },
+  "project": {
+    "verb": {
+      "present": "project (projects)",
+      "past": "projected",
+      "future": "will project"
+    }
+  },
+  "promise": {
+    "verb": {
+      "present": "promise (promises)",
+      "past": "promised",
+      "future": "will promise"
+    }
+  },
+  "promote": {
+    "verb": {
+      "present": "promote (promotes)",
+      "past": "promoted",
+      "future": "will promote"
+    }
+  },
+  "pronounce": {
+    "verb": {
+      "present": "pronounce (pronounces)",
+      "past": "pronounced",
+      "future": "will pronounce"
+    }
+  },
+  "propose": {
+    "verb": {
+      "present": "propose (proposes)",
+      "past": "proposed",
+      "future": "will propose"
+    }
+  },
+  "protect": {
+    "verb": {
+      "present": "protect (protects)",
+      "past": "protected",
+      "future": "will protect"
+    }
+  },
+  "protest": {
+    "verb": {
+      "present": "protest (protests)",
+      "past": "protested",
+      "future": "will protest"
+    }
+  },
+  "prove": {
+    "verb": {
+      "present": "prove (proves)",
+      "past": "proved",
+      "future": "will prove"
+    }
+  },
+  "provide": {
+    "verb": {
+      "present": "provide (provides)",
+      "past": "provided",
+      "future": "will provide"
+    }
+  },
+  "publish": {
+    "verb": {
+      "present": "publish (publishes)",
+      "past": "published",
+      "future": "will publish"
+    }
+  },
+  "pull": {
+    "verb": {
+      "present": "pull (pulls)",
+      "past": "pulled",
+      "future": "will pull"
+    }
+  },
+  "punish": {
+    "verb": {
+      "present": "punish (punishes)",
+      "past": "punished",
+      "future": "will punish"
+    }
+  },
+  "purchase": {
+    "verb": {
+      "present": "purchase (purchases)",
+      "past": "purchased",
+      "future": "will purchase"
+    }
+  },
+  "pursue": {
+    "verb": {
+      "present": "pursue (pursues)",
+      "past": "pursued",
+      "future": "will pursue"
+    }
+  },
+  "push": {
+    "verb": {
+      "present": "push (pushes)",
+      "past": "pushed",
+      "future": "will push"
+    }
+  },
+  "put": {
+    "verb": {
+      "present": "put (puts)",
+      "past": "put",
+      "future": "will put"
+    }
+  },
+  "qualify": {
+    "verb": {
+      "present": "qualify (qualifies)",
+      "past": "qualified",
+      "future": "will qualify"
+    }
+  },
+  "question": {
+    "verb": {
+      "present": "question (questions)",
+      "past": "questioned",
+      "future": "will question"
+    }
+  },
+  "quit": {
+    "verb": {
+      "present": "quit (quits)",
+      "past": "quit",
+      "future": "will quit"
+    }
+  },
+  "quote": {
+    "verb": {
+      "present": "quote (quotes)",
+      "past": "quoted",
+      "future": "will quote"
+    }
+  },
+  "race (competition)": {
+    "verb": {
+      "present": "race (races)",
+      "past": "raced",
+      "future": "will race"
+    }
+  },
+  "rain": {
+    "verb": {
+      "present": "rain (rains)",
+      "past": "rained",
+      "future": "will rain"
+    }
+  },
+  "raise": {
+    "verb": {
+      "present": "raise (raises)",
+      "past": "raised",
+      "future": "will raise"
+    }
+  },
+  "range": {
+    "verb": {
+      "present": "range (ranges)",
+      "past": "ranged",
+      "future": "will range"
+    }
+  },
+  "rank": {
+    "verb": {
+      "present": "rank (ranks)",
+      "past": "ranked",
+      "future": "will rank"
+    }
+  },
+  "rate": {
+    "verb": {
+      "present": "rate (rates)",
+      "past": "rated",
+      "future": "will rate"
+    }
+  },
+  "reach": {
+    "verb": {
+      "present": "reach (reaches)",
+      "past": "reached",
+      "future": "will reach"
+    }
+  },
+  "react": {
+    "verb": {
+      "present": "react (reacts)",
+      "past": "reacted",
+      "future": "will react"
+    }
+  },
+  "read": {
+    "verb": {
+      "present": "read (reads)",
+      "past": "read",
+      "future": "will read"
+    }
+  },
+  "realize": {
+    "verb": {
+      "present": "realize (realizes)",
+      "past": "realized",
+      "future": "will realize"
+    }
+  },
+  "recall": {
+    "verb": {
+      "present": "recall (recalls)",
+      "past": "recalled",
+      "future": "will recall"
+    }
+  },
+  "receive": {
+    "verb": {
+      "present": "receive (receives)",
+      "past": "received",
+      "future": "will receive"
+    }
+  },
+  "recognize": {
+    "verb": {
+      "present": "recognize (recognizes)",
+      "past": "recognized",
+      "future": "will recognize"
+    }
+  },
+  "recommend": {
+    "verb": {
+      "present": "recommend (recommends)",
+      "past": "recommended",
+      "future": "will recommend"
+    }
+  },
+  "record": {
+    "verb": {
+      "present": "record (records)",
+      "past": "recorded",
+      "future": "will record"
+    }
+  },
+  "recover": {
+    "verb": {
+      "present": "recover (recovers)",
+      "past": "recoverred",
+      "future": "will recover"
+    }
+  },
+  "recycle": {
+    "verb": {
+      "present": "recycle (recycles)",
+      "past": "recycled",
+      "future": "will recycle"
+    }
+  },
+  "reduce": {
+    "verb": {
+      "present": "reduce (reduces)",
+      "past": "reduced",
+      "future": "will reduce"
+    }
+  },
+  "refer": {
+    "verb": {
+      "present": "refer (refers)",
+      "past": "referred",
+      "future": "will refer"
+    }
+  },
+  "reflect": {
+    "verb": {
+      "present": "reflect (reflects)",
+      "past": "reflected",
+      "future": "will reflect"
+    }
+  },
+  "refuse1": {
+    "verb": {
+      "present": "refuse (refuses)",
+      "past": "refused",
+      "future": "will refuse"
+    }
+  },
+  "regard": {
+    "verb": {
+      "present": "regard (regards)",
+      "past": "regarded",
+      "future": "will regard"
+    }
+  },
+  "register": {
+    "verb": {
+      "present": "register (registers)",
+      "past": "registerred",
+      "future": "will register"
+    }
+  },
+  "regret": {
+    "verb": {
+      "present": "regret (regrets)",
+      "past": "regretted",
+      "future": "will regret"
+    }
+  },
+  "reject": {
+    "verb": {
+      "present": "reject (rejects)",
+      "past": "rejected",
+      "future": "will reject"
+    }
+  },
+  "relate": {
+    "verb": {
+      "present": "relate (relates)",
+      "past": "related",
+      "future": "will relate"
+    }
+  },
+  "relax": {
+    "verb": {
+      "present": "relax (relaxes)",
+      "past": "relaxed",
+      "future": "will relax"
+    }
+  },
+  "release": {
+    "verb": {
+      "present": "release (releases)",
+      "past": "released",
+      "future": "will release"
+    }
+  },
+  "rely": {
+    "verb": {
+      "present": "rely (relies)",
+      "past": "relied",
+      "future": "will rely"
+    }
+  },
+  "remain": {
+    "verb": {
+      "present": "remain (remains)",
+      "past": "remained",
+      "future": "will remain"
+    }
+  },
+  "remark": {
+    "verb": {
+      "present": "remark (remarks)",
+      "past": "remarked",
+      "future": "will remark"
+    }
+  },
+  "remember": {
+    "verb": {
+      "present": "remember (remembers)",
+      "past": "rememberred",
+      "future": "will remember"
+    }
+  },
+  "remind": {
+    "verb": {
+      "present": "remind (reminds)",
+      "past": "reminded",
+      "future": "will remind"
+    }
+  },
+  "remove": {
+    "verb": {
+      "present": "remove (removes)",
+      "past": "removed",
+      "future": "will remove"
+    }
+  },
+  "rent": {
+    "verb": {
+      "present": "rent (rents)",
+      "past": "rented",
+      "future": "will rent"
+    }
+  },
+  "repair": {
+    "verb": {
+      "present": "repair (repairs)",
+      "past": "repaired",
+      "future": "will repair"
+    }
+  },
+  "repeat": {
+    "verb": {
+      "present": "repeat (repeats)",
+      "past": "repeated",
+      "future": "will repeat"
+    }
+  },
+  "replace": {
+    "verb": {
+      "present": "replace (replaces)",
+      "past": "replaced",
+      "future": "will replace"
+    }
+  },
+  "reply": {
+    "verb": {
+      "present": "reply (replies)",
+      "past": "replied",
+      "future": "will reply"
+    }
+  },
+  "report": {
+    "verb": {
+      "present": "report (reports)",
+      "past": "reported",
+      "future": "will report"
+    }
+  },
+  "represent": {
+    "verb": {
+      "present": "represent (represents)",
+      "past": "represented",
+      "future": "will represent"
+    }
+  },
+  "request": {
+    "verb": {
+      "present": "request (requests)",
+      "past": "requested",
+      "future": "will request"
+    }
+  },
+  "require": {
+    "verb": {
+      "present": "require (requires)",
+      "past": "required",
+      "future": "will require"
+    }
+  },
+  "rescue": {
+    "verb": {
+      "present": "rescue (rescues)",
+      "past": "rescued",
+      "future": "will rescue"
+    }
+  },
+  "research": {
+    "verb": {
+      "present": "research (researches)",
+      "past": "researched",
+      "future": "will research"
+    }
+  },
+  "reserve": {
+    "verb": {
+      "present": "reserve (reserves)",
+      "past": "reserved",
+      "future": "will reserve"
+    }
+  },
+  "resist": {
+    "verb": {
+      "present": "resist (resists)",
+      "past": "resisted",
+      "future": "will resist"
+    }
+  },
+  "resolve": {
+    "verb": {
+      "present": "resolve (resolves)",
+      "past": "resolved",
+      "future": "will resolve"
+    }
+  },
+  "respect": {
+    "verb": {
+      "present": "respect (respects)",
+      "past": "respected",
+      "future": "will respect"
+    }
+  },
+  "respond": {
+    "verb": {
+      "present": "respond (responds)",
+      "past": "responded",
+      "future": "will respond"
+    }
+  },
+  "responsibility": {
+    "singular": "responsibility",
+    "plural": "responsibilities"
+  },
+  "rest (sleep/relax)": {
+    "verb": {
+      "present": "rest (rests)",
+      "past": "rested",
+      "future": "will rest"
+    }
+  },
+  "result": {
+    "verb": {
+      "present": "result (results)",
+      "past": "resulted",
+      "future": "will result"
+    }
+  },
+  "retain": {
+    "verb": {
+      "present": "retain (retains)",
+      "past": "retained",
+      "future": "will retain"
+    }
+  },
+  "retire": {
+    "verb": {
+      "present": "retire (retires)",
+      "past": "retired",
+      "future": "will retire"
+    }
+  },
+  "return": {
+    "verb": {
+      "present": "return (returns)",
+      "past": "returned",
+      "future": "will return"
+    }
+  },
+  "reveal": {
+    "verb": {
+      "present": "reveal (reveals)",
+      "past": "revealed",
+      "future": "will reveal"
+    }
+  },
+  "review": {
+    "verb": {
+      "present": "review (reviews)",
+      "past": "reviewed",
+      "future": "will review"
+    }
+  },
+  "revise": {
+    "verb": {
+      "present": "revise (revises)",
+      "past": "revised",
+      "future": "will revise"
+    }
+  },
+  "reward": {
+    "verb": {
+      "present": "reward (rewards)",
+      "past": "rewarded",
+      "future": "will reward"
+    }
+  },
+  "rid": {
+    "verb": {
+      "present": "rid (rids)",
+      "past": "ridded",
+      "future": "will rid"
+    }
+  },
+  "ride": {
+    "verb": {
+      "present": "ride (rides)",
+      "past": "rode",
+      "future": "will ride"
+    }
+  },
+  "ring2": {
+    "verb": {
+      "present": "ring (rings)",
+      "past": "rang",
+      "future": "will ring"
+    }
+  },
+  "rise": {
+    "verb": {
+      "present": "rise (rises)",
+      "past": "rose",
+      "future": "will rise"
+    }
+  },
+  "risk": {
+    "verb": {
+      "present": "risk (risks)",
+      "past": "risked",
+      "future": "will risk"
+    }
+  },
+  "roll": {
+    "verb": {
+      "present": "roll (rolls)",
+      "past": "rolled",
+      "future": "will roll"
+    }
+  },
+  "rub": {
+    "verb": {
+      "present": "rub (rubs)",
+      "past": "rubbed",
+      "future": "will rub"
+    }
+  },
+  "rule": {
+    "verb": {
+      "present": "rule (rules)",
+      "past": "ruled",
+      "future": "will rule"
+    }
+  },
+  "run": {
+    "verb": {
+      "present": "run (runs)",
+      "past": "ran",
+      "future": "will run"
+    }
+  },
+  "rush": {
+    "verb": {
+      "present": "rush (rushes)",
+      "past": "rushed",
+      "future": "will rush"
+    }
+  },
+  "sail": {
+    "verb": {
+      "present": "sail (sails)",
+      "past": "sailed",
+      "future": "will sail"
+    }
+  },
+  "salary": {
+    "singular": "salary",
+    "plural": "salaries"
+  },
+  "sample": {
+    "verb": {
+      "present": "sample (samples)",
+      "past": "sampled",
+      "future": "will sample"
+    }
+  },
+  "satisfy": {
+    "verb": {
+      "present": "satisfy (satisfies)",
+      "past": "satisfied",
+      "future": "will satisfy"
+    }
+  },
+  "save": {
+    "verb": {
+      "present": "save (saves)",
+      "past": "saved",
+      "future": "will save"
+    }
+  },
+  "say": {
+    "verb": {
+      "present": "say (says)",
+      "past": "said",
+      "future": "will say"
+    }
+  },
+  "scan": {
+    "verb": {
+      "present": "scan (scans)",
+      "past": "scanned",
+      "future": "will scan"
+    }
+  },
+  "schedule": {
+    "verb": {
+      "present": "schedule (schedules)",
+      "past": "scheduled",
+      "future": "will schedule"
+    }
+  },
+  "score": {
+    "verb": {
+      "present": "score (scores)",
+      "past": "scored",
+      "future": "will score"
+    }
+  },
+  "scream": {
+    "verb": {
+      "present": "scream (screams)",
+      "past": "screamed",
+      "future": "will scream"
+    }
+  },
+  "screen": {
+    "verb": {
+      "present": "screen (screens)",
+      "past": "screened",
+      "future": "will screen"
+    }
+  },
+  "search": {
+    "verb": {
+      "present": "search (searches)",
+      "past": "searched",
+      "future": "will search"
+    }
+  },
+  "seat": {
+    "verb": {
+      "present": "seat (seats)",
+      "past": "seated",
+      "future": "will seat"
+    }
+  },
+  "secure": {
+    "verb": {
+      "present": "secure (secures)",
+      "past": "secured",
+      "future": "will secure"
+    }
+  },
+  "see": {
+    "verb": {
+      "present": "see (sees)",
+      "past": "saw",
+      "future": "will see"
+    }
+  },
+  "seek": {
+    "verb": {
+      "present": "seek (seeks)",
+      "past": "sought",
+      "future": "will seek"
+    }
+  },
+  "seem": {
+    "verb": {
+      "present": "seem (seems)",
+      "past": "seemed",
+      "future": "will seem"
+    }
+  },
+  "select": {
+    "verb": {
+      "present": "select (selects)",
+      "past": "selected",
+      "future": "will select"
+    }
+  },
+  "sell": {
+    "verb": {
+      "present": "sell (sells)",
+      "past": "sold",
+      "future": "will sell"
+    }
+  },
+  "send": {
+    "verb": {
+      "present": "send (sends)",
+      "past": "sent",
+      "future": "will send"
+    }
+  },
+  "sense": {
+    "verb": {
+      "present": "sense (senses)",
+      "past": "sensed",
+      "future": "will sense"
+    }
+  },
+  "sentence": {
+    "verb": {
+      "present": "sentence (sentences)",
+      "past": "sentenced",
+      "future": "will sentence"
+    }
+  },
+  "separate": {
+    "verb": {
+      "present": "separate (separates)",
+      "past": "separated",
+      "future": "will separate"
+    }
+  },
+  "series": {
+    "singular": "series",
+    "plural": "series"
+  },
+  "serve": {
+    "verb": {
+      "present": "serve (serves)",
+      "past": "served",
+      "future": "will serve"
+    }
+  },
+  "set (put)": {
+    "verb": {
+      "present": "set (sets)",
+      "past": "set",
+      "future": "will set"
+    }
+  },
+  "settle": {
+    "verb": {
+      "present": "settle (settles)",
+      "past": "settled",
+      "future": "will settle"
+    }
+  },
+  "shake": {
+    "verb": {
+      "present": "shake (shakes)",
+      "past": "shook",
+      "future": "will shake"
+    }
+  },
+  "shape": {
+    "verb": {
+      "present": "shape (shapes)",
+      "past": "shaped",
+      "future": "will shape"
+    }
+  },
+  "share": {
+    "verb": {
+      "present": "share (shares)",
+      "past": "shared",
+      "future": "will share"
+    }
+  },
+  "sheep": {
+    "singular": "sheep",
+    "plural": "sheep"
+  },
+  "shelf": {
+    "singular": "shelf",
+    "plural": "shelves"
+  },
+  "shelter": {
+    "verb": {
+      "present": "shelter (shelters)",
+      "past": "shelterred",
+      "future": "will shelter"
+    }
+  },
+  "shift": {
+    "verb": {
+      "present": "shift (shifts)",
+      "past": "shifted",
+      "future": "will shift"
+    }
+  },
+  "shine": {
+    "verb": {
+      "present": "shine (shines)",
+      "past": "shone",
+      "future": "will shine"
+    }
+  },
+  "ship": {
+    "verb": {
+      "present": "ship (ships)",
+      "past": "shipped",
+      "future": "will ship"
+    }
+  },
+  "shock": {
+    "verb": {
+      "present": "shock (shocks)",
+      "past": "shocked",
+      "future": "will shock"
+    }
+  },
+  "shoot": {
+    "verb": {
+      "present": "shoot (shoots)",
+      "past": "shot",
+      "future": "will shoot"
+    }
+  },
+  "shop": {
+    "verb": {
+      "present": "shop (shops)",
+      "past": "shopped",
+      "future": "will shop"
+    }
+  },
+  "shout": {
+    "verb": {
+      "present": "shout (shouts)",
+      "past": "shouted",
+      "future": "will shout"
+    }
+  },
+  "show": {
+    "verb": {
+      "present": "show (shows)",
+      "past": "showed",
+      "future": "will show"
+    }
+  },
+  "shut": {
+    "verb": {
+      "present": "shut (shuts)",
+      "past": "shut",
+      "future": "will shut"
+    }
+  },
+  "sign": {
+    "verb": {
+      "present": "sign (signs)",
+      "past": "signed",
+      "future": "will sign"
+    }
+  },
+  "signal": {
+    "verb": {
+      "present": "signal (signals)",
+      "past": "signalled",
+      "future": "will signal"
+    }
+  },
+  "sing": {
+    "verb": {
+      "present": "sing (sings)",
+      "past": "sang",
+      "future": "will sing"
+    }
+  },
+  "sink": {
+    "verb": {
+      "present": "sink (sinks)",
+      "past": "sank",
+      "future": "will sink"
+    }
+  },
+  "sit": {
+    "verb": {
+      "present": "sit (sits)",
+      "past": "sat",
+      "future": "will sit"
+    }
+  },
+  "ski": {
+    "verb": {
+      "present": "ski (skis)",
+      "past": "skied",
+      "future": "will ski"
+    }
+  },
+  "sleep": {
+    "verb": {
+      "present": "sleep (sleeps)",
+      "past": "slept",
+      "future": "will sleep"
+    }
+  },
+  "slice": {
+    "verb": {
+      "present": "slice (slices)",
+      "past": "sliced",
+      "future": "will slice"
+    }
+  },
+  "slide": {
+    "verb": {
+      "present": "slide (slides)",
+      "past": "slid",
+      "future": "will slide"
+    }
+  },
+  "slip": {
+    "verb": {
+      "present": "slip (slips)",
+      "past": "slipped",
+      "future": "will slip"
+    }
+  },
+  "slope": {
+    "verb": {
+      "present": "slope (slopes)",
+      "past": "sloped",
+      "future": "will slope"
+    }
+  },
+  "slow": {
+    "verb": {
+      "present": "slow (slows)",
+      "past": "slowed",
+      "future": "will slow"
+    }
+  },
+  "smell": {
+    "verb": {
+      "present": "smell (smells)",
+      "past": "smelled",
+      "future": "will smell"
+    }
+  },
+  "smile": {
+    "verb": {
+      "present": "smile (smiles)",
+      "past": "smiled",
+      "future": "will smile"
+    }
+  },
+  "smoke": {
+    "verb": {
+      "present": "smoke (smokes)",
+      "past": "smoked",
+      "future": "will smoke"
+    }
+  },
+  "snow": {
+    "verb": {
+      "present": "snow (snows)",
+      "past": "snowed",
+      "future": "will snow"
+    }
+  },
+  "solve": {
+    "verb": {
+      "present": "solve (solves)",
+      "past": "solved",
+      "future": "will solve"
+    }
+  },
+  "sort": {
+    "verb": {
+      "present": "sort (sorts)",
+      "past": "sorted",
+      "future": "will sort"
+    }
+  },
+  "sound": {
+    "verb": {
+      "present": "sound (sounds)",
+      "past": "sounded",
+      "future": "will sound"
+    }
+  },
+  "speak": {
+    "verb": {
+      "present": "speak (speaks)",
+      "past": "spoke",
+      "future": "will speak"
+    }
+  },
+  "species": {
+    "singular": "species",
+    "plural": "species"
+  },
+  "speed": {
+    "verb": {
+      "present": "speed (speeds)",
+      "past": "sped",
+      "future": "will speed"
+    }
+  },
+  "spell": {
+    "verb": {
+      "present": "spell (spells)",
+      "past": "spelled",
+      "future": "will spell"
+    }
+  },
+  "spend": {
+    "verb": {
+      "present": "spend (spends)",
+      "past": "spent",
+      "future": "will spend"
+    }
+  },
+  "split": {
+    "verb": {
+      "present": "split (splits)",
+      "past": "split",
+      "future": "will split"
+    }
+  },
+  "sponsor": {
+    "verb": {
+      "present": "sponsor (sponsors)",
+      "past": "sponsorred",
+      "future": "will sponsor"
+    }
+  },
+  "spot": {
+    "verb": {
+      "present": "spot (spots)",
+      "past": "spotted",
+      "future": "will spot"
+    }
+  },
+  "spread": {
+    "verb": {
+      "present": "spread (spreads)",
+      "past": "spread",
+      "future": "will spread"
+    }
+  },
+  "spring": {
+    "verb": {
+      "present": "spring (springs)",
+      "past": "sprang",
+      "future": "will spring"
+    }
+  },
+  "stage": {
+    "verb": {
+      "present": "stage (stages)",
+      "past": "staged",
+      "future": "will stage"
+    }
+  },
+  "stand": {
+    "verb": {
+      "present": "stand (stands)",
+      "past": "stood",
+      "future": "will stand"
+    }
+  },
+  "star": {
+    "verb": {
+      "present": "star (stars)",
+      "past": "starred",
+      "future": "will star"
+    }
+  },
+  "stare": {
+    "verb": {
+      "present": "stare (stares)",
+      "past": "stared",
+      "future": "will stare"
+    }
+  },
+  "start": {
+    "verb": {
+      "present": "start (starts)",
+      "past": "started",
+      "future": "will start"
+    }
+  },
+  "state": {
+    "verb": {
+      "present": "state (states)",
+      "past": "stated",
+      "future": "will state"
+    }
+  },
+  "stay": {
+    "verb": {
+      "present": "stay (stays)",
+      "past": "stayed",
+      "future": "will stay"
+    }
+  },
+  "steal": {
+    "verb": {
+      "present": "steal (steals)",
+      "past": "stole",
+      "future": "will steal"
+    }
+  },
+  "step": {
+    "verb": {
+      "present": "step (steps)",
+      "past": "stepped",
+      "future": "will step"
+    }
+  },
+  "stick (push into/attach)": {
+    "verb": {
+      "present": "stick (sticks)",
+      "past": "stuck",
+      "future": "will stick"
+    }
+  },
+  "stop": {
+    "verb": {
+      "present": "stop (stops)",
+      "past": "stopped",
+      "future": "will stop"
+    }
+  },
+  "store": {
+    "verb": {
+      "present": "store (stores)",
+      "past": "stored",
+      "future": "will store"
+    }
+  },
+  "story": {
+    "singular": "story",
+    "plural": "stories"
+  },
+  "stress": {
+    "verb": {
+      "present": "stress (stresses)",
+      "past": "stressed",
+      "future": "will stress"
+    }
+  },
+  "stretch": {
+    "verb": {
+      "present": "stretch (stretches)",
+      "past": "stretched",
+      "future": "will stretch"
+    }
+  },
+  "strike": {
+    "verb": {
+      "present": "strike (strikes)",
+      "past": "struck",
+      "future": "will strike"
+    }
+  },
+  "structure": {
+    "verb": {
+      "present": "structure (structures)",
+      "past": "structured",
+      "future": "will structure"
+    }
+  },
+  "struggle": {
+    "verb": {
+      "present": "struggle (struggles)",
+      "past": "struggled",
+      "future": "will struggle"
+    }
+  },
+  "study": {
+    "verb": {
+      "present": "study (studies)",
+      "past": "studied",
+      "future": "will study"
+    }
+  },
+  "stuff": {
+    "verb": {
+      "present": "stuff (stuffs)",
+      "past": "stuffed",
+      "future": "will stuff"
+    }
+  },
+  "submit": {
+    "verb": {
+      "present": "submit (submits)",
+      "past": "submitted",
+      "future": "will submit"
+    }
+  },
+  "succeed": {
+    "verb": {
+      "present": "succeed (succeeds)",
+      "past": "succeeded",
+      "future": "will succeed"
+    }
+  },
+  "suffer": {
+    "verb": {
+      "present": "suffer (suffers)",
+      "past": "sufferred",
+      "future": "will suffer"
+    }
+  },
+  "suggest": {
+    "verb": {
+      "present": "suggest (suggests)",
+      "past": "suggested",
+      "future": "will suggest"
+    }
+  },
+  "suit": {
+    "verb": {
+      "present": "suit (suits)",
+      "past": "suited",
+      "future": "will suit"
+    }
+  },
+  "sum": {
+    "verb": {
+      "present": "sum (sums)",
+      "past": "summed",
+      "future": "will sum"
+    }
+  },
+  "summarize": {
+    "verb": {
+      "present": "summarize (summarizes)",
+      "past": "summarized",
+      "future": "will summarize"
+    }
+  },
+  "supply": {
+    "verb": {
+      "present": "supply (supplies)",
+      "past": "supplied",
+      "future": "will supply"
+    }
+  },
+  "support": {
+    "verb": {
+      "present": "support (supports)",
+      "past": "supported",
+      "future": "will support"
+    }
+  },
+  "suppose": {
+    "verb": {
+      "present": "suppose (supposes)",
+      "past": "supposed",
+      "future": "will suppose"
+    }
+  },
+  "surprise": {
+    "verb": {
+      "present": "surprise (surprises)",
+      "past": "surprised",
+      "future": "will surprise"
+    }
+  },
+  "surround": {
+    "verb": {
+      "present": "surround (surrounds)",
+      "past": "surrounded",
+      "future": "will surround"
+    }
+  },
+  "survey": {
+    "verb": {
+      "present": "survey (surveys)",
+      "past": "surveyed",
+      "future": "will survey"
+    }
+  },
+  "survive": {
+    "verb": {
+      "present": "survive (survives)",
+      "past": "survived",
+      "future": "will survive"
+    }
+  },
+  "suspect": {
+    "verb": {
+      "present": "suspect (suspects)",
+      "past": "suspected",
+      "future": "will suspect"
+    }
+  },
+  "swear": {
+    "verb": {
+      "present": "swear (swears)",
+      "past": "swore",
+      "future": "will swear"
+    }
+  },
+  "sweep": {
+    "verb": {
+      "present": "sweep (sweeps)",
+      "past": "swept",
+      "future": "will sweep"
+    }
+  },
+  "swim": {
+    "verb": {
+      "present": "swim (swims)",
+      "past": "swam",
+      "future": "will swim"
+    }
+  },
+  "switch": {
+    "verb": {
+      "present": "switch (switches)",
+      "past": "switched",
+      "future": "will switch"
+    }
+  },
+  "take": {
+    "verb": {
+      "present": "take (takes)",
+      "past": "took",
+      "future": "will take"
+    }
+  },
+  "talk": {
+    "verb": {
+      "present": "talk (talks)",
+      "past": "talked",
+      "future": "will talk"
+    }
+  },
+  "target": {
+    "verb": {
+      "present": "target (targets)",
+      "past": "targetted",
+      "future": "will target"
+    }
+  },
+  "taste": {
+    "verb": {
+      "present": "taste (tastes)",
+      "past": "tasted",
+      "future": "will taste"
+    }
+  },
+  "tax": {
+    "verb": {
+      "present": "tax (taxes)",
+      "past": "taxed",
+      "future": "will tax"
+    }
+  },
+  "teach": {
+    "verb": {
+      "present": "teach (teaches)",
+      "past": "taught",
+      "future": "will teach"
+    }
+  },
+  "tear1": {
+    "verb": {
+      "present": "tear (tears)",
+      "past": "tore",
+      "future": "will tear"
+    }
+  },
+  "telephone": {
+    "verb": {
+      "present": "telephone (telephones)",
+      "past": "telephoned",
+      "future": "will telephone"
+    }
+  },
+  "tell": {
+    "verb": {
+      "present": "tell (tells)",
+      "past": "told",
+      "future": "will tell"
+    }
+  },
+  "tend": {
+    "verb": {
+      "present": "tend (tends)",
+      "past": "tended",
+      "future": "will tend"
+    }
+  },
+  "term": {
+    "verb": {
+      "present": "term (terms)",
+      "past": "termed",
+      "future": "will term"
+    }
+  },
+  "test": {
+    "verb": {
+      "present": "test (tests)",
+      "past": "tested",
+      "future": "will test"
+    }
+  },
+  "text": {
+    "verb": {
+      "present": "text (texts)",
+      "past": "texted",
+      "future": "will text"
+    }
+  },
+  "thank": {
+    "verb": {
+      "present": "thank (thanks)",
+      "past": "thanked",
+      "future": "will thank"
+    }
+  },
+  "think": {
+    "verb": {
+      "present": "think (thinks)",
+      "past": "thought",
+      "future": "will think"
+    }
+  },
+  "threaten": {
+    "verb": {
+      "present": "threaten (threatens)",
+      "past": "threatenned",
+      "future": "will threaten"
+    }
+  },
+  "throw": {
+    "verb": {
+      "present": "throw (throws)",
+      "past": "threw",
+      "future": "will throw"
+    }
+  },
+  "tie": {
+    "verb": {
+      "present": "tie (ties)",
+      "past": "tied",
+      "future": "will tie"
+    }
+  },
+  "time": {
+    "verb": {
+      "present": "time (times)",
+      "past": "timed",
+      "future": "will time"
+    }
+  },
+  "tip": {
+    "verb": {
+      "present": "tip (tips)",
+      "past": "tipped",
+      "future": "will tip"
+    }
+  },
+  "title": {
+    "verb": {
+      "present": "title (titles)",
+      "past": "titled",
+      "future": "will title"
+    }
+  },
+  "tooth": {
+    "singular": "tooth",
+    "plural": "teeth"
+  },
+  "touch": {
+    "verb": {
+      "present": "touch (touches)",
+      "past": "touched",
+      "future": "will touch"
+    }
+  },
+  "tour": {
+    "verb": {
+      "present": "tour (tours)",
+      "past": "toured",
+      "future": "will tour"
+    }
+  },
+  "track": {
+    "verb": {
+      "present": "track (tracks)",
+      "past": "tracked",
+      "future": "will track"
+    }
+  },
+  "trade": {
+    "verb": {
+      "present": "trade (trades)",
+      "past": "traded",
+      "future": "will trade"
+    }
+  },
+  "train": {
+    "verb": {
+      "present": "train (trains)",
+      "past": "trained",
+      "future": "will train"
+    }
+  },
+  "transfer": {
+    "verb": {
+      "present": "transfer (transfers)",
+      "past": "transferred",
+      "future": "will transfer"
+    }
+  },
+  "transform": {
+    "verb": {
+      "present": "transform (transforms)",
+      "past": "transformed",
+      "future": "will transform"
+    }
+  },
+  "translate": {
+    "verb": {
+      "present": "translate (translates)",
+      "past": "translated",
+      "future": "will translate"
+    }
+  },
+  "transport": {
+    "verb": {
+      "present": "transport (transports)",
+      "past": "transported",
+      "future": "will transport"
+    }
+  },
+  "travel": {
+    "verb": {
+      "present": "travel (travels)",
+      "past": "traveled",
+      "future": "will travel"
+    }
+  },
+  "treat": {
+    "verb": {
+      "present": "treat (treats)",
+      "past": "treated",
+      "future": "will treat"
+    }
+  },
+  "trick": {
+    "verb": {
+      "present": "trick (tricks)",
+      "past": "tricked",
+      "future": "will trick"
+    }
+  },
+  "trip": {
+    "verb": {
+      "present": "trip (trips)",
+      "past": "tripped",
+      "future": "will trip"
+    }
+  },
+  "trouble": {
+    "verb": {
+      "present": "trouble (troubles)",
+      "past": "troubled",
+      "future": "will trouble"
+    }
+  },
+  "trust": {
+    "verb": {
+      "present": "trust (trusts)",
+      "past": "trusted",
+      "future": "will trust"
+    }
+  },
+  "try": {
+    "verb": {
+      "present": "try (tries)",
+      "past": "tried",
+      "future": "will try"
+    }
+  },
+  "turn": {
+    "verb": {
+      "present": "turn (turns)",
+      "past": "turned",
+      "future": "will turn"
+    }
+  },
+  "type": {
+    "verb": {
+      "present": "type (types)",
+      "past": "typed",
+      "future": "will type"
+    }
+  },
+  "understand": {
+    "verb": {
+      "present": "understand (understands)",
+      "past": "understood",
+      "future": "will understand"
+    }
+  },
+  "university": {
+    "singular": "university",
+    "plural": "universities"
+  },
+  "update": {
+    "verb": {
+      "present": "update (updates)",
+      "past": "updated",
+      "future": "will update"
+    }
+  },
+  "upset": {
+    "verb": {
+      "present": "upset (upsets)",
+      "past": "upsetted",
+      "future": "will upset"
+    }
+  },
+  "urge": {
+    "verb": {
+      "present": "urge (urges)",
+      "past": "urged",
+      "future": "will urge"
+    }
+  },
+  "use": {
+    "verb": {
+      "present": "use (uses)",
+      "past": "used",
+      "future": "will use"
+    }
+  },
+  "value": {
+    "verb": {
+      "present": "value (values)",
+      "past": "valued",
+      "future": "will value"
+    }
+  },
+  "variety": {
+    "singular": "variety",
+    "plural": "varieties"
+  },
+  "vary": {
+    "verb": {
+      "present": "vary (varies)",
+      "past": "varied",
+      "future": "will vary"
+    }
+  },
+  "view": {
+    "verb": {
+      "present": "view (views)",
+      "past": "viewed",
+      "future": "will view"
+    }
+  },
+  "visit": {
+    "verb": {
+      "present": "visit (visits)",
+      "past": "visited",
+      "future": "will visit"
+    }
+  },
+  "volunteer": {
+    "verb": {
+      "present": "volunteer (volunteers)",
+      "past": "volunteered",
+      "future": "will volunteer"
+    }
+  },
+  "vote": {
+    "verb": {
+      "present": "vote (votes)",
+      "past": "voted",
+      "future": "will vote"
+    }
+  },
+  "wait": {
+    "verb": {
+      "present": "wait (waits)",
+      "past": "waited",
+      "future": "will wait"
+    }
+  },
+  "wake": {
+    "verb": {
+      "present": "wake (wakes)",
+      "past": "woke",
+      "future": "will wake"
+    }
+  },
+  "walk": {
+    "verb": {
+      "present": "walk (walks)",
+      "past": "walked",
+      "future": "will walk"
+    }
+  },
+  "want": {
+    "verb": {
+      "present": "want (wants)",
+      "past": "wanted",
+      "future": "will want"
+    }
+  },
+  "warm": {
+    "verb": {
+      "present": "warm (warms)",
+      "past": "warmed",
+      "future": "will warm"
+    }
+  },
+  "warn": {
+    "verb": {
+      "present": "warn (warns)",
+      "past": "warned",
+      "future": "will warn"
+    }
+  },
+  "wash": {
+    "verb": {
+      "present": "wash (washes)",
+      "past": "washed",
+      "future": "will wash"
+    }
+  },
+  "waste": {
+    "verb": {
+      "present": "waste (wastes)",
+      "past": "wasted",
+      "future": "will waste"
+    }
+  },
+  "watch": {
+    "verb": {
+      "present": "watch (watches)",
+      "past": "watched",
+      "future": "will watch"
+    }
+  },
+  "water": {
+    "verb": {
+      "present": "water (waters)",
+      "past": "waterred",
+      "future": "will water"
+    }
+  },
+  "wave": {
+    "verb": {
+      "present": "wave (waves)",
+      "past": "waved",
+      "future": "will wave"
+    }
+  },
+  "wear": {
+    "verb": {
+      "present": "wear (wears)",
+      "past": "wore",
+      "future": "will wear"
+    }
+  },
+  "weigh": {
+    "verb": {
+      "present": "weigh (weighs)",
+      "past": "weighed",
+      "future": "will weigh"
+    }
+  },
+  "welcome": {
+    "verb": {
+      "present": "welcome (welcomes)",
+      "past": "welcomed",
+      "future": "will welcome"
+    }
+  },
+  "whisper": {
+    "verb": {
+      "present": "whisper (whispers)",
+      "past": "whisperred",
+      "future": "will whisper"
+    }
+  },
+  "wife": {
+    "singular": "wife",
+    "plural": "wives"
+  },
+  "win": {
+    "verb": {
+      "present": "win (wins)",
+      "past": "won",
+      "future": "will win"
+    }
+  },
+  "wind2": {
+    "verb": {
+      "present": "wind (winds)",
+      "past": "wound",
+      "future": "will wind"
+    }
+  },
+  "wish": {
+    "verb": {
+      "present": "wish (wishes)",
+      "past": "wished",
+      "future": "will wish"
+    }
+  },
+  "witness": {
+    "verb": {
+      "present": "witness (witnesses)",
+      "past": "witnessed",
+      "future": "will witness"
+    }
+  },
+  "woman": {
+    "singular": "woman",
+    "plural": "women"
+  },
+  "wonder": {
+    "verb": {
+      "present": "wonder (wonders)",
+      "past": "wonderred",
+      "future": "will wonder"
+    }
+  },
+  "work": {
+    "verb": {
+      "present": "work (works)",
+      "past": "worked",
+      "future": "will work"
+    }
+  },
+  "worry": {
+    "verb": {
+      "present": "worry (worries)",
+      "past": "worried",
+      "future": "will worry"
+    }
+  },
+  "wound": {
+    "verb": {
+      "present": "wound (wounds)",
+      "past": "wounded",
+      "future": "will wound"
+    }
+  },
+  "wrap": {
+    "verb": {
+      "present": "wrap (wraps)",
+      "past": "wrapped",
+      "future": "will wrap"
+    }
+  },
+  "write": {
+    "verb": {
+      "present": "write (writes)",
+      "past": "wrote",
+      "future": "will write"
+    }
+  }
+}

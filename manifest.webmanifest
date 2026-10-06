@@ -1,0 +1,11 @@
+{
+  "name": "Oxford 3000 — تمرین لغت",
+  "short_name": "Oxford 3000",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
+  "lang": "fa",
+  "dir": "rtl",
+  "description": "تمرین واژگان Oxford 3000"
+}

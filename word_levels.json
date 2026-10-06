@@ -1,0 +1,9305 @@
+{
+  "a, an": [
+    "A1"
+  ],
+  "abandon": [
+    "B2"
+  ],
+  "ability": [
+    "A2"
+  ],
+  "able": [
+    "A2"
+  ],
+  "about": [
+    "A1"
+  ],
+  "above": [
+    "A1"
+  ],
+  "abroad": [
+    "B2"
+  ],
+  "absolute": [
+    "B2"
+  ],
+  "absolutely": [
+    "B1"
+  ],
+  "academic": [
+    "B1"
+  ],
+  "accept": [
+    "A2"
+  ],
+  "acceptable": [
+    "B2"
+  ],
+  "access": [
+    "B1"
+  ],
+  "accident": [
+    "A2"
+  ],
+  "accompany": [
+    "B2"
+  ],
+  "according to": [
+    "A2"
+  ],
+  "account": [
+    "B1",
+    "B2"
+  ],
+  "accurate": [
+    "B2"
+  ],
+  "accuse": [
+    "B2"
+  ],
+  "achieve": [
+    "A2"
+  ],
+  "achievement": [
+    "B1"
+  ],
+  "acknowledge": [
+    "B2"
+  ],
+  "acquire": [
+    "B2"
+  ],
+  "across": [
+    "A1"
+  ],
+  "act": [
+    "A2",
+    "B1"
+  ],
+  "action": [
+    "A1"
+  ],
+  "active": [
+    "A2"
+  ],
+  "activity": [
+    "A1"
+  ],
+  "actor": [
+    "A1"
+  ],
+  "actress": [
+    "A1"
+  ],
+  "actual": [
+    "B2"
+  ],
+  "actually": [
+    "A2"
+  ],
+  "ad": [
+    "B1"
+  ],
+  "adapt": [
+    "B2"
+  ],
+  "add": [
+    "A1"
+  ],
+  "addition": [
+    "B1"
+  ],
+  "additional": [
+    "B2"
+  ],
+  "address": [
+    "A1",
+    "B2"
+  ],
+  "administration": [
+    "B1"
+  ],
+  "admire": [
+    "B1"
+  ],
+  "admit": [
+    "B1"
+  ],
+  "adopt": [
+    "B2"
+  ],
+  "adult": [
+    "A1",
+    "A2"
+  ],
+  "advance": [
+    "B2"
+  ],
+  "advanced": [
+    "B1"
+  ],
+  "advantage": [
+    "A2"
+  ],
+  "adventure": [
+    "A2"
+  ],
+  "advertise": [
+    "A2"
+  ],
+  "advertisement": [
+    "A2"
+  ],
+  "advertising": [
+    "A2"
+  ],
+  "advice": [
+    "A1"
+  ],
+  "advise": [
+    "B1"
+  ],
+  "affair": [
+    "B2"
+  ],
+  "affect": [
+    "A2"
+  ],
+  "afford": [
+    "B1"
+  ],
+  "afraid": [
+    "A1"
+  ],
+  "after": [
+    "A1",
+    "A2"
+  ],
+  "afternoon": [
+    "A1"
+  ],
+  "afterward": [
+    "B2"
+  ],
+  "again": [
+    "A1"
+  ],
+  "against": [
+    "A2"
+  ],
+  "age": [
+    "A1",
+    "B1"
+  ],
+  "agency": [
+    "B2"
+  ],
+  "agenda": [
+    "B2"
+  ],
+  "agent": [
+    "B1"
+  ],
+  "aggressive": [
+    "B2"
+  ],
+  "ago": [
+    "A1"
+  ],
+  "agree": [
+    "A1"
+  ],
+  "agreement": [
+    "B1"
+  ],
+  "ah": [
+    "A2"
+  ],
+  "ahead": [
+    "B1"
+  ],
+  "aid": [
+    "B2"
+  ],
+  "aim": [
+    "B1"
+  ],
+  "air": [
+    "A1"
+  ],
+  "aircraft": [
+    "B2"
+  ],
+  "airline": [
+    "A2"
+  ],
+  "airport": [
+    "A1"
+  ],
+  "alarm": [
+    "B1",
+    "B2"
+  ],
+  "album": [
+    "B1"
+  ],
+  "alcohol": [
+    "B1"
+  ],
+  "alcoholic": [
+    "B1"
+  ],
+  "alive": [
+    "A2"
+  ],
+  "all": [
+    "A1",
+    "A2"
+  ],
+  "all right": [
+    "A2"
+  ],
+  "allow": [
+    "A2"
+  ],
+  "almost": [
+    "A2"
+  ],
+  "alone": [
+    "A2"
+  ],
+  "along": [
+    "A2"
+  ],
+  "already": [
+    "A2"
+  ],
+  "also": [
+    "A1"
+  ],
+  "alter": [
+    "B2"
+  ],
+  "alternative": [
+    "A2",
+    "B1"
+  ],
+  "although": [
+    "A2"
+  ],
+  "always": [
+    "A1"
+  ],
+  "amazed": [
+    "B1"
+  ],
+  "amazing": [
+    "A1"
+  ],
+  "ambition": [
+    "B1"
+  ],
+  "among": [
+    "A2"
+  ],
+  "amount": [
+    "A2",
+    "B2"
+  ],
+  "analysis": [
+    "B1"
+  ],
+  "analyze": [
+    "A2"
+  ],
+  "ancient": [
+    "A2"
+  ],
+  "and": [
+    "A1"
+  ],
+  "anger": [
+    "B2"
+  ],
+  "angle": [
+    "B2"
+  ],
+  "angry": [
+    "A1"
+  ],
+  "animal": [
+    "A1"
+  ],
+  "ankle": [
+    "A2"
+  ],
+  "anniversary": [
+    "B2"
+  ],
+  "announce": [
+    "B1"
+  ],
+  "announcement": [
+    "B1"
+  ],
+  "annoy": [
+    "B1"
+  ],
+  "annoyed": [
+    "B1"
+  ],
+  "annoying": [
+    "B1"
+  ],
+  "annual": [
+    "B2"
+  ],
+  "another": [
+    "A1"
+  ],
+  "answer": [
+    "A1"
+  ],
+  "anxious": [
+    "B2"
+  ],
+  "any": [
+    "A1",
+    "A2"
+  ],
+  "anybody": [
+    "A2"
+  ],
+  "anymore": [
+    "A2"
+  ],
+  "anyone": [
+    "A1"
+  ],
+  "anything": [
+    "A1"
+  ],
+  "anyway": [
+    "A2"
+  ],
+  "anywhere": [
+    "A2"
+  ],
+  "apart": [
+    "B1"
+  ],
+  "apartment": [
+    "A1"
+  ],
+  "apologize": [
+    "B1"
+  ],
+  "app": [
+    "A2"
+  ],
+  "apparent": [
+    "B2"
+  ],
+  "apparently": [
+    "B2"
+  ],
+  "appeal": [
+    "B2"
+  ],
+  "appear": [
+    "A2"
+  ],
+  "appearance": [
+    "A2"
+  ],
+  "apple": [
+    "A1"
+  ],
+  "application": [
+    "B1"
+  ],
+  "apply": [
+    "A2"
+  ],
+  "appointment": [
+    "B1"
+  ],
+  "appreciate": [
+    "B1"
+  ],
+  "approach": [
+    "B2"
+  ],
+  "appropriate": [
+    "B2"
+  ],
+  "approval": [
+    "B2"
+  ],
+  "approve": [
+    "B2"
+  ],
+  "approximately": [
+    "B1"
+  ],
+  "April": [
+    "A1"
+  ],
+  "architect": [
+    "A2"
+  ],
+  "architecture": [
+    "A2"
+  ],
+  "area": [
+    "A1"
+  ],
+  "argue": [
+    "A2"
+  ],
+  "argument": [
+    "A2"
+  ],
+  "arise": [
+    "B2"
+  ],
+  "arm": [
+    "A1"
+  ],
+  "armed": [
+    "B2"
+  ],
+  "arms": [
+    "B2"
+  ],
+  "army": [
+    "A2"
+  ],
+  "around": [
+    "A1"
+  ],
+  "arrange": [
+    "A2"
+  ],
+  "arrangement": [
+    "A2"
+  ],
+  "arrest": [
+    "B1"
+  ],
+  "arrival": [
+    "B1"
+  ],
+  "arrive": [
+    "A1"
+  ],
+  "art": [
+    "A1"
+  ],
+  "article": [
+    "A1"
+  ],
+  "artificial": [
+    "B2"
+  ],
+  "artist": [
+    "A1"
+  ],
+  "artistic": [
+    "B2"
+  ],
+  "as": [
+    "A1",
+    "A2"
+  ],
+  "ashamed": [
+    "B2"
+  ],
+  "aside": [
+    "B2"
+  ],
+  "ask": [
+    "A1"
+  ],
+  "asleep": [
+    "A2"
+  ],
+  "aspect": [
+    "B2"
+  ],
+  "assess": [
+    "B2"
+  ],
+  "assessment": [
+    "B2"
+  ],
+  "assignment": [
+    "B1"
+  ],
+  "assist": [
+    "B1"
+  ],
+  "assistant": [
+    "A2"
+  ],
+  "associate": [
+    "B2"
+  ],
+  "associated": [
+    "B2"
+  ],
+  "association": [
+    "B2"
+  ],
+  "assume": [
+    "B2"
+  ],
+  "at": [
+    "A1"
+  ],
+  "athlete": [
+    "A2"
+  ],
+  "atmosphere": [
+    "B1"
+  ],
+  "attach": [
+    "B1"
+  ],
+  "attack": [
+    "A2"
+  ],
+  "attempt": [
+    "B2"
+  ],
+  "attend": [
+    "A2"
+  ],
+  "attention": [
+    "A2"
+  ],
+  "attitude": [
+    "B1"
+  ],
+  "attorney": [
+    "B2"
+  ],
+  "attract": [
+    "B1"
+  ],
+  "attraction": [
+    "B1"
+  ],
+  "attractive": [
+    "A2"
+  ],
+  "audience": [
+    "A2"
+  ],
+  "August": [
+    "A1"
+  ],
+  "aunt": [
+    "A1"
+  ],
+  "author": [
+    "A2"
+  ],
+  "authority": [
+    "B1"
+  ],
+  "automatic": [
+    "B1"
+  ],
+  "automatically": [
+    "B1"
+  ],
+  "available": [
+    "A2"
+  ],
+  "average": [
+    "A2",
+    "B1"
+  ],
+  "avoid": [
+    "A2"
+  ],
+  "award": [
+    "A2",
+    "B1"
+  ],
+  "aware": [
+    "B1"
+  ],
+  "away": [
+    "A1"
+  ],
+  "awesome": [
+    "A1"
+  ],
+  "awful": [
+    "A2"
+  ],
+  "baby": [
+    "A1"
+  ],
+  "back": [
+    "A1",
+    "A2",
+    "B2"
+  ],
+  "background": [
+    "A2"
+  ],
+  "backward": [
+    "B1"
+  ],
+  "bacteria": [
+    "B2"
+  ],
+  "bad": [
+    "A1"
+  ],
+  "badly": [
+    "A2"
+  ],
+  "bag": [
+    "A1"
+  ],
+  "bake": [
+    "B1"
+  ],
+  "balance": [
+    "B1"
+  ],
+  "ball": [
+    "A1"
+  ],
+  "ban": [
+    "B1"
+  ],
+  "banana": [
+    "A1"
+  ],
+  "band": [
+    "A1"
+  ],
+  "bank (money)": [
+    "A1"
+  ],
+  "bank (river)": [
+    "B1"
+  ],
+  "bar": [
+    "A1",
+    "B2"
+  ],
+  "barrier": [
+    "B2"
+  ],
+  "base": [
+    "B1"
+  ],
+  "baseball": [
+    "A1"
+  ],
+  "based": [
+    "A2"
+  ],
+  "basic": [
+    "B1"
+  ],
+  "basically": [
+    "B2"
+  ],
+  "basis": [
+    "B1"
+  ],
+  "basketball": [
+    "A1"
+  ],
+  "bath": [
+    "A1"
+  ],
+  "bathroom": [
+    "A1"
+  ],
+  "battery": [
+    "B1"
+  ],
+  "battle": [
+    "B1",
+    "B2"
+  ],
+  "be": [
+    "A1"
+  ],
+  "beach": [
+    "A1"
+  ],
+  "bean": [
+    "A2"
+  ],
+  "bear (deal with)": [
+    "B2"
+  ],
+  "bear (animal)": [
+    "A2"
+  ],
+  "beat": [
+    "A2",
+    "B2"
+  ],
+  "beautiful": [
+    "A1"
+  ],
+  "beauty": [
+    "B1"
+  ],
+  "because": [
+    "A1"
+  ],
+  "become": [
+    "A1"
+  ],
+  "bed": [
+    "A1"
+  ],
+  "bedroom": [
+    "A1"
+  ],
+  "bee": [
+    "B1"
+  ],
+  "beef": [
+    "A2"
+  ],
+  "beer": [
+    "A1"
+  ],
+  "before": [
+    "A1",
+    "A2"
+  ],
+  "beg": [
+    "B2"
+  ],
+  "begin": [
+    "A1"
+  ],
+  "beginning": [
+    "A1"
+  ],
+  "behave": [
+    "A2"
+  ],
+  "behavior": [
+    "A2"
+  ],
+  "behind": [
+    "A1"
+  ],
+  "being": [
+    "B2"
+  ],
+  "belief": [
+    "B1"
+  ],
+  "believe": [
+    "A1"
+  ],
+  "bell": [
+    "B1"
+  ],
+  "belong": [
+    "A2"
+  ],
+  "below": [
+    "A1"
+  ],
+  "belt": [
+    "A2"
+  ],
+  "bend": [
+    "B1"
+  ],
+  "benefit": [
+    "A2",
+    "B1"
+  ],
+  "bent": [
+    "B2"
+  ],
+  "best": [
+    "A1",
+    "A2"
+  ],
+  "bet": [
+    "B2"
+  ],
+  "better": [
+    "A1",
+    "A2",
+    "B1"
+  ],
+  "between": [
+    "A1",
+    "A2"
+  ],
+  "beyond": [
+    "B2"
+  ],
+  "bicycle": [
+    "A1"
+  ],
+  "big": [
+    "A1"
+  ],
+  "bike": [
+    "A1"
+  ],
+  "bill": [
+    "A1",
+    "B2"
+  ],
+  "billion": [
+    "A2"
+  ],
+  "biology": [
+    "A2"
+  ],
+  "bird": [
+    "A1"
+  ],
+  "birth": [
+    "A2"
+  ],
+  "birthday": [
+    "A1"
+  ],
+  "bit": [
+    "A2"
+  ],
+  "bite": [
+    "B1"
+  ],
+  "bitter": [
+    "B2"
+  ],
+  "black": [
+    "A1"
+  ],
+  "blame": [
+    "B2"
+  ],
+  "blank": [
+    "A2"
+  ],
+  "blind": [
+    "B2"
+  ],
+  "block": [
+    "A2",
+    "B1"
+  ],
+  "blog": [
+    "A1"
+  ],
+  "blond": [
+    "A1"
+  ],
+  "blood": [
+    "A2"
+  ],
+  "blow": [
+    "A2"
+  ],
+  "blue": [
+    "A1"
+  ],
+  "board": [
+    "A2",
+    "B1"
+  ],
+  "boat": [
+    "A1"
+  ],
+  "body": [
+    "A1"
+  ],
+  "boil": [
+    "A2"
+  ],
+  "bomb": [
+    "B1"
+  ],
+  "bond": [
+    "B2"
+  ],
+  "bone": [
+    "A2"
+  ],
+  "book": [
+    "A1",
+    "A2"
+  ],
+  "boot": [
+    "A1"
+  ],
+  "border": [
+    "B1",
+    "B2"
+  ],
+  "bored": [
+    "A1"
+  ],
+  "boring": [
+    "A1"
+  ],
+  "born": [
+    "A1"
+  ],
+  "borrow": [
+    "A2"
+  ],
+  "boss": [
+    "A2"
+  ],
+  "both": [
+    "A1"
+  ],
+  "bother": [
+    "B1"
+  ],
+  "bottle": [
+    "A1"
+  ],
+  "bottom": [
+    "A2"
+  ],
+  "bowl": [
+    "A2"
+  ],
+  "box": [
+    "A1"
+  ],
+  "boy": [
+    "A1"
+  ],
+  "boyfriend": [
+    "A1"
+  ],
+  "brain": [
+    "A2"
+  ],
+  "branch": [
+    "B1"
+  ],
+  "brand": [
+    "B1"
+  ],
+  "brave": [
+    "B1"
+  ],
+  "bread": [
+    "A1"
+  ],
+  "break": [
+    "A1"
+  ],
+  "breakfast": [
+    "A1"
+  ],
+  "breast": [
+    "B2"
+  ],
+  "breath": [
+    "B1"
+  ],
+  "breathe": [
+    "B1"
+  ],
+  "breathing": [
+    "B1"
+  ],
+  "bride": [
+    "B1"
+  ],
+  "bridge": [
+    "A2"
+  ],
+  "brief": [
+    "B2"
+  ],
+  "bright": [
+    "A2"
+  ],
+  "brilliant": [
+    "A2"
+  ],
+  "bring": [
+    "A1"
+  ],
+  "broad": [
+    "B2"
+  ],
+  "broadcast": [
+    "B2"
+  ],
+  "broken": [
+    "A2"
+  ],
+  "brother": [
+    "A1"
+  ],
+  "brown": [
+    "A1"
+  ],
+  "brush": [
+    "A2"
+  ],
+  "bubble": [
+    "B1"
+  ],
+  "budget": [
+    "B2"
+  ],
+  "build": [
+    "A1"
+  ],
+  "building": [
+    "A1"
+  ],
+  "bullet": [
+    "B2"
+  ],
+  "bunch": [
+    "B2"
+  ],
+  "burn": [
+    "A2",
+    "B2"
+  ],
+  "bury": [
+    "B1"
+  ],
+  "bus": [
+    "A1"
+  ],
+  "bush": [
+    "B2"
+  ],
+  "business": [
+    "A1"
+  ],
+  "businessman": [
+    "A2"
+  ],
+  "busy": [
+    "A1"
+  ],
+  "but": [
+    "A1",
+    "B2"
+  ],
+  "butter": [
+    "A1"
+  ],
+  "button": [
+    "A2"
+  ],
+  "buy": [
+    "A1"
+  ],
+  "by": [
+    "A1",
+    "B1"
+  ],
+  "bye": [
+    "A1"
+  ],
+  "cable": [
+    "B1"
+  ],
+  "cafe": [
+    "A1"
+  ],
+  "cake": [
+    "A1"
+  ],
+  "calculate": [
+    "B2"
+  ],
+  "call": [
+    "A1"
+  ],
+  "calm": [
+    "B1"
+  ],
+  "camera": [
+    "A1"
+  ],
+  "camp": [
+    "A2"
+  ],
+  "campaign": [
+    "B1"
+  ],
+  "camping": [
+    "A2"
+  ],
+  "campus": [
+    "A2"
+  ],
+  "can1": [
+    "A1"
+  ],
+  "can2": [
+    "A2"
+  ],
+  "cancel": [
+    "B2"
+  ],
+  "cancer": [
+    "B2"
+  ],
+  "candidate": [
+    "B1"
+  ],
+  "candy": [
+    "A2"
+  ],
+  "cannot": [
+    "A1"
+  ],
+  "cap": [
+    "B1"
+  ],
+  "capable": [
+    "B2"
+  ],
+  "capacity": [
+    "B2"
+  ],
+  "capital": [
+    "A1"
+  ],
+  "captain": [
+    "B1"
+  ],
+  "capture": [
+    "B2"
+  ],
+  "car": [
+    "A1"
+  ],
+  "card": [
+    "A1"
+  ],
+  "care": [
+    "A2"
+  ],
+  "career": [
+    "A1"
+  ],
+  "careful": [
+    "A2"
+  ],
+  "carefully": [
+    "A2"
+  ],
+  "careless": [
+    "B1"
+  ],
+  "carpet": [
+    "A2"
+  ],
+  "carrot": [
+    "A1"
+  ],
+  "carry": [
+    "A1"
+  ],
+  "cartoon": [
+    "A2"
+  ],
+  "case": [
+    "A2"
+  ],
+  "cash": [
+    "A2"
+  ],
+  "cast": [
+    "B2"
+  ],
+  "cat": [
+    "A1"
+  ],
+  "catch": [
+    "A2",
+    "B2"
+  ],
+  "category": [
+    "B1"
+  ],
+  "cause": [
+    "A2"
+  ],
+  "CD": [
+    "A1"
+  ],
+  "ceiling": [
+    "B1"
+  ],
+  "celebrate": [
+    "A2"
+  ],
+  "celebration": [
+    "B1"
+  ],
+  "celebrity": [
+    "A2"
+  ],
+  "cell": [
+    "A2"
+  ],
+  "cent": [
+    "A1"
+  ],
+  "center": [
+    "A1",
+    "B1"
+  ],
+  "central": [
+    "B1"
+  ],
+  "century": [
+    "A2"
+  ],
+  "ceremony": [
+    "B1"
+  ],
+  "certain": [
+    "A2"
+  ],
+  "certainly": [
+    "A2"
+  ],
+  "chain": [
+    "B1",
+    "B2"
+  ],
+  "chair": [
+    "A1",
+    "B2"
+  ],
+  "chairman": [
+    "B2"
+  ],
+  "challenge": [
+    "B1",
+    "B2"
+  ],
+  "champion": [
+    "B1"
+  ],
+  "chance": [
+    "A2"
+  ],
+  "change": [
+    "A1"
+  ],
+  "channel": [
+    "B1"
+  ],
+  "chapter": [
+    "B1"
+  ],
+  "character": [
+    "A2"
+  ],
+  "characteristic": [
+    "B2"
+  ],
+  "charge": [
+    "B1"
+  ],
+  "charity": [
+    "A2"
+  ],
+  "chart": [
+    "A1",
+    "B2"
+  ],
+  "chat": [
+    "A2"
+  ],
+  "cheap": [
+    "A1",
+    "B1"
+  ],
+  "cheat": [
+    "B1"
+  ],
+  "check": [
+    "A1",
+    "A2"
+  ],
+  "cheerful": [
+    "B1"
+  ],
+  "cheese": [
+    "A1"
+  ],
+  "chef": [
+    "A2"
+  ],
+  "chemical": [
+    "B1"
+  ],
+  "chemistry": [
+    "A2"
+  ],
+  "chest": [
+    "B1"
+  ],
+  "chicken": [
+    "A1"
+  ],
+  "chief": [
+    "B2"
+  ],
+  "child": [
+    "A1"
+  ],
+  "childhood": [
+    "B1"
+  ],
+  "chip": [
+    "A2"
+  ],
+  "chocolate": [
+    "A1"
+  ],
+  "choice": [
+    "A2"
+  ],
+  "choose": [
+    "A1"
+  ],
+  "church": [
+    "A2"
+  ],
+  "cigarette": [
+    "A2"
+  ],
+  "circle": [
+    "A2"
+  ],
+  "circumstance": [
+    "B2"
+  ],
+  "cite": [
+    "B2"
+  ],
+  "citizen": [
+    "B2"
+  ],
+  "city": [
+    "A1"
+  ],
+  "civil": [
+    "B2"
+  ],
+  "claim": [
+    "B1"
+  ],
+  "class": [
+    "A1"
+  ],
+  "classic": [
+    "B2"
+  ],
+  "classical": [
+    "A2"
+  ],
+  "classroom": [
+    "A1"
+  ],
+  "clause": [
+    "B1"
+  ],
+  "clean": [
+    "A1"
+  ],
+  "clear": [
+    "A2",
+    "B1"
+  ],
+  "clearly": [
+    "A2"
+  ],
+  "clerk": [
+    "A2"
+  ],
+  "clever": [
+    "B1"
+  ],
+  "click": [
+    "B1"
+  ],
+  "client": [
+    "B1"
+  ],
+  "climate": [
+    "A2"
+  ],
+  "climb": [
+    "A1",
+    "B1"
+  ],
+  "clock": [
+    "A1"
+  ],
+  "close1": [
+    "A1",
+    "B2"
+  ],
+  "close2": [
+    "A2",
+    "B1"
+  ],
+  "closed": [
+    "A2"
+  ],
+  "closely": [
+    "B2"
+  ],
+  "closet": [
+    "A2"
+  ],
+  "cloth": [
+    "B1"
+  ],
+  "clothes": [
+    "A1"
+  ],
+  "clothing": [
+    "A2"
+  ],
+  "cloud": [
+    "A2"
+  ],
+  "club": [
+    "A1"
+  ],
+  "clue": [
+    "B1"
+  ],
+  "coach": [
+    "A2",
+    "B1"
+  ],
+  "coal": [
+    "B1"
+  ],
+  "coast": [
+    "A2"
+  ],
+  "coat": [
+    "A1"
+  ],
+  "code": [
+    "A2"
+  ],
+  "coffee": [
+    "A1"
+  ],
+  "coin": [
+    "B1"
+  ],
+  "cold": [
+    "A1"
+  ],
+  "collapse": [
+    "B2"
+  ],
+  "colleague": [
+    "A2"
+  ],
+  "collect": [
+    "A2"
+  ],
+  "collection": [
+    "B1"
+  ],
+  "college": [
+    "A1"
+  ],
+  "color": [
+    "A1"
+  ],
+  "colored": [
+    "B1"
+  ],
+  "column": [
+    "A2"
+  ],
+  "combination": [
+    "B2"
+  ],
+  "combine": [
+    "B1"
+  ],
+  "come": [
+    "A1"
+  ],
+  "comedy": [
+    "A2"
+  ],
+  "comfort": [
+    "B2"
+  ],
+  "comfortable": [
+    "A2"
+  ],
+  "command": [
+    "B2"
+  ],
+  "comment": [
+    "A2",
+    "B1"
+  ],
+  "commercial": [
+    "B1"
+  ],
+  "commission": [
+    "B2"
+  ],
+  "commit": [
+    "B1"
+  ],
+  "commitment": [
+    "B2"
+  ],
+  "committee": [
+    "B2"
+  ],
+  "common": [
+    "A1"
+  ],
+  "commonly": [
+    "B2"
+  ],
+  "communicate": [
+    "A2"
+  ],
+  "communication": [
+    "B1"
+  ],
+  "community": [
+    "A2"
+  ],
+  "company": [
+    "A1"
+  ],
+  "compare": [
+    "A1"
+  ],
+  "comparison": [
+    "B1"
+  ],
+  "compete": [
+    "A2"
+  ],
+  "competition": [
+    "A2"
+  ],
+  "competitive": [
+    "B1"
+  ],
+  "competitor": [
+    "B1"
+  ],
+  "complain": [
+    "A2"
+  ],
+  "complaint": [
+    "B1"
+  ],
+  "complete": [
+    "A1"
+  ],
+  "completely": [
+    "A2"
+  ],
+  "complex": [
+    "B1",
+    "B2"
+  ],
+  "complicated": [
+    "B2"
+  ],
+  "component": [
+    "B2"
+  ],
+  "computer": [
+    "A1"
+  ],
+  "concentrate": [
+    "B1"
+  ],
+  "concentration": [
+    "B2"
+  ],
+  "concept": [
+    "B2"
+  ],
+  "concern": [
+    "B2"
+  ],
+  "concerned": [
+    "B2"
+  ],
+  "concert": [
+    "A1"
+  ],
+  "conclude": [
+    "B1"
+  ],
+  "conclusion": [
+    "B1"
+  ],
+  "condition": [
+    "A2"
+  ],
+  "conduct": [
+    "B2"
+  ],
+  "conference": [
+    "A2"
+  ],
+  "confidence": [
+    "B2"
+  ],
+  "confident": [
+    "B1"
+  ],
+  "confirm": [
+    "B1"
+  ],
+  "conflict": [
+    "B2"
+  ],
+  "confuse": [
+    "B1"
+  ],
+  "confused": [
+    "B1"
+  ],
+  "confusing": [
+    "B2"
+  ],
+  "congress": [
+    "B2"
+  ],
+  "connect": [
+    "A2"
+  ],
+  "connected": [
+    "A2"
+  ],
+  "connection": [
+    "B1"
+  ],
+  "conscious": [
+    "B2"
+  ],
+  "consequence": [
+    "B1"
+  ],
+  "conservative": [
+    "B2"
+  ],
+  "consider": [
+    "A2"
+  ],
+  "consideration": [
+    "B2"
+  ],
+  "consist": [
+    "B1"
+  ],
+  "consistent": [
+    "B2"
+  ],
+  "constant": [
+    "B2"
+  ],
+  "constantly": [
+    "B2"
+  ],
+  "construct": [
+    "B2"
+  ],
+  "construction": [
+    "B2"
+  ],
+  "consume": [
+    "B1"
+  ],
+  "consumer": [
+    "B1"
+  ],
+  "contact": [
+    "B1"
+  ],
+  "contain": [
+    "A2"
+  ],
+  "container": [
+    "B1"
+  ],
+  "contemporary": [
+    "B2"
+  ],
+  "content1": [
+    "B1"
+  ],
+  "contest": [
+    "B2"
+  ],
+  "context": [
+    "A2"
+  ],
+  "continent": [
+    "A2"
+  ],
+  "continue": [
+    "A2"
+  ],
+  "continuous": [
+    "B1"
+  ],
+  "contract": [
+    "B2"
+  ],
+  "contrast": [
+    "B1"
+  ],
+  "contribute": [
+    "B2"
+  ],
+  "contribution": [
+    "B2"
+  ],
+  "control": [
+    "A2"
+  ],
+  "convenient": [
+    "B1"
+  ],
+  "conversation": [
+    "A1"
+  ],
+  "convert": [
+    "B2"
+  ],
+  "convince": [
+    "B1"
+  ],
+  "convinced": [
+    "B2"
+  ],
+  "cook": [
+    "A1",
+    "A2"
+  ],
+  "cookie": [
+    "A2"
+  ],
+  "cooking": [
+    "A1"
+  ],
+  "cool": [
+    "A1",
+    "B1"
+  ],
+  "copy": [
+    "A2"
+  ],
+  "core": [
+    "B2"
+  ],
+  "corn": [
+    "B1"
+  ],
+  "corner": [
+    "A2"
+  ],
+  "corporate": [
+    "B2"
+  ],
+  "correct": [
+    "A1"
+  ],
+  "correctly": [
+    "A2"
+  ],
+  "cost": [
+    "A1"
+  ],
+  "costume": [
+    "B1"
+  ],
+  "cotton": [
+    "B1"
+  ],
+  "could": [
+    "A1"
+  ],
+  "council": [
+    "B2"
+  ],
+  "count": [
+    "A2",
+    "B1"
+  ],
+  "country": [
+    "A1"
+  ],
+  "countryside": [
+    "B1"
+  ],
+  "county": [
+    "B2"
+  ],
+  "couple": [
+    "A2"
+  ],
+  "courage": [
+    "B2"
+  ],
+  "course": [
+    "A1"
+  ],
+  "court": [
+    "B1"
+  ],
+  "cousin": [
+    "A1"
+  ],
+  "cover": [
+    "A2",
+    "B1"
+  ],
+  "covered": [
+    "B1"
+  ],
+  "cow": [
+    "A1"
+  ],
+  "crash": [
+    "B2"
+  ],
+  "crazy": [
+    "A2"
+  ],
+  "cream": [
+    "A1",
+    "B1"
+  ],
+  "create": [
+    "A1"
+  ],
+  "creation": [
+    "B2"
+  ],
+  "creative": [
+    "A2"
+  ],
+  "creature": [
+    "B2"
+  ],
+  "credit": [
+    "A2",
+    "B2"
+  ],
+  "crew": [
+    "B2"
+  ],
+  "crime": [
+    "A2"
+  ],
+  "criminal": [
+    "A2",
+    "B1"
+  ],
+  "crisis": [
+    "B2"
+  ],
+  "criterion": [
+    "B2"
+  ],
+  "critic": [
+    "B2"
+  ],
+  "critical": [
+    "B2"
+  ],
+  "criticism": [
+    "B2"
+  ],
+  "criticize": [
+    "B2"
+  ],
+  "crop": [
+    "B2"
+  ],
+  "cross": [
+    "A2"
+  ],
+  "crowd": [
+    "A2"
+  ],
+  "crowded": [
+    "A2"
+  ],
+  "crucial": [
+    "B2"
+  ],
+  "cruel": [
+    "B1"
+  ],
+  "cry": [
+    "A2",
+    "B2"
+  ],
+  "cultural": [
+    "B1"
+  ],
+  "culture": [
+    "A1"
+  ],
+  "cup": [
+    "A1"
+  ],
+  "cupboard": [
+    "B1"
+  ],
+  "cure": [
+    "B2"
+  ],
+  "curly": [
+    "A2"
+  ],
+  "currency": [
+    "B1"
+  ],
+  "current": [
+    "B1",
+    "B2"
+  ],
+  "currently": [
+    "B1"
+  ],
+  "curtain": [
+    "B1"
+  ],
+  "curve": [
+    "B2"
+  ],
+  "curved": [
+    "B2"
+  ],
+  "custom": [
+    "B1"
+  ],
+  "customer": [
+    "A1"
+  ],
+  "cut": [
+    "A1",
+    "B1"
+  ],
+  "cycle": [
+    "A2"
+  ],
+  "dad": [
+    "A1"
+  ],
+  "daily": [
+    "A2",
+    "B1"
+  ],
+  "damage": [
+    "B1"
+  ],
+  "dance": [
+    "A1"
+  ],
+  "dancer": [
+    "A1"
+  ],
+  "dancing": [
+    "A1"
+  ],
+  "danger": [
+    "A2"
+  ],
+  "dangerous": [
+    "A1"
+  ],
+  "dark": [
+    "A1",
+    "A2"
+  ],
+  "data": [
+    "A2"
+  ],
+  "date": [
+    "A1",
+    "B2"
+  ],
+  "daughter": [
+    "A1"
+  ],
+  "day": [
+    "A1"
+  ],
+  "dead": [
+    "A2"
+  ],
+  "deal": [
+    "A2",
+    "B1"
+  ],
+  "dear": [
+    "A1"
+  ],
+  "death": [
+    "A2"
+  ],
+  "debate": [
+    "B2"
+  ],
+  "debt": [
+    "B2"
+  ],
+  "decade": [
+    "B1"
+  ],
+  "December": [
+    "A1"
+  ],
+  "decent": [
+    "B2"
+  ],
+  "decide": [
+    "A1"
+  ],
+  "decision": [
+    "A2"
+  ],
+  "declare": [
+    "B2"
+  ],
+  "decline": [
+    "B2"
+  ],
+  "decorate": [
+    "B2"
+  ],
+  "decoration": [
+    "B2"
+  ],
+  "decrease": [
+    "B2"
+  ],
+  "deep": [
+    "A2",
+    "B1"
+  ],
+  "deeply": [
+    "B2"
+  ],
+  "defeat": [
+    "B2"
+  ],
+  "defend": [
+    "B2"
+  ],
+  "defense": [
+    "B2"
+  ],
+  "define": [
+    "B1"
+  ],
+  "definite": [
+    "B1"
+  ],
+  "definitely": [
+    "A2"
+  ],
+  "definition": [
+    "B1"
+  ],
+  "degree": [
+    "A2"
+  ],
+  "delay": [
+    "B2"
+  ],
+  "deliberate": [
+    "B2"
+  ],
+  "deliberately": [
+    "B2"
+  ],
+  "delicious": [
+    "A1"
+  ],
+  "deliver": [
+    "B1"
+  ],
+  "delivery": [
+    "B2"
+  ],
+  "demand": [
+    "B2"
+  ],
+  "demonstrate": [
+    "B2"
+  ],
+  "dentist": [
+    "A2"
+  ],
+  "deny": [
+    "B2"
+  ],
+  "department": [
+    "A2"
+  ],
+  "departure": [
+    "B1"
+  ],
+  "depend": [
+    "A2"
+  ],
+  "depressed": [
+    "B2"
+  ],
+  "depressing": [
+    "B2"
+  ],
+  "depth": [
+    "B2"
+  ],
+  "describe": [
+    "A1"
+  ],
+  "description": [
+    "A1"
+  ],
+  "desert": [
+    "A2",
+    "B2"
+  ],
+  "deserve": [
+    "B2"
+  ],
+  "design": [
+    "A1"
+  ],
+  "designer": [
+    "A2"
+  ],
+  "desire": [
+    "B2"
+  ],
+  "desk": [
+    "A1"
+  ],
+  "desperate": [
+    "B2"
+  ],
+  "despite": [
+    "B1"
+  ],
+  "dessert": [
+    "A2"
+  ],
+  "destination": [
+    "B1"
+  ],
+  "destroy": [
+    "A2"
+  ],
+  "detail": [
+    "A1",
+    "B2"
+  ],
+  "detailed": [
+    "B2"
+  ],
+  "detect": [
+    "B2"
+  ],
+  "detective": [
+    "A2"
+  ],
+  "determine": [
+    "B1"
+  ],
+  "determined": [
+    "B1"
+  ],
+  "develop": [
+    "A2"
+  ],
+  "development": [
+    "B1"
+  ],
+  "device": [
+    "A2"
+  ],
+  "diagram": [
+    "B1"
+  ],
+  "dialogue": [
+    "A1"
+  ],
+  "diamond": [
+    "B1"
+  ],
+  "diary": [
+    "A2"
+  ],
+  "dictionary": [
+    "A1"
+  ],
+  "die": [
+    "A1"
+  ],
+  "diet": [
+    "A1"
+  ],
+  "difference": [
+    "A1"
+  ],
+  "different": [
+    "A1"
+  ],
+  "differently": [
+    "A2"
+  ],
+  "difficult": [
+    "A1"
+  ],
+  "difficulty": [
+    "B1"
+  ],
+  "dig": [
+    "B2"
+  ],
+  "digital": [
+    "A2"
+  ],
+  "dinner": [
+    "A1"
+  ],
+  "direct": [
+    "A2",
+    "B1"
+  ],
+  "direction": [
+    "A2"
+  ],
+  "directly": [
+    "B1"
+  ],
+  "director": [
+    "A2"
+  ],
+  "dirt": [
+    "B1"
+  ],
+  "dirty": [
+    "A1"
+  ],
+  "disadvantage": [
+    "B1"
+  ],
+  "disagree": [
+    "A2"
+  ],
+  "disappear": [
+    "A2"
+  ],
+  "disappointed": [
+    "B1"
+  ],
+  "disappointing": [
+    "B1"
+  ],
+  "disaster": [
+    "A2"
+  ],
+  "discipline": [
+    "B2"
+  ],
+  "discount": [
+    "B1",
+    "B2"
+  ],
+  "discover": [
+    "A2"
+  ],
+  "discovery": [
+    "A2"
+  ],
+  "discuss": [
+    "A1"
+  ],
+  "discussion": [
+    "A2"
+  ],
+  "disease": [
+    "A2"
+  ],
+  "dish": [
+    "A1"
+  ],
+  "dishonest": [
+    "B2"
+  ],
+  "disk": [
+    "B2"
+  ],
+  "dislike": [
+    "B1"
+  ],
+  "dismiss": [
+    "B2"
+  ],
+  "display": [
+    "B2"
+  ],
+  "distance": [
+    "A2"
+  ],
+  "distribute": [
+    "B2"
+  ],
+  "distribution": [
+    "B2"
+  ],
+  "district": [
+    "B1"
+  ],
+  "divide": [
+    "B1",
+    "B2"
+  ],
+  "division": [
+    "B2"
+  ],
+  "divorced": [
+    "A2"
+  ],
+  "do1": [
+    "A1"
+  ],
+  "doctor": [
+    "A1"
+  ],
+  "document": [
+    "A2",
+    "B2"
+  ],
+  "documentary": [
+    "B1"
+  ],
+  "dog": [
+    "A1"
+  ],
+  "dollar": [
+    "A1"
+  ],
+  "domestic": [
+    "B2"
+  ],
+  "dominate": [
+    "B2"
+  ],
+  "donate": [
+    "B1"
+  ],
+  "door": [
+    "A1"
+  ],
+  "double": [
+    "A2"
+  ],
+  "doubt": [
+    "B1"
+  ],
+  "down": [
+    "A1"
+  ],
+  "download": [
+    "A2"
+  ],
+  "downstairs": [
+    "A1",
+    "A2"
+  ],
+  "downtown": [
+    "A2"
+  ],
+  "downward": [
+    "B2"
+  ],
+  "dozen": [
+    "B2"
+  ],
+  "draft": [
+    "B2"
+  ],
+  "drag": [
+    "B2"
+  ],
+  "drama": [
+    "A2"
+  ],
+  "dramatic": [
+    "B2"
+  ],
+  "draw": [
+    "A1"
+  ],
+  "drawing": [
+    "A2"
+  ],
+  "dream": [
+    "A2"
+  ],
+  "dress": [
+    "A1"
+  ],
+  "dressed": [
+    "B1"
+  ],
+  "drink": [
+    "A1"
+  ],
+  "drive": [
+    "A1",
+    "A2"
+  ],
+  "driver": [
+    "A1"
+  ],
+  "driving": [
+    "A2"
+  ],
+  "drop": [
+    "A2",
+    "B1"
+  ],
+  "drug": [
+    "A2"
+  ],
+  "drum": [
+    "B1"
+  ],
+  "drunk": [
+    "B1"
+  ],
+  "dry": [
+    "A2"
+  ],
+  "due": [
+    "B1"
+  ],
+  "during": [
+    "A1"
+  ],
+  "dust": [
+    "B1"
+  ],
+  "duty": [
+    "B1"
+  ],
+  "DVD": [
+    "A1"
+  ],
+  "each": [
+    "A1"
+  ],
+  "ear": [
+    "A1"
+  ],
+  "early": [
+    "A1"
+  ],
+  "earn": [
+    "A2"
+  ],
+  "earth": [
+    "A2"
+  ],
+  "earthquake": [
+    "B1"
+  ],
+  "easily": [
+    "A2"
+  ],
+  "east": [
+    "A1"
+  ],
+  "eastern": [
+    "B1"
+  ],
+  "easy": [
+    "A1"
+  ],
+  "eat": [
+    "A1"
+  ],
+  "economic": [
+    "B1"
+  ],
+  "economy": [
+    "B1"
+  ],
+  "edge": [
+    "B1"
+  ],
+  "edit": [
+    "B2"
+  ],
+  "edition": [
+    "B2"
+  ],
+  "editor": [
+    "B1"
+  ],
+  "educate": [
+    "B1"
+  ],
+  "educated": [
+    "B1"
+  ],
+  "education": [
+    "A2"
+  ],
+  "educational": [
+    "B1"
+  ],
+  "effect": [
+    "A2"
+  ],
+  "effective": [
+    "B1"
+  ],
+  "effectively": [
+    "B1"
+  ],
+  "efficient": [
+    "B2"
+  ],
+  "effort": [
+    "B1"
+  ],
+  "egg": [
+    "A1"
+  ],
+  "eight": [
+    "A1"
+  ],
+  "eighteen": [
+    "A1"
+  ],
+  "eighty": [
+    "A1"
+  ],
+  "either": [
+    "A2"
+  ],
+  "elderly": [
+    "B2"
+  ],
+  "elect": [
+    "B2"
+  ],
+  "election": [
+    "B1"
+  ],
+  "electric": [
+    "A2"
+  ],
+  "electrical": [
+    "A2"
+  ],
+  "electricity": [
+    "A2"
+  ],
+  "electronic": [
+    "A2"
+  ],
+  "element": [
+    "B1"
+  ],
+  "elephant": [
+    "A1"
+  ],
+  "elevator": [
+    "A2"
+  ],
+  "eleven": [
+    "A1"
+  ],
+  "else": [
+    "A1"
+  ],
+  "elsewhere": [
+    "B2"
+  ],
+  "email": [
+    "A1"
+  ],
+  "embarrassed": [
+    "B1"
+  ],
+  "embarrassing": [
+    "B1"
+  ],
+  "emerge": [
+    "B2"
+  ],
+  "emergency": [
+    "B1"
+  ],
+  "emotion": [
+    "B1"
+  ],
+  "emotional": [
+    "B2"
+  ],
+  "emphasis": [
+    "B2"
+  ],
+  "emphasize": [
+    "B2"
+  ],
+  "employ": [
+    "A2"
+  ],
+  "employee": [
+    "A2"
+  ],
+  "employer": [
+    "A2"
+  ],
+  "employment": [
+    "B1"
+  ],
+  "empty": [
+    "A2",
+    "B1"
+  ],
+  "enable": [
+    "B2"
+  ],
+  "encounter": [
+    "B2"
+  ],
+  "encourage": [
+    "B1"
+  ],
+  "end": [
+    "A1"
+  ],
+  "ending": [
+    "A2"
+  ],
+  "enemy": [
+    "B1"
+  ],
+  "energy": [
+    "A2"
+  ],
+  "engage": [
+    "B2"
+  ],
+  "engaged": [
+    "B1"
+  ],
+  "engine": [
+    "A2"
+  ],
+  "engineer": [
+    "A2"
+  ],
+  "engineering": [
+    "B1"
+  ],
+  "enhance": [
+    "B2"
+  ],
+  "enjoy": [
+    "A1"
+  ],
+  "enormous": [
+    "A2"
+  ],
+  "enough": [
+    "A1"
+  ],
+  "ensure": [
+    "B2"
+  ],
+  "enter": [
+    "A2"
+  ],
+  "entertain": [
+    "B1"
+  ],
+  "entertainment": [
+    "B1"
+  ],
+  "enthusiasm": [
+    "B2"
+  ],
+  "enthusiastic": [
+    "B2"
+  ],
+  "entire": [
+    "B2"
+  ],
+  "entirely": [
+    "B2"
+  ],
+  "entrance": [
+    "B1"
+  ],
+  "entry": [
+    "B1"
+  ],
+  "environment": [
+    "A2"
+  ],
+  "environmental": [
+    "B1"
+  ],
+  "episode": [
+    "B1"
+  ],
+  "equal": [
+    "B1",
+    "B2"
+  ],
+  "equally": [
+    "B1"
+  ],
+  "equipment": [
+    "A2"
+  ],
+  "error": [
+    "A2"
+  ],
+  "escape": [
+    "B1"
+  ],
+  "especially": [
+    "A2"
+  ],
+  "essay": [
+    "A2"
+  ],
+  "essential": [
+    "B1"
+  ],
+  "establish": [
+    "B2"
+  ],
+  "estate": [
+    "B2"
+  ],
+  "estimate": [
+    "B2"
+  ],
+  "ethical": [
+    "B2"
+  ],
+  "euro": [
+    "A1"
+  ],
+  "evaluate": [
+    "B2"
+  ],
+  "even": [
+    "A1",
+    "B2"
+  ],
+  "evening": [
+    "A1"
+  ],
+  "event": [
+    "A1"
+  ],
+  "eventually": [
+    "B1"
+  ],
+  "ever": [
+    "A1"
+  ],
+  "every": [
+    "A1"
+  ],
+  "everybody": [
+    "A1"
+  ],
+  "everyday": [
+    "A2"
+  ],
+  "everyone": [
+    "A1"
+  ],
+  "everything": [
+    "A1"
+  ],
+  "everywhere": [
+    "A2"
+  ],
+  "evidence": [
+    "A2"
+  ],
+  "evil": [
+    "B2"
+  ],
+  "exact": [
+    "A2"
+  ],
+  "exactly": [
+    "A2"
+  ],
+  "exam": [
+    "A1"
+  ],
+  "examination": [
+    "B2"
+  ],
+  "examine": [
+    "B1"
+  ],
+  "example": [
+    "A1"
+  ],
+  "excellent": [
+    "A2"
+  ],
+  "except": [
+    "A2",
+    "B1"
+  ],
+  "exchange": [
+    "B1"
+  ],
+  "excited": [
+    "A1"
+  ],
+  "excitement": [
+    "B1"
+  ],
+  "exciting": [
+    "A1"
+  ],
+  "excuse": [
+    "B2"
+  ],
+  "executive": [
+    "B2"
+  ],
+  "exercise": [
+    "A1"
+  ],
+  "exhibit": [
+    "B2"
+  ],
+  "exhibition": [
+    "B1"
+  ],
+  "exist": [
+    "A2"
+  ],
+  "existence": [
+    "B2"
+  ],
+  "exit": [
+    "B1",
+    "B2"
+  ],
+  "expand": [
+    "B1"
+  ],
+  "expect": [
+    "A2"
+  ],
+  "expectation": [
+    "B2"
+  ],
+  "expected": [
+    "B1"
+  ],
+  "expense": [
+    "B2"
+  ],
+  "expensive": [
+    "A1"
+  ],
+  "experience": [
+    "A2",
+    "B1"
+  ],
+  "experienced": [
+    "B1"
+  ],
+  "experiment": [
+    "A2",
+    "B1"
+  ],
+  "expert": [
+    "A2"
+  ],
+  "explain": [
+    "A1"
+  ],
+  "explanation": [
+    "A2"
+  ],
+  "explode": [
+    "B1"
+  ],
+  "exploration": [
+    "B2"
+  ],
+  "explore": [
+    "B1"
+  ],
+  "explosion": [
+    "B1"
+  ],
+  "export": [
+    "B1"
+  ],
+  "expose": [
+    "B2"
+  ],
+  "express": [
+    "A2"
+  ],
+  "expression": [
+    "A2"
+  ],
+  "extend": [
+    "B2"
+  ],
+  "extent": [
+    "B2"
+  ],
+  "external": [
+    "B2"
+  ],
+  "extra": [
+    "A1",
+    "B1"
+  ],
+  "extraordinary": [
+    "B2"
+  ],
+  "extreme": [
+    "A2",
+    "B2"
+  ],
+  "extremely": [
+    "A2"
+  ],
+  "eye": [
+    "A1"
+  ],
+  "face": [
+    "A1",
+    "B1"
+  ],
+  "facility": [
+    "B2"
+  ],
+  "fact": [
+    "A1"
+  ],
+  "factor": [
+    "A2"
+  ],
+  "factory": [
+    "A2"
+  ],
+  "fail": [
+    "A2"
+  ],
+  "failure": [
+    "B2"
+  ],
+  "fair": [
+    "A2"
+  ],
+  "fairly": [
+    "B1"
+  ],
+  "faith": [
+    "B2"
+  ],
+  "fall": [
+    "A1"
+  ],
+  "false": [
+    "A1"
+  ],
+  "familiar": [
+    "B1"
+  ],
+  "family": [
+    "A1"
+  ],
+  "famous": [
+    "A1"
+  ],
+  "fan": [
+    "A2"
+  ],
+  "fancy": [
+    "B1"
+  ],
+  "fantastic": [
+    "A1"
+  ],
+  "far": [
+    "A1",
+    "B1"
+  ],
+  "farm": [
+    "A1",
+    "A2"
+  ],
+  "farmer": [
+    "A1"
+  ],
+  "farming": [
+    "A2"
+  ],
+  "fascinating": [
+    "B1"
+  ],
+  "fashion": [
+    "A2"
+  ],
+  "fashionable": [
+    "B1"
+  ],
+  "fast": [
+    "A1"
+  ],
+  "fasten": [
+    "B1"
+  ],
+  "fat": [
+    "A1",
+    "A2"
+  ],
+  "father": [
+    "A1"
+  ],
+  "fault": [
+    "B2"
+  ],
+  "favor": [
+    "B1",
+    "B2"
+  ],
+  "favorite": [
+    "A1"
+  ],
+  "fear": [
+    "A2",
+    "B1"
+  ],
+  "feather": [
+    "B2"
+  ],
+  "feature": [
+    "A2",
+    "B1"
+  ],
+  "February": [
+    "A1"
+  ],
+  "federal": [
+    "B1"
+  ],
+  "fee": [
+    "B2"
+  ],
+  "feed": [
+    "A2",
+    "B2"
+  ],
+  "feedback": [
+    "B2"
+  ],
+  "feel": [
+    "A1",
+    "B2"
+  ],
+  "feeling": [
+    "A1"
+  ],
+  "fellow": [
+    "B2"
+  ],
+  "female": [
+    "A2"
+  ],
+  "fence": [
+    "B1"
+  ],
+  "festival": [
+    "A1"
+  ],
+  "fever": [
+    "A2"
+  ],
+  "few": [
+    "A1"
+  ],
+  "fiction": [
+    "A2"
+  ],
+  "field": [
+    "A2"
+  ],
+  "fifteen": [
+    "A1"
+  ],
+  "fifth": [
+    "A1"
+  ],
+  "fifty": [
+    "A1"
+  ],
+  "fight": [
+    "A2"
+  ],
+  "fighting": [
+    "B1"
+  ],
+  "figure": [
+    "A2",
+    "B2"
+  ],
+  "file": [
+    "B1",
+    "B2"
+  ],
+  "fill": [
+    "A1"
+  ],
+  "film": [
+    "A2"
+  ],
+  "final": [
+    "A1",
+    "A2"
+  ],
+  "finally": [
+    "A2"
+  ],
+  "finance": [
+    "B2"
+  ],
+  "financial": [
+    "B1"
+  ],
+  "find": [
+    "A1"
+  ],
+  "finding": [
+    "B2"
+  ],
+  "fine": [
+    "A1"
+  ],
+  "finger": [
+    "A2"
+  ],
+  "finish": [
+    "A1",
+    "A2"
+  ],
+  "fire": [
+    "A1",
+    "A2"
+  ],
+  "firm": [
+    "B2"
+  ],
+  "first": [
+    "A1",
+    "A2"
+  ],
+  "fish": [
+    "A1",
+    "A2"
+  ],
+  "fishing": [
+    "A2"
+  ],
+  "fit": [
+    "A2"
+  ],
+  "fitness": [
+    "B1"
+  ],
+  "five": [
+    "A1"
+  ],
+  "fix": [
+    "A2",
+    "B2"
+  ],
+  "fixed": [
+    "B1"
+  ],
+  "flag": [
+    "B1"
+  ],
+  "flame": [
+    "B2"
+  ],
+  "flash": [
+    "B2"
+  ],
+  "flat": [
+    "A2"
+  ],
+  "flexible": [
+    "B2"
+  ],
+  "flight": [
+    "A1"
+  ],
+  "float": [
+    "B2"
+  ],
+  "flood": [
+    "B1"
+  ],
+  "floor": [
+    "A1"
+  ],
+  "flour": [
+    "B1"
+  ],
+  "flow": [
+    "B1"
+  ],
+  "flower": [
+    "A1"
+  ],
+  "flu": [
+    "A2"
+  ],
+  "fly": [
+    "A1",
+    "A2"
+  ],
+  "flying": [
+    "A2"
+  ],
+  "focus": [
+    "A2"
+  ],
+  "fold": [
+    "B1",
+    "B2"
+  ],
+  "folding": [
+    "B2"
+  ],
+  "folk": [
+    "B1"
+  ],
+  "follow": [
+    "A1"
+  ],
+  "following": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "food": [
+    "A1"
+  ],
+  "foot": [
+    "A1"
+  ],
+  "football": [
+    "A1"
+  ],
+  "for": [
+    "A1"
+  ],
+  "force": [
+    "B1"
+  ],
+  "foreign": [
+    "A2"
+  ],
+  "forest": [
+    "A2"
+  ],
+  "forever": [
+    "B1"
+  ],
+  "forget": [
+    "A1"
+  ],
+  "forgive": [
+    "B2"
+  ],
+  "fork": [
+    "A2"
+  ],
+  "form": [
+    "A1"
+  ],
+  "formal": [
+    "A2"
+  ],
+  "former": [
+    "B2"
+  ],
+  "fortunately": [
+    "A2"
+  ],
+  "fortune": [
+    "B2"
+  ],
+  "forty": [
+    "A1"
+  ],
+  "forward": [
+    "A2",
+    "B2"
+  ],
+  "found": [
+    "B2"
+  ],
+  "four": [
+    "A1"
+  ],
+  "fourteen": [
+    "A1"
+  ],
+  "fourth": [
+    "A1"
+  ],
+  "frame": [
+    "B1"
+  ],
+  "free": [
+    "A1",
+    "A2",
+    "B2"
+  ],
+  "freedom": [
+    "B2"
+  ],
+  "freeze": [
+    "B1"
+  ],
+  "frequency": [
+    "B2"
+  ],
+  "frequently": [
+    "B1"
+  ],
+  "fresh": [
+    "A2"
+  ],
+  "Friday": [
+    "A1"
+  ],
+  "friend": [
+    "A1"
+  ],
+  "friendly": [
+    "A1"
+  ],
+  "friendship": [
+    "B1"
+  ],
+  "frighten": [
+    "B1"
+  ],
+  "frightened": [
+    "B1"
+  ],
+  "frightening": [
+    "B1"
+  ],
+  "frog": [
+    "A2"
+  ],
+  "from": [
+    "A1"
+  ],
+  "front": [
+    "A1"
+  ],
+  "frozen": [
+    "B1"
+  ],
+  "fruit": [
+    "A1"
+  ],
+  "fry": [
+    "B1"
+  ],
+  "fuel": [
+    "B1",
+    "B2"
+  ],
+  "full": [
+    "A1"
+  ],
+  "fully": [
+    "B2"
+  ],
+  "fun": [
+    "A1",
+    "A2"
+  ],
+  "function": [
+    "B1",
+    "B2"
+  ],
+  "fund": [
+    "B2"
+  ],
+  "fundamental": [
+    "B2"
+  ],
+  "funding": [
+    "B2"
+  ],
+  "funny": [
+    "A1"
+  ],
+  "fur": [
+    "B1"
+  ],
+  "furniture": [
+    "A2"
+  ],
+  "further": [
+    "A2",
+    "B1"
+  ],
+  "furthermore": [
+    "B2"
+  ],
+  "future": [
+    "A1",
+    "A2"
+  ],
+  "gain": [
+    "B2"
+  ],
+  "gallery": [
+    "A2"
+  ],
+  "game": [
+    "A1"
+  ],
+  "gang": [
+    "B2"
+  ],
+  "gap": [
+    "A2"
+  ],
+  "garage": [
+    "B1"
+  ],
+  "garbage": [
+    "A2"
+  ],
+  "garden": [
+    "A1"
+  ],
+  "gas": [
+    "A2"
+  ],
+  "gate": [
+    "A2"
+  ],
+  "gather": [
+    "B1"
+  ],
+  "general": [
+    "A2"
+  ],
+  "generally": [
+    "B1"
+  ],
+  "generate": [
+    "B2"
+  ],
+  "generation": [
+    "B1"
+  ],
+  "generous": [
+    "B1"
+  ],
+  "genre": [
+    "B2"
+  ],
+  "gentle": [
+    "B1"
+  ],
+  "gentleman": [
+    "B1"
+  ],
+  "geography": [
+    "A1"
+  ],
+  "get": [
+    "A1"
+  ],
+  "ghost": [
+    "B1"
+  ],
+  "giant": [
+    "B1"
+  ],
+  "gift": [
+    "A2"
+  ],
+  "girl": [
+    "A1"
+  ],
+  "girlfriend": [
+    "A1"
+  ],
+  "give": [
+    "A1"
+  ],
+  "glad": [
+    "B1"
+  ],
+  "glass": [
+    "A1"
+  ],
+  "global": [
+    "B1"
+  ],
+  "glove": [
+    "B1"
+  ],
+  "go": [
+    "A1",
+    "B1"
+  ],
+  "goal": [
+    "A2"
+  ],
+  "god": [
+    "A2"
+  ],
+  "gold": [
+    "A2"
+  ],
+  "golf": [
+    "A2"
+  ],
+  "good": [
+    "A1",
+    "A2"
+  ],
+  "goodbye": [
+    "A1"
+  ],
+  "goods": [
+    "B2"
+  ],
+  "govern": [
+    "B2"
+  ],
+  "government": [
+    "A2"
+  ],
+  "governor": [
+    "B2"
+  ],
+  "grab": [
+    "B2"
+  ],
+  "grade": [
+    "B1",
+    "B2"
+  ],
+  "gradually": [
+    "B2"
+  ],
+  "graduate": [
+    "B1"
+  ],
+  "grain": [
+    "B1"
+  ],
+  "grand": [
+    "B2"
+  ],
+  "grandfather": [
+    "A1"
+  ],
+  "grandmother": [
+    "A1"
+  ],
+  "grandparent": [
+    "A1"
+  ],
+  "grant": [
+    "B2"
+  ],
+  "grass": [
+    "A2"
+  ],
+  "grateful": [
+    "B1"
+  ],
+  "gray": [
+    "A1"
+  ],
+  "great": [
+    "A1"
+  ],
+  "green": [
+    "A1"
+  ],
+  "greet": [
+    "A2"
+  ],
+  "grocery": [
+    "A2"
+  ],
+  "ground": [
+    "A2"
+  ],
+  "group": [
+    "A1"
+  ],
+  "grow": [
+    "A1"
+  ],
+  "growth": [
+    "B1"
+  ],
+  "guarantee": [
+    "B2"
+  ],
+  "guard": [
+    "B1"
+  ],
+  "guess": [
+    "A1"
+  ],
+  "guest": [
+    "A2"
+  ],
+  "guide": [
+    "A2"
+  ],
+  "guilty": [
+    "B1"
+  ],
+  "guitar": [
+    "A1"
+  ],
+  "gun": [
+    "A2"
+  ],
+  "guy": [
+    "A2"
+  ],
+  "gym": [
+    "A1"
+  ],
+  "habit": [
+    "A2"
+  ],
+  "hair": [
+    "A1"
+  ],
+  "half": [
+    "A1",
+    "A2"
+  ],
+  "hall": [
+    "A2"
+  ],
+  "hand": [
+    "A1",
+    "B1"
+  ],
+  "handle": [
+    "B2"
+  ],
+  "hang": [
+    "B1"
+  ],
+  "happen": [
+    "A1"
+  ],
+  "happily": [
+    "A2"
+  ],
+  "happiness": [
+    "B1"
+  ],
+  "happy": [
+    "A1"
+  ],
+  "hard": [
+    "A1"
+  ],
+  "hardly": [
+    "B1"
+  ],
+  "harm": [
+    "B2"
+  ],
+  "harmful": [
+    "B2"
+  ],
+  "hat": [
+    "A1"
+  ],
+  "hate": [
+    "A1",
+    "B1"
+  ],
+  "have": [
+    "A1",
+    "A2"
+  ],
+  "have to": [
+    "A1"
+  ],
+  "he": [
+    "A1"
+  ],
+  "head": [
+    "A1",
+    "B1"
+  ],
+  "headache": [
+    "A2"
+  ],
+  "headline": [
+    "B1"
+  ],
+  "health": [
+    "A1"
+  ],
+  "healthy": [
+    "A1"
+  ],
+  "hear": [
+    "A1"
+  ],
+  "hearing": [
+    "B2"
+  ],
+  "heart": [
+    "A2"
+  ],
+  "heat": [
+    "A2"
+  ],
+  "heating": [
+    "B1"
+  ],
+  "heaven": [
+    "B2"
+  ],
+  "heavily": [
+    "B1"
+  ],
+  "heavy": [
+    "A2"
+  ],
+  "heel": [
+    "B2"
+  ],
+  "height": [
+    "A2"
+  ],
+  "helicopter": [
+    "B1"
+  ],
+  "hell": [
+    "B2"
+  ],
+  "hello": [
+    "A1"
+  ],
+  "help": [
+    "A1"
+  ],
+  "helpful": [
+    "A2"
+  ],
+  "her": [
+    "A1"
+  ],
+  "here": [
+    "A1"
+  ],
+  "hero": [
+    "A2"
+  ],
+  "hers": [
+    "A2"
+  ],
+  "herself": [
+    "A2"
+  ],
+  "hesitate": [
+    "B2"
+  ],
+  "hey": [
+    "A1"
+  ],
+  "hi": [
+    "A1"
+  ],
+  "hide": [
+    "A2"
+  ],
+  "high": [
+    "A1",
+    "A2",
+    "B2"
+  ],
+  "highlight": [
+    "B1"
+  ],
+  "highly": [
+    "B1"
+  ],
+  "highway": [
+    "B1"
+  ],
+  "hill": [
+    "A2"
+  ],
+  "him": [
+    "A1"
+  ],
+  "himself": [
+    "A2"
+  ],
+  "hire": [
+    "B1",
+    "B2"
+  ],
+  "his": [
+    "A1",
+    "A2"
+  ],
+  "historic": [
+    "B1"
+  ],
+  "historical": [
+    "B1"
+  ],
+  "history": [
+    "A1"
+  ],
+  "hit": [
+    "A2"
+  ],
+  "hobby": [
+    "A1"
+  ],
+  "hockey": [
+    "A2"
+  ],
+  "hold": [
+    "A2",
+    "B2"
+  ],
+  "hole": [
+    "A2"
+  ],
+  "holiday": [
+    "A2"
+  ],
+  "hollow": [
+    "B2"
+  ],
+  "holy": [
+    "B2"
+  ],
+  "home": [
+    "A1",
+    "A2"
+  ],
+  "homework": [
+    "A1"
+  ],
+  "honest": [
+    "B1"
+  ],
+  "honor": [
+    "B2"
+  ],
+  "hope": [
+    "A1",
+    "A2"
+  ],
+  "horrible": [
+    "B1"
+  ],
+  "horror": [
+    "B1"
+  ],
+  "horse": [
+    "A1"
+  ],
+  "hospital": [
+    "A1"
+  ],
+  "host": [
+    "B1",
+    "B2"
+  ],
+  "hot": [
+    "A1"
+  ],
+  "hotel": [
+    "A1"
+  ],
+  "hour": [
+    "A1"
+  ],
+  "house": [
+    "A1"
+  ],
+  "household": [
+    "B2"
+  ],
+  "housing": [
+    "B2"
+  ],
+  "how": [
+    "A1"
+  ],
+  "however": [
+    "A1"
+  ],
+  "huge": [
+    "A2"
+  ],
+  "human": [
+    "A2"
+  ],
+  "humor": [
+    "B2"
+  ],
+  "humorous": [
+    "B2"
+  ],
+  "hundred": [
+    "A1"
+  ],
+  "hungry": [
+    "A1"
+  ],
+  "hunt": [
+    "B1",
+    "B2"
+  ],
+  "hunting": [
+    "B2"
+  ],
+  "hurricane": [
+    "B1"
+  ],
+  "hurry": [
+    "B1"
+  ],
+  "hurt": [
+    "A2",
+    "B2"
+  ],
+  "husband": [
+    "A1"
+  ],
+  "I": [
+    "A1"
+  ],
+  "ice": [
+    "A1"
+  ],
+  "ice cream": [
+    "A1"
+  ],
+  "idea": [
+    "A1"
+  ],
+  "ideal": [
+    "A2",
+    "B2"
+  ],
+  "identify": [
+    "A2"
+  ],
+  "identity": [
+    "B1"
+  ],
+  "if": [
+    "A1"
+  ],
+  "ignore": [
+    "B1"
+  ],
+  "ill": [
+    "A2"
+  ],
+  "illegal": [
+    "B1"
+  ],
+  "illness": [
+    "A2"
+  ],
+  "illustrate": [
+    "B2"
+  ],
+  "illustration": [
+    "B2"
+  ],
+  "image": [
+    "A2"
+  ],
+  "imaginary": [
+    "B1"
+  ],
+  "imagination": [
+    "B2"
+  ],
+  "imagine": [
+    "A1"
+  ],
+  "immediate": [
+    "B1"
+  ],
+  "immediately": [
+    "A2"
+  ],
+  "immigrant": [
+    "B1"
+  ],
+  "impact": [
+    "B1"
+  ],
+  "impatient": [
+    "B2"
+  ],
+  "imply": [
+    "B2"
+  ],
+  "import": [
+    "B1"
+  ],
+  "importance": [
+    "B1"
+  ],
+  "important": [
+    "A1"
+  ],
+  "impose": [
+    "B2"
+  ],
+  "impossible": [
+    "A2"
+  ],
+  "impress": [
+    "B2"
+  ],
+  "impressed": [
+    "B2"
+  ],
+  "impression": [
+    "B1"
+  ],
+  "impressive": [
+    "B1"
+  ],
+  "improve": [
+    "A1"
+  ],
+  "improvement": [
+    "B1"
+  ],
+  "in": [
+    "A1"
+  ],
+  "inch": [
+    "B2"
+  ],
+  "incident": [
+    "B2"
+  ],
+  "include": [
+    "A1"
+  ],
+  "included": [
+    "A2"
+  ],
+  "including": [
+    "A2"
+  ],
+  "income": [
+    "B2"
+  ],
+  "increase": [
+    "A2"
+  ],
+  "increasingly": [
+    "B2"
+  ],
+  "incredible": [
+    "A2"
+  ],
+  "incredibly": [
+    "B1"
+  ],
+  "indeed": [
+    "B1"
+  ],
+  "independent": [
+    "A2"
+  ],
+  "indicate": [
+    "B1"
+  ],
+  "indirect": [
+    "B1"
+  ],
+  "individual": [
+    "A2"
+  ],
+  "indoor": [
+    "B1"
+  ],
+  "indoors": [
+    "B1"
+  ],
+  "industrial": [
+    "B2"
+  ],
+  "industry": [
+    "A2"
+  ],
+  "infection": [
+    "B2"
+  ],
+  "influence": [
+    "B1"
+  ],
+  "inform": [
+    "B2"
+  ],
+  "informal": [
+    "A2"
+  ],
+  "information": [
+    "A1"
+  ],
+  "ingredient": [
+    "B1"
+  ],
+  "initial": [
+    "B2"
+  ],
+  "initially": [
+    "B2"
+  ],
+  "initiative": [
+    "B2"
+  ],
+  "injure": [
+    "B1"
+  ],
+  "injured": [
+    "B1"
+  ],
+  "injury": [
+    "A2"
+  ],
+  "inner": [
+    "B2"
+  ],
+  "innocent": [
+    "B1"
+  ],
+  "inquiry": [
+    "B2"
+  ],
+  "insect": [
+    "A2"
+  ],
+  "inside": [
+    "A2"
+  ],
+  "insight": [
+    "B2"
+  ],
+  "insist": [
+    "B2"
+  ],
+  "inspire": [
+    "B2"
+  ],
+  "install": [
+    "B2"
+  ],
+  "instance": [
+    "B2"
+  ],
+  "instead": [
+    "A2"
+  ],
+  "institute": [
+    "B2"
+  ],
+  "institution": [
+    "B2"
+  ],
+  "instruction": [
+    "A2"
+  ],
+  "instructor": [
+    "A2"
+  ],
+  "instrument": [
+    "A2"
+  ],
+  "insurance": [
+    "B2"
+  ],
+  "intelligence": [
+    "B1"
+  ],
+  "intelligent": [
+    "A2"
+  ],
+  "intend": [
+    "B1"
+  ],
+  "intended": [
+    "B2"
+  ],
+  "intense": [
+    "B2"
+  ],
+  "intention": [
+    "B1"
+  ],
+  "interest": [
+    "A1"
+  ],
+  "interested": [
+    "A1"
+  ],
+  "interesting": [
+    "A1"
+  ],
+  "internal": [
+    "B2"
+  ],
+  "international": [
+    "A2"
+  ],
+  "internet": [
+    "A1"
+  ],
+  "interpret": [
+    "B2"
+  ],
+  "interrupt": [
+    "B2"
+  ],
+  "interview": [
+    "A1"
+  ],
+  "into": [
+    "A1"
+  ],
+  "introduce": [
+    "A1"
+  ],
+  "introduction": [
+    "A2"
+  ],
+  "invent": [
+    "A2"
+  ],
+  "invention": [
+    "A2"
+  ],
+  "invest": [
+    "B1"
+  ],
+  "investigate": [
+    "B1"
+  ],
+  "investigation": [
+    "B2"
+  ],
+  "investment": [
+    "B2"
+  ],
+  "invitation": [
+    "A2"
+  ],
+  "invite": [
+    "A2"
+  ],
+  "involve": [
+    "A2"
+  ],
+  "involved": [
+    "B1"
+  ],
+  "iron": [
+    "B1"
+  ],
+  "island": [
+    "A1"
+  ],
+  "issue": [
+    "B1",
+    "B2"
+  ],
+  "IT": [
+    "B1"
+  ],
+  "it": [
+    "A1"
+  ],
+  "item": [
+    "A2"
+  ],
+  "its": [
+    "A1"
+  ],
+  "itself": [
+    "A2"
+  ],
+  "jacket": [
+    "A1"
+  ],
+  "jam": [
+    "A2"
+  ],
+  "January": [
+    "A1"
+  ],
+  "jazz": [
+    "A2"
+  ],
+  "jeans": [
+    "A1"
+  ],
+  "jewelry": [
+    "A2"
+  ],
+  "job": [
+    "A1"
+  ],
+  "join": [
+    "A1"
+  ],
+  "joke": [
+    "A2"
+  ],
+  "journal": [
+    "B1"
+  ],
+  "journalist": [
+    "A2"
+  ],
+  "journey": [
+    "B1"
+  ],
+  "joy": [
+    "B2"
+  ],
+  "judge": [
+    "B1"
+  ],
+  "judgment": [
+    "B2"
+  ],
+  "juice": [
+    "A1"
+  ],
+  "July": [
+    "A1"
+  ],
+  "jump": [
+    "A2"
+  ],
+  "June": [
+    "A1"
+  ],
+  "junior": [
+    "B2"
+  ],
+  "just": [
+    "A1"
+  ],
+  "justice": [
+    "B2"
+  ],
+  "justify": [
+    "B2"
+  ],
+  "keep": [
+    "A1"
+  ],
+  "key": [
+    "A1",
+    "B1"
+  ],
+  "keyboard": [
+    "B1"
+  ],
+  "kick": [
+    "B1"
+  ],
+  "kid": [
+    "A2"
+  ],
+  "kill": [
+    "A2"
+  ],
+  "killing": [
+    "B1"
+  ],
+  "kilometer": [
+    "A2"
+  ],
+  "kind (type)": [
+    "A1"
+  ],
+  "kind (caring)": [
+    "B1"
+  ],
+  "king": [
+    "A2"
+  ],
+  "kiss": [
+    "B1"
+  ],
+  "kitchen": [
+    "A1"
+  ],
+  "knee": [
+    "A2"
+  ],
+  "knife": [
+    "A2"
+  ],
+  "knock": [
+    "A2",
+    "B1"
+  ],
+  "know": [
+    "A1"
+  ],
+  "knowledge": [
+    "A2"
+  ],
+  "lab": [
+    "A2"
+  ],
+  "label": [
+    "B1"
+  ],
+  "labor": [
+    "B2"
+  ],
+  "laboratory": [
+    "B1"
+  ],
+  "lack": [
+    "B1"
+  ],
+  "lady": [
+    "A2"
+  ],
+  "lake": [
+    "A2"
+  ],
+  "lamp": [
+    "A2"
+  ],
+  "land": [
+    "A1",
+    "A2"
+  ],
+  "landscape": [
+    "B2"
+  ],
+  "language": [
+    "A1"
+  ],
+  "laptop": [
+    "A2"
+  ],
+  "large": [
+    "A1"
+  ],
+  "largely": [
+    "B2"
+  ],
+  "last1 (final)": [
+    "A1",
+    "A2"
+  ],
+  "last1 (taking time)": [
+    "A2"
+  ],
+  "late": [
+    "A1"
+  ],
+  "later": [
+    "A1",
+    "A2"
+  ],
+  "latest": [
+    "B1",
+    "B2"
+  ],
+  "laugh": [
+    "A1"
+  ],
+  "laughter": [
+    "A2"
+  ],
+  "launch": [
+    "B2"
+  ],
+  "law": [
+    "A2"
+  ],
+  "lawyer": [
+    "A2"
+  ],
+  "lay": [
+    "B1"
+  ],
+  "layer": [
+    "B1"
+  ],
+  "lazy": [
+    "A2"
+  ],
+  "lead1": [
+    "A2",
+    "B1"
+  ],
+  "leader": [
+    "A2"
+  ],
+  "leadership": [
+    "B2"
+  ],
+  "leading": [
+    "B1"
+  ],
+  "leaf": [
+    "B1"
+  ],
+  "league": [
+    "B2"
+  ],
+  "lean": [
+    "B2"
+  ],
+  "learn": [
+    "A1"
+  ],
+  "learning": [
+    "A2"
+  ],
+  "least": [
+    "A2"
+  ],
+  "leather": [
+    "B1"
+  ],
+  "leave": [
+    "A1",
+    "B2"
+  ],
+  "lecture": [
+    "A2"
+  ],
+  "left": [
+    "A1"
+  ],
+  "leg": [
+    "A1"
+  ],
+  "legal": [
+    "B1"
+  ],
+  "leisure": [
+    "B1"
+  ],
+  "lemon": [
+    "A2"
+  ],
+  "lend": [
+    "A2"
+  ],
+  "length": [
+    "B1"
+  ],
+  "less": [
+    "A2"
+  ],
+  "lesson": [
+    "A1"
+  ],
+  "let": [
+    "A1"
+  ],
+  "letter": [
+    "A1"
+  ],
+  "level": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "library": [
+    "A1"
+  ],
+  "license": [
+    "B2"
+  ],
+  "lie1": [
+    "A1"
+  ],
+  "lie2 (tell a lie)": [
+    "B1"
+  ],
+  "life": [
+    "A1"
+  ],
+  "lifestyle": [
+    "A2"
+  ],
+  "lift": [
+    "A2"
+  ],
+  "light (from the sun/a lamp)": [
+    "A1",
+    "A2"
+  ],
+  "light (not heavy)": [
+    "A2"
+  ],
+  "like (similar)": [
+    "A1"
+  ],
+  "like (find sb/sth pleasant)": [
+    "A1"
+  ],
+  "likely": [
+    "A2"
+  ],
+  "limit": [
+    "B1"
+  ],
+  "limited": [
+    "B2"
+  ],
+  "line": [
+    "A1",
+    "B2"
+  ],
+  "link": [
+    "A2"
+  ],
+  "lion": [
+    "A1"
+  ],
+  "lip": [
+    "B1"
+  ],
+  "liquid": [
+    "B1"
+  ],
+  "list": [
+    "A1"
+  ],
+  "listen": [
+    "A1"
+  ],
+  "listener": [
+    "A2"
+  ],
+  "literature": [
+    "B1"
+  ],
+  "little": [
+    "A1",
+    "A2"
+  ],
+  "live1": [
+    "A1"
+  ],
+  "live2": [
+    "B1"
+  ],
+  "lively": [
+    "B2"
+  ],
+  "living": [
+    "B1"
+  ],
+  "load": [
+    "B2"
+  ],
+  "loan": [
+    "B2"
+  ],
+  "local": [
+    "A1",
+    "B1"
+  ],
+  "locate": [
+    "B1"
+  ],
+  "located": [
+    "B1"
+  ],
+  "location": [
+    "B1"
+  ],
+  "lock": [
+    "A2"
+  ],
+  "logical": [
+    "B2"
+  ],
+  "lonely": [
+    "B1"
+  ],
+  "long1": [
+    "A1"
+  ],
+  "long-term": [
+    "B2"
+  ],
+  "look": [
+    "A1",
+    "A2"
+  ],
+  "loose": [
+    "B2"
+  ],
+  "lord": [
+    "B2"
+  ],
+  "lose": [
+    "A1"
+  ],
+  "loss": [
+    "B1"
+  ],
+  "lost": [
+    "A2"
+  ],
+  "lot": [
+    "A1"
+  ],
+  "loud": [
+    "A2"
+  ],
+  "loudly": [
+    "A2"
+  ],
+  "love": [
+    "A1"
+  ],
+  "low": [
+    "A2",
+    "B2"
+  ],
+  "lower": [
+    "B2"
+  ],
+  "luck": [
+    "A2"
+  ],
+  "lucky": [
+    "A2"
+  ],
+  "lunch": [
+    "A1"
+  ],
+  "lung": [
+    "B2"
+  ],
+  "luxury": [
+    "B1"
+  ],
+  "machine": [
+    "A1"
+  ],
+  "mad": [
+    "B1"
+  ],
+  "magazine": [
+    "A1"
+  ],
+  "magic": [
+    "B1"
+  ],
+  "mail": [
+    "A2"
+  ],
+  "main": [
+    "A1"
+  ],
+  "mainly": [
+    "B1"
+  ],
+  "maintain": [
+    "B2"
+  ],
+  "major": [
+    "A2",
+    "B2"
+  ],
+  "majority": [
+    "B2"
+  ],
+  "make": [
+    "A1",
+    "B2"
+  ],
+  "male": [
+    "A2"
+  ],
+  "mall": [
+    "A1"
+  ],
+  "man": [
+    "A1"
+  ],
+  "manage": [
+    "A2"
+  ],
+  "management": [
+    "B1"
+  ],
+  "manager": [
+    "A2"
+  ],
+  "manner": [
+    "A2"
+  ],
+  "many": [
+    "A1"
+  ],
+  "map": [
+    "A1",
+    "B2"
+  ],
+  "March": [
+    "A1"
+  ],
+  "mark": [
+    "A2"
+  ],
+  "market": [
+    "A1",
+    "B1"
+  ],
+  "marketing": [
+    "B1"
+  ],
+  "marriage": [
+    "B1"
+  ],
+  "married": [
+    "A1"
+  ],
+  "marry": [
+    "A2"
+  ],
+  "mass": [
+    "B2"
+  ],
+  "massive": [
+    "B2"
+  ],
+  "master": [
+    "B2"
+  ],
+  "match (contest/correspond)": [
+    "A1"
+  ],
+  "matching": [
+    "B2"
+  ],
+  "material": [
+    "A2",
+    "B2"
+  ],
+  "math": [
+    "A2"
+  ],
+  "mathematics": [
+    "A2"
+  ],
+  "matter": [
+    "A2"
+  ],
+  "maximum": [
+    "B2"
+  ],
+  "May": [
+    "A1"
+  ],
+  "may": [
+    "A2"
+  ],
+  "maybe": [
+    "A1"
+  ],
+  "mayor": [
+    "A2"
+  ],
+  "me": [
+    "A1"
+  ],
+  "meal": [
+    "A1"
+  ],
+  "mean": [
+    "A1"
+  ],
+  "meaning": [
+    "A1"
+  ],
+  "means": [
+    "B2"
+  ],
+  "meanwhile": [
+    "B1"
+  ],
+  "measure": [
+    "B1"
+  ],
+  "measurement": [
+    "B2"
+  ],
+  "meat": [
+    "A1"
+  ],
+  "media": [
+    "A2"
+  ],
+  "medical": [
+    "A2"
+  ],
+  "medicine": [
+    "A2"
+  ],
+  "medium": [
+    "B1",
+    "B2"
+  ],
+  "meet": [
+    "A1"
+  ],
+  "meeting": [
+    "A1"
+  ],
+  "melt": [
+    "B2"
+  ],
+  "member": [
+    "A1"
+  ],
+  "memory": [
+    "A2"
+  ],
+  "mental": [
+    "B1"
+  ],
+  "mention": [
+    "A2",
+    "B1"
+  ],
+  "menu": [
+    "A1"
+  ],
+  "mess": [
+    "B1"
+  ],
+  "message": [
+    "A1"
+  ],
+  "metal": [
+    "A2"
+  ],
+  "meter": [
+    "A1"
+  ],
+  "method": [
+    "A2"
+  ],
+  "middle": [
+    "A2"
+  ],
+  "midnight": [
+    "A1"
+  ],
+  "might": [
+    "A2"
+  ],
+  "mild": [
+    "B1"
+  ],
+  "mile": [
+    "A1"
+  ],
+  "military": [
+    "B2"
+  ],
+  "milk": [
+    "A1"
+  ],
+  "million": [
+    "A1"
+  ],
+  "mind": [
+    "A2"
+  ],
+  "mine (belongs to me)": [
+    "A2"
+  ],
+  "mine (hole in the ground)": [
+    "B1"
+  ],
+  "mineral": [
+    "B2"
+  ],
+  "minimum": [
+    "B2"
+  ],
+  "minister": [
+    "B2"
+  ],
+  "minor": [
+    "B2"
+  ],
+  "minority": [
+    "B2"
+  ],
+  "minute1": [
+    "A1"
+  ],
+  "mirror": [
+    "A2"
+  ],
+  "miss": [
+    "A1"
+  ],
+  "missing": [
+    "A2"
+  ],
+  "mission": [
+    "B2"
+  ],
+  "mistake": [
+    "A1",
+    "B2"
+  ],
+  "mix": [
+    "B1"
+  ],
+  "mixed": [
+    "B2"
+  ],
+  "mixture": [
+    "B1"
+  ],
+  "model": [
+    "A1",
+    "B2"
+  ],
+  "modern": [
+    "A1"
+  ],
+  "modify": [
+    "B2"
+  ],
+  "mom": [
+    "A1"
+  ],
+  "moment": [
+    "A1"
+  ],
+  "Monday": [
+    "A1"
+  ],
+  "money": [
+    "A1"
+  ],
+  "monitor": [
+    "B2"
+  ],
+  "monkey": [
+    "A2"
+  ],
+  "month": [
+    "A1"
+  ],
+  "mood": [
+    "B1"
+  ],
+  "moon": [
+    "A2"
+  ],
+  "moral": [
+    "B2"
+  ],
+  "more": [
+    "A1"
+  ],
+  "morning": [
+    "A1"
+  ],
+  "most": [
+    "A1"
+  ],
+  "mostly": [
+    "A2"
+  ],
+  "mother": [
+    "A1"
+  ],
+  "motor": [
+    "B2"
+  ],
+  "motorcycle": [
+    "A2"
+  ],
+  "mount": [
+    "B2"
+  ],
+  "mountain": [
+    "A1"
+  ],
+  "mouse": [
+    "A1"
+  ],
+  "mouth": [
+    "A1"
+  ],
+  "move": [
+    "A1",
+    "B1"
+  ],
+  "movement": [
+    "A2"
+  ],
+  "movie": [
+    "A1"
+  ],
+  "much": [
+    "A1"
+  ],
+  "mud": [
+    "B1"
+  ],
+  "multiple": [
+    "B2"
+  ],
+  "multiply": [
+    "B2"
+  ],
+  "murder": [
+    "B1"
+  ],
+  "muscle": [
+    "B1"
+  ],
+  "museum": [
+    "A1"
+  ],
+  "music": [
+    "A1"
+  ],
+  "musical": [
+    "A2",
+    "B1"
+  ],
+  "musician": [
+    "A2"
+  ],
+  "must": [
+    "A1"
+  ],
+  "my": [
+    "A1"
+  ],
+  "myself": [
+    "A2"
+  ],
+  "mysterious": [
+    "B2"
+  ],
+  "mystery": [
+    "B1"
+  ],
+  "nail": [
+    "B1"
+  ],
+  "name": [
+    "A1"
+  ],
+  "narrative": [
+    "B1"
+  ],
+  "narrow": [
+    "A2",
+    "B2"
+  ],
+  "nation": [
+    "B1"
+  ],
+  "national": [
+    "A2",
+    "B2"
+  ],
+  "native": [
+    "B1"
+  ],
+  "natural": [
+    "A1"
+  ],
+  "naturally": [
+    "B1"
+  ],
+  "nature": [
+    "A2"
+  ],
+  "near": [
+    "A1"
+  ],
+  "nearly": [
+    "A2"
+  ],
+  "neat": [
+    "B1"
+  ],
+  "necessarily": [
+    "B1"
+  ],
+  "necessary": [
+    "A2"
+  ],
+  "neck": [
+    "A2"
+  ],
+  "need": [
+    "A1",
+    "A2",
+    "B1"
+  ],
+  "needle": [
+    "B1"
+  ],
+  "negative": [
+    "A1",
+    "B2"
+  ],
+  "neighbor": [
+    "A1"
+  ],
+  "neighborhood": [
+    "A1"
+  ],
+  "neither": [
+    "A2",
+    "B1"
+  ],
+  "nerve": [
+    "B2"
+  ],
+  "nervous": [
+    "A2"
+  ],
+  "net": [
+    "B1"
+  ],
+  "network": [
+    "A2"
+  ],
+  "never": [
+    "A1"
+  ],
+  "nevertheless": [
+    "B2"
+  ],
+  "new": [
+    "A1"
+  ],
+  "news": [
+    "A1"
+  ],
+  "newspaper": [
+    "A1"
+  ],
+  "next": [
+    "A1",
+    "B1"
+  ],
+  "next to": [
+    "A1"
+  ],
+  "nice": [
+    "A1"
+  ],
+  "night": [
+    "A1"
+  ],
+  "nightmare": [
+    "B2"
+  ],
+  "nine": [
+    "A1"
+  ],
+  "nineteen": [
+    "A1"
+  ],
+  "ninety": [
+    "A1"
+  ],
+  "no": [
+    "A1"
+  ],
+  "no one": [
+    "A1"
+  ],
+  "nobody": [
+    "A1"
+  ],
+  "noise": [
+    "A2"
+  ],
+  "noisy": [
+    "A2"
+  ],
+  "none": [
+    "A2"
+  ],
+  "nor": [
+    "B1"
+  ],
+  "normal": [
+    "A2",
+    "B1"
+  ],
+  "normally": [
+    "A2"
+  ],
+  "north": [
+    "A1"
+  ],
+  "northern": [
+    "B1"
+  ],
+  "nose": [
+    "A1"
+  ],
+  "not": [
+    "A1"
+  ],
+  "note": [
+    "A1",
+    "B1"
+  ],
+  "nothing": [
+    "A1"
+  ],
+  "notice": [
+    "A2"
+  ],
+  "notion": [
+    "B2"
+  ],
+  "novel": [
+    "A2"
+  ],
+  "November": [
+    "A1"
+  ],
+  "now": [
+    "A1",
+    "B1"
+  ],
+  "nowhere": [
+    "A2"
+  ],
+  "nuclear": [
+    "B1"
+  ],
+  "number": [
+    "A1",
+    "A2"
+  ],
+  "numerous": [
+    "B2"
+  ],
+  "nurse": [
+    "A1"
+  ],
+  "nut": [
+    "A2"
+  ],
+  "obey": [
+    "B2"
+  ],
+  "object": [
+    "A1",
+    "B2"
+  ],
+  "objective": [
+    "B2"
+  ],
+  "obligation": [
+    "B2"
+  ],
+  "observation": [
+    "B2"
+  ],
+  "observe": [
+    "B2"
+  ],
+  "obtain": [
+    "B2"
+  ],
+  "obvious": [
+    "B1"
+  ],
+  "obviously": [
+    "B1"
+  ],
+  "occasion": [
+    "B1"
+  ],
+  "occasionally": [
+    "B2"
+  ],
+  "occur": [
+    "B1"
+  ],
+  "ocean": [
+    "A1"
+  ],
+  "o’clock": [
+    "A1"
+  ],
+  "October": [
+    "A1"
+  ],
+  "odd": [
+    "B1"
+  ],
+  "of": [
+    "A1"
+  ],
+  "off": [
+    "A1"
+  ],
+  "offend": [
+    "B2"
+  ],
+  "offense": [
+    "B2"
+  ],
+  "offensive": [
+    "B2"
+  ],
+  "offer": [
+    "A2"
+  ],
+  "office": [
+    "A1"
+  ],
+  "officer": [
+    "A2"
+  ],
+  "official": [
+    "B1",
+    "B2"
+  ],
+  "often": [
+    "A1"
+  ],
+  "oh": [
+    "A1"
+  ],
+  "oil": [
+    "A2"
+  ],
+  "OK": [
+    "A1"
+  ],
+  "old": [
+    "A1"
+  ],
+  "old-fashioned": [
+    "B1"
+  ],
+  "on": [
+    "A1"
+  ],
+  "once": [
+    "A1",
+    "B1"
+  ],
+  "one": [
+    "A1"
+  ],
+  "onion": [
+    "A1"
+  ],
+  "online": [
+    "A1"
+  ],
+  "only": [
+    "A1"
+  ],
+  "onto": [
+    "A2"
+  ],
+  "open": [
+    "A1"
+  ],
+  "opening": [
+    "B2"
+  ],
+  "operate": [
+    "B2"
+  ],
+  "operation": [
+    "B1"
+  ],
+  "opinion": [
+    "A1"
+  ],
+  "opponent": [
+    "B2"
+  ],
+  "opportunity": [
+    "A2"
+  ],
+  "oppose": [
+    "B2"
+  ],
+  "opposed": [
+    "B2"
+  ],
+  "opposite": [
+    "A1"
+  ],
+  "opposition": [
+    "B2"
+  ],
+  "option": [
+    "A2"
+  ],
+  "or": [
+    "A1"
+  ],
+  "orange": [
+    "A1"
+  ],
+  "order": [
+    "A1"
+  ],
+  "ordinary": [
+    "A2"
+  ],
+  "organ": [
+    "B2"
+  ],
+  "organization": [
+    "A2"
+  ],
+  "organize": [
+    "A2"
+  ],
+  "organized": [
+    "B1"
+  ],
+  "organizer": [
+    "B1"
+  ],
+  "origin": [
+    "B2"
+  ],
+  "original": [
+    "A2",
+    "B1"
+  ],
+  "originally": [
+    "B1"
+  ],
+  "other": [
+    "A1"
+  ],
+  "otherwise": [
+    "B2"
+  ],
+  "ought": [
+    "B1"
+  ],
+  "our": [
+    "A1"
+  ],
+  "ours": [
+    "B1"
+  ],
+  "ourselves": [
+    "A2"
+  ],
+  "out": [
+    "A1"
+  ],
+  "outcome": [
+    "B2"
+  ],
+  "outdoor": [
+    "B1"
+  ],
+  "outdoors": [
+    "B1"
+  ],
+  "outer": [
+    "B2"
+  ],
+  "outline": [
+    "B2"
+  ],
+  "outside": [
+    "A1"
+  ],
+  "oven": [
+    "A2"
+  ],
+  "over": [
+    "A1"
+  ],
+  "overall": [
+    "B2"
+  ],
+  "overseas": [
+    "A2",
+    "B1"
+  ],
+  "owe": [
+    "B2"
+  ],
+  "own": [
+    "A1",
+    "A2"
+  ],
+  "owner": [
+    "A2"
+  ],
+  "pace": [
+    "B2"
+  ],
+  "pack": [
+    "A2",
+    "B1"
+  ],
+  "package": [
+    "B1",
+    "B2"
+  ],
+  "page": [
+    "A1"
+  ],
+  "pain": [
+    "A2"
+  ],
+  "painful": [
+    "B1"
+  ],
+  "paint": [
+    "A1"
+  ],
+  "painter": [
+    "A2"
+  ],
+  "painting": [
+    "A1"
+  ],
+  "pair": [
+    "A1"
+  ],
+  "palace": [
+    "A2"
+  ],
+  "pale": [
+    "B1"
+  ],
+  "pan": [
+    "B1"
+  ],
+  "panel": [
+    "B2"
+  ],
+  "pants": [
+    "A1"
+  ],
+  "paper": [
+    "A1"
+  ],
+  "paragraph": [
+    "A1"
+  ],
+  "parent": [
+    "A1"
+  ],
+  "park": [
+    "A1"
+  ],
+  "parking": [
+    "A2"
+  ],
+  "part": [
+    "A1"
+  ],
+  "participant": [
+    "B2"
+  ],
+  "participate": [
+    "B1"
+  ],
+  "particular": [
+    "A2"
+  ],
+  "particularly": [
+    "B1"
+  ],
+  "partly": [
+    "B2"
+  ],
+  "partner": [
+    "A1"
+  ],
+  "party": [
+    "A1"
+  ],
+  "pass": [
+    "A2",
+    "B1"
+  ],
+  "passage": [
+    "B2"
+  ],
+  "passenger": [
+    "A2"
+  ],
+  "passion": [
+    "B1"
+  ],
+  "passport": [
+    "A1"
+  ],
+  "past": [
+    "A1",
+    "A2"
+  ],
+  "path": [
+    "B1"
+  ],
+  "patient": [
+    "A2",
+    "B2"
+  ],
+  "pattern": [
+    "A2"
+  ],
+  "pay": [
+    "A1",
+    "A2"
+  ],
+  "payment": [
+    "B1"
+  ],
+  "peace": [
+    "A2"
+  ],
+  "peaceful": [
+    "B1"
+  ],
+  "pen": [
+    "A1"
+  ],
+  "pencil": [
+    "A1"
+  ],
+  "penny": [
+    "A2"
+  ],
+  "people": [
+    "A1"
+  ],
+  "pepper": [
+    "A1"
+  ],
+  "per": [
+    "A2"
+  ],
+  "percent": [
+    "A2"
+  ],
+  "percentage": [
+    "B1"
+  ],
+  "perfect": [
+    "A1"
+  ],
+  "perfectly": [
+    "B1"
+  ],
+  "perform": [
+    "A2"
+  ],
+  "performance": [
+    "B1"
+  ],
+  "perhaps": [
+    "A2"
+  ],
+  "period": [
+    "A1"
+  ],
+  "permanent": [
+    "B2"
+  ],
+  "permission": [
+    "A2"
+  ],
+  "permit": [
+    "B2"
+  ],
+  "person": [
+    "A1"
+  ],
+  "personal": [
+    "A1"
+  ],
+  "personality": [
+    "A2"
+  ],
+  "personally": [
+    "B1"
+  ],
+  "perspective": [
+    "B2"
+  ],
+  "persuade": [
+    "B1"
+  ],
+  "pet": [
+    "A2"
+  ],
+  "phase": [
+    "B2"
+  ],
+  "phenomenon": [
+    "B2"
+  ],
+  "philosophy": [
+    "B2"
+  ],
+  "phone": [
+    "A1"
+  ],
+  "photo": [
+    "A1"
+  ],
+  "photograph": [
+    "A1",
+    "A2"
+  ],
+  "photographer": [
+    "B1"
+  ],
+  "photography": [
+    "B1"
+  ],
+  "phrase": [
+    "A1"
+  ],
+  "physical": [
+    "A2"
+  ],
+  "physics": [
+    "A2"
+  ],
+  "piano": [
+    "A1"
+  ],
+  "pick": [
+    "A2",
+    "B2"
+  ],
+  "picture": [
+    "A1",
+    "B2"
+  ],
+  "piece": [
+    "A1"
+  ],
+  "pig": [
+    "A1"
+  ],
+  "pile": [
+    "B2"
+  ],
+  "pilot": [
+    "A2"
+  ],
+  "pin": [
+    "B1"
+  ],
+  "pink": [
+    "A1"
+  ],
+  "pipe": [
+    "B1"
+  ],
+  "pitch": [
+    "B2"
+  ],
+  "place": [
+    "A1",
+    "B1"
+  ],
+  "plain": [
+    "B2"
+  ],
+  "plan": [
+    "A1"
+  ],
+  "plane": [
+    "A1"
+  ],
+  "planet": [
+    "A2"
+  ],
+  "planning": [
+    "B1"
+  ],
+  "plant": [
+    "A1",
+    "A2"
+  ],
+  "plastic": [
+    "A2"
+  ],
+  "plate": [
+    "A2"
+  ],
+  "platform": [
+    "A2"
+  ],
+  "play": [
+    "A1"
+  ],
+  "player": [
+    "A1"
+  ],
+  "pleasant": [
+    "B1"
+  ],
+  "please": [
+    "A1",
+    "A2"
+  ],
+  "pleased": [
+    "A2"
+  ],
+  "pleasure": [
+    "B1"
+  ],
+  "plenty": [
+    "B1"
+  ],
+  "plot": [
+    "B1",
+    "B2"
+  ],
+  "plus1": [
+    "B1",
+    "B2"
+  ],
+  "pocket": [
+    "A2"
+  ],
+  "poem": [
+    "B1"
+  ],
+  "poet": [
+    "B1"
+  ],
+  "poetry": [
+    "B1"
+  ],
+  "point": [
+    "A1",
+    "B1"
+  ],
+  "pointed": [
+    "B2"
+  ],
+  "poison": [
+    "B1"
+  ],
+  "poisonous": [
+    "B1"
+  ],
+  "police": [
+    "A1"
+  ],
+  "policeman": [
+    "A1"
+  ],
+  "policy": [
+    "B1"
+  ],
+  "polite": [
+    "A2"
+  ],
+  "political": [
+    "B1"
+  ],
+  "politician": [
+    "B1"
+  ],
+  "politics": [
+    "B1"
+  ],
+  "pollution": [
+    "A2"
+  ],
+  "pool": [
+    "A1"
+  ],
+  "poor": [
+    "A1"
+  ],
+  "pop": [
+    "A2"
+  ],
+  "popular": [
+    "A1"
+  ],
+  "popularity": [
+    "B2"
+  ],
+  "population": [
+    "A2"
+  ],
+  "port": [
+    "B1"
+  ],
+  "portrait": [
+    "B1"
+  ],
+  "pose": [
+    "B2"
+  ],
+  "position": [
+    "A2",
+    "B2"
+  ],
+  "positive": [
+    "A1",
+    "B2"
+  ],
+  "possess": [
+    "B2"
+  ],
+  "possession": [
+    "A2"
+  ],
+  "possibility": [
+    "A2"
+  ],
+  "possible": [
+    "A1"
+  ],
+  "possibly": [
+    "B1"
+  ],
+  "post": [
+    "A1"
+  ],
+  "poster": [
+    "A2"
+  ],
+  "pot": [
+    "B1"
+  ],
+  "potato": [
+    "A1"
+  ],
+  "potential": [
+    "B2"
+  ],
+  "pound": [
+    "A1"
+  ],
+  "pour": [
+    "B1"
+  ],
+  "poverty": [
+    "B1"
+  ],
+  "powder": [
+    "B1"
+  ],
+  "power": [
+    "A2",
+    "B2"
+  ],
+  "powerful": [
+    "B1"
+  ],
+  "practical": [
+    "B1"
+  ],
+  "practice": [
+    "A1"
+  ],
+  "praise": [
+    "B2"
+  ],
+  "pray": [
+    "B1"
+  ],
+  "prayer": [
+    "B1"
+  ],
+  "predict": [
+    "A2"
+  ],
+  "prediction": [
+    "B1"
+  ],
+  "prefer": [
+    "A1"
+  ],
+  "pregnant": [
+    "B2"
+  ],
+  "preparation": [
+    "B2"
+  ],
+  "prepare": [
+    "A1"
+  ],
+  "prepared": [
+    "B1"
+  ],
+  "presence": [
+    "B2"
+  ],
+  "present": [
+    "A1",
+    "A2"
+  ],
+  "presentation": [
+    "B1"
+  ],
+  "preserve": [
+    "B2"
+  ],
+  "president": [
+    "A2"
+  ],
+  "press": [
+    "B1"
+  ],
+  "pressure": [
+    "B1"
+  ],
+  "pretend": [
+    "B1"
+  ],
+  "pretty": [
+    "A1"
+  ],
+  "prevent": [
+    "A2"
+  ],
+  "previous": [
+    "B1"
+  ],
+  "previously": [
+    "B1"
+  ],
+  "price": [
+    "A1",
+    "B2"
+  ],
+  "priest": [
+    "B1"
+  ],
+  "primary": [
+    "B1"
+  ],
+  "prime": [
+    "B2"
+  ],
+  "prince": [
+    "B1"
+  ],
+  "princess": [
+    "B1"
+  ],
+  "principal": [
+    "B1",
+    "B2"
+  ],
+  "principle": [
+    "B2"
+  ],
+  "print": [
+    "A2",
+    "B2"
+  ],
+  "printer": [
+    "A2"
+  ],
+  "printing": [
+    "B1"
+  ],
+  "priority": [
+    "B2"
+  ],
+  "prison": [
+    "A2"
+  ],
+  "prisoner": [
+    "B1"
+  ],
+  "privacy": [
+    "B2"
+  ],
+  "private": [
+    "B1"
+  ],
+  "prize": [
+    "A2"
+  ],
+  "probably": [
+    "A1"
+  ],
+  "problem": [
+    "A1"
+  ],
+  "procedure": [
+    "B2"
+  ],
+  "process": [
+    "A2",
+    "B2"
+  ],
+  "produce": [
+    "A2",
+    "B2"
+  ],
+  "producer": [
+    "B1"
+  ],
+  "product": [
+    "A1"
+  ],
+  "production": [
+    "B1"
+  ],
+  "profession": [
+    "B1"
+  ],
+  "professional": [
+    "A2",
+    "B2"
+  ],
+  "professor": [
+    "A2"
+  ],
+  "profile": [
+    "A2"
+  ],
+  "profit": [
+    "B1"
+  ],
+  "program": [
+    "A1",
+    "B1"
+  ],
+  "progress": [
+    "A2"
+  ],
+  "project": [
+    "A1",
+    "B2"
+  ],
+  "promise": [
+    "A2"
+  ],
+  "promote": [
+    "B1"
+  ],
+  "pronounce": [
+    "A2"
+  ],
+  "proof": [
+    "B2"
+  ],
+  "proper": [
+    "B1"
+  ],
+  "properly": [
+    "B1"
+  ],
+  "property": [
+    "B1"
+  ],
+  "proposal": [
+    "B2"
+  ],
+  "propose": [
+    "B2"
+  ],
+  "prospect": [
+    "B2"
+  ],
+  "protect": [
+    "A2"
+  ],
+  "protection": [
+    "B2"
+  ],
+  "protest": [
+    "B1"
+  ],
+  "proud": [
+    "B1"
+  ],
+  "prove": [
+    "B1"
+  ],
+  "provide": [
+    "A2"
+  ],
+  "psychologist": [
+    "B2"
+  ],
+  "psychology": [
+    "B2"
+  ],
+  "public": [
+    "A2"
+  ],
+  "publication": [
+    "B2"
+  ],
+  "publish": [
+    "A2"
+  ],
+  "pull": [
+    "A2",
+    "B1"
+  ],
+  "punish": [
+    "B1"
+  ],
+  "punishment": [
+    "B1"
+  ],
+  "purchase": [
+    "B2"
+  ],
+  "pure": [
+    "B2"
+  ],
+  "purple": [
+    "A1"
+  ],
+  "purpose": [
+    "A2"
+  ],
+  "pursue": [
+    "B2"
+  ],
+  "push": [
+    "A2",
+    "B1"
+  ],
+  "put": [
+    "A1"
+  ],
+  "qualification": [
+    "B1"
+  ],
+  "qualified": [
+    "B1"
+  ],
+  "qualify": [
+    "B1"
+  ],
+  "quality": [
+    "A2"
+  ],
+  "quantity": [
+    "A2"
+  ],
+  "quarter": [
+    "A1"
+  ],
+  "queen": [
+    "A2"
+  ],
+  "question": [
+    "A1",
+    "A2"
+  ],
+  "quick": [
+    "A1"
+  ],
+  "quickly": [
+    "A1"
+  ],
+  "quiet": [
+    "A1"
+  ],
+  "quietly": [
+    "A2"
+  ],
+  "quit": [
+    "B1"
+  ],
+  "quite": [
+    "A1"
+  ],
+  "quotation": [
+    "B1"
+  ],
+  "quote": [
+    "B1"
+  ],
+  "race (competition)": [
+    "A2"
+  ],
+  "race (of people)": [
+    "B1"
+  ],
+  "racing": [
+    "B1"
+  ],
+  "radio": [
+    "A1"
+  ],
+  "railroad": [
+    "A2"
+  ],
+  "rain": [
+    "A1"
+  ],
+  "raise": [
+    "A2",
+    "B1"
+  ],
+  "range": [
+    "B1",
+    "B2"
+  ],
+  "rank": [
+    "B2"
+  ],
+  "rapid": [
+    "B2"
+  ],
+  "rapidly": [
+    "B2"
+  ],
+  "rare": [
+    "B1"
+  ],
+  "rarely": [
+    "B1"
+  ],
+  "rate": [
+    "A2",
+    "B2"
+  ],
+  "rather": [
+    "A2"
+  ],
+  "raw": [
+    "B2"
+  ],
+  "reach": [
+    "A2",
+    "B2"
+  ],
+  "react": [
+    "A2"
+  ],
+  "reaction": [
+    "B1"
+  ],
+  "read": [
+    "A1"
+  ],
+  "reader": [
+    "A1"
+  ],
+  "reading": [
+    "A1"
+  ],
+  "ready": [
+    "A1"
+  ],
+  "real": [
+    "A1"
+  ],
+  "realistic": [
+    "B2"
+  ],
+  "reality": [
+    "B1"
+  ],
+  "realize": [
+    "A2"
+  ],
+  "really": [
+    "A1"
+  ],
+  "reason": [
+    "A1"
+  ],
+  "reasonable": [
+    "B2"
+  ],
+  "recall": [
+    "B2"
+  ],
+  "receipt": [
+    "B1"
+  ],
+  "receive": [
+    "A2"
+  ],
+  "recent": [
+    "A2"
+  ],
+  "recently": [
+    "A2"
+  ],
+  "reception": [
+    "A2"
+  ],
+  "recipe": [
+    "A2"
+  ],
+  "recognize": [
+    "A2"
+  ],
+  "recommend": [
+    "A2"
+  ],
+  "recommendation": [
+    "B1"
+  ],
+  "record": [
+    "A2"
+  ],
+  "recording": [
+    "A2"
+  ],
+  "recover": [
+    "B2"
+  ],
+  "recycle": [
+    "A2"
+  ],
+  "red": [
+    "A1"
+  ],
+  "reduce": [
+    "A2"
+  ],
+  "reduction": [
+    "B2"
+  ],
+  "refer": [
+    "A2"
+  ],
+  "reference": [
+    "B1"
+  ],
+  "reflect": [
+    "B1"
+  ],
+  "refrigerator": [
+    "A2"
+  ],
+  "refuse1": [
+    "A2"
+  ],
+  "regard": [
+    "B2"
+  ],
+  "region": [
+    "A2"
+  ],
+  "regional": [
+    "B2"
+  ],
+  "register": [
+    "B2"
+  ],
+  "regret": [
+    "B2"
+  ],
+  "regular": [
+    "A2"
+  ],
+  "regularly": [
+    "B1"
+  ],
+  "regulation": [
+    "B2"
+  ],
+  "reject": [
+    "B1"
+  ],
+  "relate": [
+    "B1"
+  ],
+  "related": [
+    "B1"
+  ],
+  "relation": [
+    "B1"
+  ],
+  "relationship": [
+    "A2"
+  ],
+  "relative": [
+    "B1"
+  ],
+  "relatively": [
+    "B2"
+  ],
+  "relax": [
+    "A1"
+  ],
+  "relaxed": [
+    "B1"
+  ],
+  "relaxing": [
+    "B1"
+  ],
+  "release": [
+    "B1"
+  ],
+  "relevant": [
+    "B2"
+  ],
+  "reliable": [
+    "B1"
+  ],
+  "relief": [
+    "B2"
+  ],
+  "religion": [
+    "B1"
+  ],
+  "religious": [
+    "B1"
+  ],
+  "rely": [
+    "B2"
+  ],
+  "remain": [
+    "B1"
+  ],
+  "remark": [
+    "B2"
+  ],
+  "remember": [
+    "A1"
+  ],
+  "remind": [
+    "B1"
+  ],
+  "remote": [
+    "B1"
+  ],
+  "remove": [
+    "A2"
+  ],
+  "rent": [
+    "B1"
+  ],
+  "repair": [
+    "A2",
+    "B1"
+  ],
+  "repeat": [
+    "A1",
+    "B1"
+  ],
+  "repeated": [
+    "B1"
+  ],
+  "replace": [
+    "A2"
+  ],
+  "reply": [
+    "A2"
+  ],
+  "report": [
+    "A1",
+    "A2"
+  ],
+  "reporter": [
+    "A2"
+  ],
+  "represent": [
+    "B1"
+  ],
+  "representative": [
+    "B2"
+  ],
+  "reputation": [
+    "B2"
+  ],
+  "request": [
+    "A2",
+    "B1"
+  ],
+  "require": [
+    "B1"
+  ],
+  "requirement": [
+    "B2"
+  ],
+  "rescue": [
+    "B2"
+  ],
+  "research": [
+    "A2"
+  ],
+  "researcher": [
+    "A2"
+  ],
+  "reservation": [
+    "B1"
+  ],
+  "reserve": [
+    "B2"
+  ],
+  "resident": [
+    "B2"
+  ],
+  "resist": [
+    "B2"
+  ],
+  "resolve": [
+    "B2"
+  ],
+  "resort": [
+    "B2"
+  ],
+  "resource": [
+    "B1"
+  ],
+  "respect": [
+    "B1"
+  ],
+  "respond": [
+    "A2"
+  ],
+  "response": [
+    "A2"
+  ],
+  "responsibility": [
+    "B1"
+  ],
+  "responsible": [
+    "B1"
+  ],
+  "rest (remaining part)": [
+    "A2"
+  ],
+  "rest (sleep/relax)": [
+    "A2"
+  ],
+  "restaurant": [
+    "A1"
+  ],
+  "result": [
+    "A1",
+    "B1"
+  ],
+  "retain": [
+    "B2"
+  ],
+  "retire": [
+    "B1"
+  ],
+  "retired": [
+    "B1"
+  ],
+  "return": [
+    "A1"
+  ],
+  "reveal": [
+    "B2"
+  ],
+  "review": [
+    "A2"
+  ],
+  "revise": [
+    "B1"
+  ],
+  "revolution": [
+    "B2"
+  ],
+  "reward": [
+    "B2"
+  ],
+  "rhythm": [
+    "B2"
+  ],
+  "rice": [
+    "A1"
+  ],
+  "rich": [
+    "A1"
+  ],
+  "rid": [
+    "B2"
+  ],
+  "ride": [
+    "A1",
+    "A2"
+  ],
+  "right": [
+    "A1"
+  ],
+  "ring1": [
+    "A2"
+  ],
+  "ring2": [
+    "A2",
+    "B1"
+  ],
+  "rise": [
+    "A2",
+    "B2"
+  ],
+  "risk": [
+    "B1"
+  ],
+  "river": [
+    "A1"
+  ],
+  "road": [
+    "A1"
+  ],
+  "robot": [
+    "B1"
+  ],
+  "rock (stone)": [
+    "A2"
+  ],
+  "rock (music)": [
+    "A2"
+  ],
+  "role": [
+    "A2"
+  ],
+  "roll": [
+    "B1"
+  ],
+  "romantic": [
+    "B1"
+  ],
+  "roof": [
+    "A2"
+  ],
+  "room": [
+    "A1"
+  ],
+  "root": [
+    "B2"
+  ],
+  "rope": [
+    "B1"
+  ],
+  "rough": [
+    "B1"
+  ],
+  "round": [
+    "A2",
+    "B2"
+  ],
+  "route": [
+    "A2"
+  ],
+  "routine": [
+    "A1",
+    "B2"
+  ],
+  "row1": [
+    "B1"
+  ],
+  "royal": [
+    "B1"
+  ],
+  "rub": [
+    "B2"
+  ],
+  "rubber": [
+    "B2"
+  ],
+  "rude": [
+    "A2"
+  ],
+  "rule": [
+    "A1",
+    "B1"
+  ],
+  "run": [
+    "A1",
+    "A2"
+  ],
+  "runner": [
+    "A2"
+  ],
+  "running": [
+    "A2"
+  ],
+  "rural": [
+    "B2"
+  ],
+  "rush": [
+    "B2"
+  ],
+  "sad": [
+    "A1"
+  ],
+  "sadly": [
+    "A2"
+  ],
+  "safe": [
+    "A2"
+  ],
+  "safety": [
+    "B1"
+  ],
+  "sail": [
+    "A2",
+    "B1"
+  ],
+  "sailing": [
+    "A2"
+  ],
+  "sailor": [
+    "B1"
+  ],
+  "salad": [
+    "A1"
+  ],
+  "salary": [
+    "A2"
+  ],
+  "sale": [
+    "A2"
+  ],
+  "salt": [
+    "A1"
+  ],
+  "same": [
+    "A1"
+  ],
+  "sample": [
+    "B1",
+    "B2"
+  ],
+  "sand": [
+    "B1"
+  ],
+  "sandwich": [
+    "A1"
+  ],
+  "satellite": [
+    "B2"
+  ],
+  "satisfied": [
+    "B2"
+  ],
+  "satisfy": [
+    "B2"
+  ],
+  "Saturday": [
+    "A1"
+  ],
+  "sauce": [
+    "A2"
+  ],
+  "save": [
+    "A2"
+  ],
+  "saving": [
+    "B2"
+  ],
+  "say": [
+    "A1"
+  ],
+  "scale": [
+    "B2"
+  ],
+  "scan": [
+    "B1"
+  ],
+  "scared": [
+    "A2"
+  ],
+  "scary": [
+    "A2"
+  ],
+  "scene": [
+    "A2"
+  ],
+  "schedule": [
+    "A2",
+    "B2"
+  ],
+  "school": [
+    "A1"
+  ],
+  "science": [
+    "A1"
+  ],
+  "scientific": [
+    "B1"
+  ],
+  "scientist": [
+    "A1"
+  ],
+  "score": [
+    "A2"
+  ],
+  "scream": [
+    "B2"
+  ],
+  "screen": [
+    "A2",
+    "B2"
+  ],
+  "script": [
+    "B1"
+  ],
+  "sculpture": [
+    "B1"
+  ],
+  "sea": [
+    "A2"
+  ],
+  "search": [
+    "A2"
+  ],
+  "season": [
+    "A2"
+  ],
+  "seat": [
+    "A2",
+    "B2"
+  ],
+  "second1 (next after the first)": [
+    "A1",
+    "A2"
+  ],
+  "second1 (unit of time)": [
+    "A1"
+  ],
+  "secondary": [
+    "B1"
+  ],
+  "secret": [
+    "A2"
+  ],
+  "secretary": [
+    "A2"
+  ],
+  "section": [
+    "A1"
+  ],
+  "sector": [
+    "B2"
+  ],
+  "secure": [
+    "B2"
+  ],
+  "security": [
+    "B1"
+  ],
+  "see": [
+    "A1"
+  ],
+  "seed": [
+    "B1"
+  ],
+  "seek": [
+    "B2"
+  ],
+  "seem": [
+    "A2"
+  ],
+  "select": [
+    "B2"
+  ],
+  "selection": [
+    "B2"
+  ],
+  "self": [
+    "B2"
+  ],
+  "sell": [
+    "A1"
+  ],
+  "senate": [
+    "B2"
+  ],
+  "senator": [
+    "B2"
+  ],
+  "send": [
+    "A1"
+  ],
+  "senior": [
+    "B2"
+  ],
+  "sense": [
+    "A2",
+    "B2"
+  ],
+  "sensible": [
+    "B1"
+  ],
+  "sensitive": [
+    "B2"
+  ],
+  "sentence": [
+    "A1",
+    "B2"
+  ],
+  "separate": [
+    "A2",
+    "B1"
+  ],
+  "September": [
+    "A1"
+  ],
+  "sequence": [
+    "B2"
+  ],
+  "series": [
+    "A2"
+  ],
+  "serious": [
+    "A2"
+  ],
+  "seriously": [
+    "B1"
+  ],
+  "servant": [
+    "B1"
+  ],
+  "serve": [
+    "A2"
+  ],
+  "service": [
+    "A2"
+  ],
+  "session": [
+    "B2"
+  ],
+  "set (put)": [
+    "B1"
+  ],
+  "set (group)": [
+    "B1"
+  ],
+  "setting": [
+    "B1"
+  ],
+  "settle": [
+    "B2"
+  ],
+  "seven": [
+    "A1"
+  ],
+  "seventeen": [
+    "A1"
+  ],
+  "seventy": [
+    "A1"
+  ],
+  "several": [
+    "A2"
+  ],
+  "severe": [
+    "B2"
+  ],
+  "sex": [
+    "B1"
+  ],
+  "sexual": [
+    "B1"
+  ],
+  "shade": [
+    "B2"
+  ],
+  "shadow": [
+    "B2"
+  ],
+  "shake": [
+    "A2",
+    "B1"
+  ],
+  "shall": [
+    "B2"
+  ],
+  "shallow": [
+    "B2"
+  ],
+  "shame": [
+    "B2"
+  ],
+  "shape": [
+    "A2",
+    "B2"
+  ],
+  "share": [
+    "A1",
+    "B1"
+  ],
+  "sharp": [
+    "B1"
+  ],
+  "she": [
+    "A1"
+  ],
+  "sheep": [
+    "A1"
+  ],
+  "sheet": [
+    "A2"
+  ],
+  "shelf": [
+    "B1"
+  ],
+  "shell": [
+    "B1"
+  ],
+  "shelter": [
+    "B2"
+  ],
+  "shift": [
+    "B1",
+    "B2"
+  ],
+  "shine": [
+    "B1"
+  ],
+  "shiny": [
+    "B1"
+  ],
+  "ship": [
+    "A2",
+    "B2"
+  ],
+  "shirt": [
+    "A1"
+  ],
+  "shock": [
+    "B2"
+  ],
+  "shocked": [
+    "B2"
+  ],
+  "shoe": [
+    "A1"
+  ],
+  "shoot": [
+    "B1"
+  ],
+  "shooting": [
+    "B2"
+  ],
+  "shop": [
+    "A1"
+  ],
+  "shopping": [
+    "A1"
+  ],
+  "short": [
+    "A1"
+  ],
+  "shot": [
+    "B2"
+  ],
+  "should": [
+    "A1"
+  ],
+  "shoulder": [
+    "A2"
+  ],
+  "shout": [
+    "A2"
+  ],
+  "show": [
+    "A1"
+  ],
+  "shower": [
+    "A1"
+  ],
+  "shut": [
+    "A2"
+  ],
+  "shy": [
+    "B1"
+  ],
+  "sick": [
+    "A1"
+  ],
+  "side": [
+    "A2"
+  ],
+  "sight": [
+    "B1"
+  ],
+  "sign": [
+    "A2"
+  ],
+  "signal": [
+    "B1"
+  ],
+  "significant": [
+    "B2"
+  ],
+  "significantly": [
+    "B2"
+  ],
+  "silence": [
+    "B2"
+  ],
+  "silent": [
+    "B1"
+  ],
+  "silk": [
+    "B2"
+  ],
+  "silly": [
+    "B1"
+  ],
+  "silver": [
+    "A2"
+  ],
+  "similar": [
+    "A1"
+  ],
+  "similarity": [
+    "B1"
+  ],
+  "similarly": [
+    "B1"
+  ],
+  "simple": [
+    "A2"
+  ],
+  "simply": [
+    "B1"
+  ],
+  "since": [
+    "A2",
+    "B1"
+  ],
+  "sincere": [
+    "B2"
+  ],
+  "sing": [
+    "A1"
+  ],
+  "singer": [
+    "A1"
+  ],
+  "singing": [
+    "A2"
+  ],
+  "single": [
+    "A2"
+  ],
+  "sink": [
+    "B1"
+  ],
+  "sir": [
+    "A2"
+  ],
+  "sister": [
+    "A1"
+  ],
+  "sit": [
+    "A1"
+  ],
+  "site": [
+    "A2"
+  ],
+  "situation": [
+    "A1"
+  ],
+  "six": [
+    "A1"
+  ],
+  "sixteen": [
+    "A1"
+  ],
+  "sixty": [
+    "A1"
+  ],
+  "size": [
+    "A2"
+  ],
+  "ski": [
+    "A2"
+  ],
+  "skiing": [
+    "A2"
+  ],
+  "skill": [
+    "A1"
+  ],
+  "skin": [
+    "A2"
+  ],
+  "skirt": [
+    "A1"
+  ],
+  "sky": [
+    "A2"
+  ],
+  "slave": [
+    "B1"
+  ],
+  "sleep": [
+    "A1",
+    "A2"
+  ],
+  "slice": [
+    "B1"
+  ],
+  "slide": [
+    "B2"
+  ],
+  "slight": [
+    "B2"
+  ],
+  "slightly": [
+    "B1"
+  ],
+  "slip": [
+    "B2"
+  ],
+  "slope": [
+    "B2"
+  ],
+  "slow": [
+    "A1",
+    "B1"
+  ],
+  "slowly": [
+    "A2"
+  ],
+  "small": [
+    "A1"
+  ],
+  "smart": [
+    "A1"
+  ],
+  "smartphone": [
+    "A2"
+  ],
+  "smell": [
+    "A2"
+  ],
+  "smile": [
+    "A2"
+  ],
+  "smoke": [
+    "A2"
+  ],
+  "smoking": [
+    "A2"
+  ],
+  "smooth": [
+    "B1"
+  ],
+  "snake": [
+    "A1"
+  ],
+  "sneaker": [
+    "A2"
+  ],
+  "snow": [
+    "A1"
+  ],
+  "so": [
+    "A1"
+  ],
+  "soap": [
+    "A2"
+  ],
+  "soccer": [
+    "A2"
+  ],
+  "social": [
+    "A2"
+  ],
+  "society": [
+    "A2"
+  ],
+  "sock": [
+    "A2"
+  ],
+  "soft": [
+    "A2"
+  ],
+  "software": [
+    "B1"
+  ],
+  "soil": [
+    "B1"
+  ],
+  "solar": [
+    "B2"
+  ],
+  "soldier": [
+    "A2"
+  ],
+  "solid": [
+    "B1"
+  ],
+  "solution": [
+    "A2"
+  ],
+  "solve": [
+    "A2"
+  ],
+  "some": [
+    "A1"
+  ],
+  "somebody": [
+    "A1"
+  ],
+  "someone": [
+    "A1"
+  ],
+  "something": [
+    "A1"
+  ],
+  "sometimes": [
+    "A1"
+  ],
+  "somewhat": [
+    "B2"
+  ],
+  "somewhere": [
+    "A2"
+  ],
+  "son": [
+    "A1"
+  ],
+  "song": [
+    "A1"
+  ],
+  "soon": [
+    "A1"
+  ],
+  "sorry": [
+    "A1"
+  ],
+  "sort": [
+    "A2",
+    "B1"
+  ],
+  "soul": [
+    "B2"
+  ],
+  "sound": [
+    "A1"
+  ],
+  "soup": [
+    "A1"
+  ],
+  "source": [
+    "A2"
+  ],
+  "south": [
+    "A1"
+  ],
+  "southern": [
+    "B1"
+  ],
+  "space": [
+    "A1"
+  ],
+  "speak": [
+    "A1"
+  ],
+  "speaker": [
+    "A2"
+  ],
+  "special": [
+    "A1"
+  ],
+  "specialist": [
+    "B2"
+  ],
+  "species": [
+    "B2"
+  ],
+  "specific": [
+    "A2"
+  ],
+  "specifically": [
+    "B1"
+  ],
+  "speech": [
+    "A2"
+  ],
+  "speed": [
+    "A2",
+    "B2"
+  ],
+  "spell": [
+    "A1"
+  ],
+  "spelling": [
+    "A1"
+  ],
+  "spend": [
+    "A1"
+  ],
+  "spending": [
+    "B1"
+  ],
+  "spicy": [
+    "B1"
+  ],
+  "spider": [
+    "A2"
+  ],
+  "spirit": [
+    "B1"
+  ],
+  "spiritual": [
+    "B2"
+  ],
+  "split": [
+    "B2"
+  ],
+  "spoken": [
+    "B1"
+  ],
+  "sponsor": [
+    "B2"
+  ],
+  "spoon": [
+    "A2"
+  ],
+  "sport": [
+    "A1"
+  ],
+  "spot": [
+    "B1",
+    "B2"
+  ],
+  "spread": [
+    "B1",
+    "B2"
+  ],
+  "spring": [
+    "A1",
+    "B1"
+  ],
+  "square": [
+    "A2"
+  ],
+  "stable": [
+    "B2"
+  ],
+  "stadium": [
+    "B1"
+  ],
+  "staff": [
+    "B1"
+  ],
+  "stage": [
+    "A2",
+    "B2"
+  ],
+  "stair": [
+    "A2"
+  ],
+  "stamp": [
+    "A2"
+  ],
+  "stand": [
+    "A1",
+    "B2"
+  ],
+  "standard": [
+    "B1"
+  ],
+  "star": [
+    "A1",
+    "A2"
+  ],
+  "stare": [
+    "B2"
+  ],
+  "start": [
+    "A1",
+    "A2"
+  ],
+  "state": [
+    "A2",
+    "B1"
+  ],
+  "statement": [
+    "A1"
+  ],
+  "station": [
+    "A1"
+  ],
+  "statistic": [
+    "B1"
+  ],
+  "statue": [
+    "B1"
+  ],
+  "status": [
+    "B2"
+  ],
+  "stay": [
+    "A1",
+    "A2"
+  ],
+  "steady": [
+    "B2"
+  ],
+  "steal": [
+    "A2"
+  ],
+  "steel": [
+    "B2"
+  ],
+  "steep": [
+    "B2"
+  ],
+  "step": [
+    "A2",
+    "B2"
+  ],
+  "stick (push into/attach)": [
+    "B1"
+  ],
+  "stick (piece of wood)": [
+    "B1"
+  ],
+  "sticky": [
+    "B2"
+  ],
+  "stiff": [
+    "B2"
+  ],
+  "still": [
+    "A1",
+    "B1"
+  ],
+  "stock": [
+    "B2"
+  ],
+  "stomach": [
+    "A2"
+  ],
+  "stone": [
+    "A2"
+  ],
+  "stop": [
+    "A1"
+  ],
+  "store": [
+    "A1",
+    "B1"
+  ],
+  "storm": [
+    "A2"
+  ],
+  "story": [
+    "A1"
+  ],
+  "stove": [
+    "A2"
+  ],
+  "straight": [
+    "A2"
+  ],
+  "strange": [
+    "A2"
+  ],
+  "stranger": [
+    "B1"
+  ],
+  "strategy": [
+    "A2"
+  ],
+  "stream": [
+    "B2"
+  ],
+  "street": [
+    "A1"
+  ],
+  "strength": [
+    "B1"
+  ],
+  "stress": [
+    "A2"
+  ],
+  "stretch": [
+    "B2"
+  ],
+  "strict": [
+    "B2"
+  ],
+  "strike": [
+    "B2"
+  ],
+  "string": [
+    "B1"
+  ],
+  "strong": [
+    "A1"
+  ],
+  "strongly": [
+    "B1"
+  ],
+  "structure": [
+    "A2",
+    "B2"
+  ],
+  "struggle": [
+    "B2"
+  ],
+  "student": [
+    "A1"
+  ],
+  "studio": [
+    "B1"
+  ],
+  "study": [
+    "A1"
+  ],
+  "stuff": [
+    "B1",
+    "B2"
+  ],
+  "stupid": [
+    "A2"
+  ],
+  "style": [
+    "A1"
+  ],
+  "subject": [
+    "A1",
+    "B2"
+  ],
+  "submit": [
+    "B2"
+  ],
+  "substance": [
+    "B1"
+  ],
+  "subway": [
+    "A2"
+  ],
+  "succeed": [
+    "A2"
+  ],
+  "success": [
+    "A1"
+  ],
+  "successful": [
+    "A2"
+  ],
+  "successfully": [
+    "B1"
+  ],
+  "such": [
+    "A2"
+  ],
+  "sudden": [
+    "B1"
+  ],
+  "suddenly": [
+    "A2"
+  ],
+  "suffer": [
+    "B1"
+  ],
+  "sugar": [
+    "A1"
+  ],
+  "suggest": [
+    "A2"
+  ],
+  "suggestion": [
+    "A2"
+  ],
+  "suit": [
+    "A2",
+    "B1"
+  ],
+  "suitable": [
+    "B1"
+  ],
+  "sum": [
+    "B2"
+  ],
+  "summarize": [
+    "B1"
+  ],
+  "summary": [
+    "B1"
+  ],
+  "summer": [
+    "A1"
+  ],
+  "sun": [
+    "A1"
+  ],
+  "Sunday": [
+    "A1"
+  ],
+  "supermarket": [
+    "A1"
+  ],
+  "supply": [
+    "B1"
+  ],
+  "support": [
+    "A2"
+  ],
+  "supporter": [
+    "B1"
+  ],
+  "suppose": [
+    "A2"
+  ],
+  "sure": [
+    "A1",
+    "A2"
+  ],
+  "surely": [
+    "B1"
+  ],
+  "surface": [
+    "B1"
+  ],
+  "surgery": [
+    "B2"
+  ],
+  "surprise": [
+    "A2"
+  ],
+  "surprised": [
+    "A2"
+  ],
+  "surprising": [
+    "A2"
+  ],
+  "surround": [
+    "B2"
+  ],
+  "surrounding": [
+    "B2"
+  ],
+  "survey": [
+    "A2",
+    "B2"
+  ],
+  "survive": [
+    "B1"
+  ],
+  "suspect": [
+    "B2"
+  ],
+  "swear": [
+    "B2"
+  ],
+  "sweater": [
+    "A1"
+  ],
+  "sweep": [
+    "B2"
+  ],
+  "sweet": [
+    "A2"
+  ],
+  "swim": [
+    "A1",
+    "B1"
+  ],
+  "swimming": [
+    "A1"
+  ],
+  "switch": [
+    "B1",
+    "B2"
+  ],
+  "symbol": [
+    "A2"
+  ],
+  "sympathy": [
+    "B2"
+  ],
+  "symptom": [
+    "B1"
+  ],
+  "system": [
+    "A2"
+  ],
+  "table": [
+    "A1"
+  ],
+  "tablet": [
+    "A2"
+  ],
+  "tail": [
+    "B1"
+  ],
+  "take": [
+    "A1"
+  ],
+  "tale": [
+    "B2"
+  ],
+  "talent": [
+    "B1"
+  ],
+  "talented": [
+    "B1"
+  ],
+  "talk": [
+    "A1",
+    "A2"
+  ],
+  "tall": [
+    "A1"
+  ],
+  "tank": [
+    "B2"
+  ],
+  "tape": [
+    "B1"
+  ],
+  "target": [
+    "A2",
+    "B2"
+  ],
+  "task": [
+    "A2"
+  ],
+  "taste": [
+    "A2"
+  ],
+  "tax": [
+    "B1"
+  ],
+  "taxi": [
+    "A1"
+  ],
+  "tea": [
+    "A1"
+  ],
+  "teach": [
+    "A1"
+  ],
+  "teacher": [
+    "A1"
+  ],
+  "teaching": [
+    "A2"
+  ],
+  "team": [
+    "A1"
+  ],
+  "tear1": [
+    "B2"
+  ],
+  "tear2": [
+    "B2"
+  ],
+  "technical": [
+    "B1"
+  ],
+  "technique": [
+    "B1"
+  ],
+  "technology": [
+    "A2"
+  ],
+  "teenage": [
+    "A2"
+  ],
+  "teenager": [
+    "A1"
+  ],
+  "telephone": [
+    "A1"
+  ],
+  "television": [
+    "A1"
+  ],
+  "tell": [
+    "A1"
+  ],
+  "temperature": [
+    "A2"
+  ],
+  "temporary": [
+    "B2"
+  ],
+  "ten": [
+    "A1"
+  ],
+  "tend": [
+    "B1"
+  ],
+  "tennis": [
+    "A1"
+  ],
+  "tent": [
+    "B1"
+  ],
+  "term": [
+    "A2",
+    "B2"
+  ],
+  "terrible": [
+    "A1"
+  ],
+  "test": [
+    "A1"
+  ],
+  "text": [
+    "A1",
+    "A2"
+  ],
+  "than": [
+    "A1"
+  ],
+  "thank": [
+    "A1"
+  ],
+  "thanks": [
+    "A1"
+  ],
+  "that": [
+    "A1",
+    "B1"
+  ],
+  "the": [
+    "A1"
+  ],
+  "theater": [
+    "A1"
+  ],
+  "their": [
+    "A1"
+  ],
+  "theirs": [
+    "B1"
+  ],
+  "them": [
+    "A1"
+  ],
+  "theme": [
+    "B1"
+  ],
+  "themselves": [
+    "A2"
+  ],
+  "then": [
+    "A1"
+  ],
+  "theory": [
+    "B1"
+  ],
+  "therapy": [
+    "B2"
+  ],
+  "there": [
+    "A1"
+  ],
+  "therefore": [
+    "B1"
+  ],
+  "they": [
+    "A1"
+  ],
+  "thick": [
+    "A2"
+  ],
+  "thief": [
+    "A2"
+  ],
+  "thin": [
+    "A2"
+  ],
+  "thing": [
+    "A1"
+  ],
+  "think": [
+    "A1"
+  ],
+  "thinking": [
+    "A2"
+  ],
+  "third": [
+    "A1",
+    "A2"
+  ],
+  "thirsty": [
+    "A1"
+  ],
+  "thirteen": [
+    "A1"
+  ],
+  "thirty": [
+    "A1"
+  ],
+  "this": [
+    "A1",
+    "B1"
+  ],
+  "though": [
+    "B1"
+  ],
+  "thought": [
+    "A2"
+  ],
+  "thousand": [
+    "A1"
+  ],
+  "threat": [
+    "B2"
+  ],
+  "threaten": [
+    "B2"
+  ],
+  "three": [
+    "A1"
+  ],
+  "throat": [
+    "B1"
+  ],
+  "through": [
+    "A1"
+  ],
+  "throughout": [
+    "B1"
+  ],
+  "throw": [
+    "A2"
+  ],
+  "Thursday": [
+    "A1"
+  ],
+  "thus": [
+    "B2"
+  ],
+  "ticket": [
+    "A1"
+  ],
+  "tie": [
+    "A2"
+  ],
+  "tight": [
+    "B1"
+  ],
+  "till": [
+    "B1"
+  ],
+  "time": [
+    "A1",
+    "B2"
+  ],
+  "tiny": [
+    "B1"
+  ],
+  "tip": [
+    "A2",
+    "B1"
+  ],
+  "tire": [
+    "B1"
+  ],
+  "tired": [
+    "A1"
+  ],
+  "title": [
+    "A1",
+    "B2"
+  ],
+  "to": [
+    "A1"
+  ],
+  "today": [
+    "A1"
+  ],
+  "toe": [
+    "B1"
+  ],
+  "together": [
+    "A1"
+  ],
+  "toilet": [
+    "A1"
+  ],
+  "tomato": [
+    "A1"
+  ],
+  "tomorrow": [
+    "A1"
+  ],
+  "ton": [
+    "B1"
+  ],
+  "tone": [
+    "B2"
+  ],
+  "tongue": [
+    "B1"
+  ],
+  "tonight": [
+    "A1"
+  ],
+  "too": [
+    "A1"
+  ],
+  "tool": [
+    "A2"
+  ],
+  "tooth": [
+    "A1"
+  ],
+  "top": [
+    "A2"
+  ],
+  "topic": [
+    "A1"
+  ],
+  "total": [
+    "B1"
+  ],
+  "totally": [
+    "B1"
+  ],
+  "touch": [
+    "A2",
+    "B1"
+  ],
+  "tough": [
+    "B2"
+  ],
+  "tour": [
+    "A2",
+    "B1"
+  ],
+  "tourism": [
+    "A2"
+  ],
+  "tourist": [
+    "A1"
+  ],
+  "toward": [
+    "A2"
+  ],
+  "towel": [
+    "A2"
+  ],
+  "tower": [
+    "A2"
+  ],
+  "town": [
+    "A1"
+  ],
+  "toy": [
+    "A2"
+  ],
+  "track": [
+    "A2",
+    "B2"
+  ],
+  "trade": [
+    "B1"
+  ],
+  "tradition": [
+    "A2"
+  ],
+  "traditional": [
+    "A2"
+  ],
+  "traffic": [
+    "A1"
+  ],
+  "train": [
+    "A1",
+    "A2"
+  ],
+  "trainer": [
+    "B1"
+  ],
+  "training": [
+    "A2"
+  ],
+  "transfer": [
+    "B2"
+  ],
+  "transform": [
+    "B2"
+  ],
+  "transition": [
+    "B2"
+  ],
+  "translate": [
+    "B1"
+  ],
+  "translation": [
+    "B1"
+  ],
+  "transport": [
+    "B1"
+  ],
+  "transportation": [
+    "A2"
+  ],
+  "trash": [
+    "A2"
+  ],
+  "travel": [
+    "A1"
+  ],
+  "traveler": [
+    "A2"
+  ],
+  "treat": [
+    "B1"
+  ],
+  "treatment": [
+    "B1"
+  ],
+  "tree": [
+    "A1"
+  ],
+  "trend": [
+    "B1"
+  ],
+  "trial": [
+    "B2"
+  ],
+  "trick": [
+    "B1"
+  ],
+  "trip": [
+    "A1",
+    "B2"
+  ],
+  "tropical": [
+    "B2"
+  ],
+  "trouble": [
+    "A2",
+    "B2"
+  ],
+  "truck": [
+    "A1"
+  ],
+  "true": [
+    "A1"
+  ],
+  "truly": [
+    "B2"
+  ],
+  "trust": [
+    "B2"
+  ],
+  "truth": [
+    "B1"
+  ],
+  "try": [
+    "A1",
+    "B2"
+  ],
+  "T-shirt": [
+    "A1"
+  ],
+  "tube": [
+    "B1"
+  ],
+  "Tuesday": [
+    "A1"
+  ],
+  "tune": [
+    "B2"
+  ],
+  "tunnel": [
+    "B2"
+  ],
+  "turn": [
+    "A1"
+  ],
+  "TV": [
+    "A1"
+  ],
+  "twelve": [
+    "A1"
+  ],
+  "twenty": [
+    "A1"
+  ],
+  "twice": [
+    "A1"
+  ],
+  "twin": [
+    "A2"
+  ],
+  "two": [
+    "A1"
+  ],
+  "type": [
+    "A1",
+    "B1"
+  ],
+  "typical": [
+    "A2"
+  ],
+  "typically": [
+    "B1"
+  ],
+  "ugly": [
+    "B1"
+  ],
+  "ultimately": [
+    "B2"
+  ],
+  "umbrella": [
+    "A1"
+  ],
+  "unable": [
+    "B1"
+  ],
+  "uncle": [
+    "A1"
+  ],
+  "uncomfortable": [
+    "B1"
+  ],
+  "unconscious": [
+    "B2"
+  ],
+  "under": [
+    "A1"
+  ],
+  "underground": [
+    "A2"
+  ],
+  "understand": [
+    "A1"
+  ],
+  "understanding": [
+    "A2"
+  ],
+  "underwear": [
+    "B1"
+  ],
+  "unemployed": [
+    "B1"
+  ],
+  "unemployment": [
+    "B1"
+  ],
+  "unexpected": [
+    "B2"
+  ],
+  "unfair": [
+    "B1"
+  ],
+  "unfortunately": [
+    "A2"
+  ],
+  "unhappy": [
+    "A2"
+  ],
+  "uniform": [
+    "A2"
+  ],
+  "union": [
+    "B1"
+  ],
+  "unique": [
+    "B2"
+  ],
+  "unit": [
+    "A2"
+  ],
+  "united": [
+    "A2"
+  ],
+  "universe": [
+    "B2"
+  ],
+  "university": [
+    "A1"
+  ],
+  "unknown": [
+    "B2"
+  ],
+  "unless": [
+    "B1"
+  ],
+  "unlike": [
+    "B1"
+  ],
+  "unlikely": [
+    "B1"
+  ],
+  "unnecessary": [
+    "B1"
+  ],
+  "unpleasant": [
+    "B1"
+  ],
+  "until": [
+    "A1"
+  ],
+  "unusual": [
+    "A2"
+  ],
+  "up": [
+    "A1"
+  ],
+  "update": [
+    "B1"
+  ],
+  "upon": [
+    "B1"
+  ],
+  "upper": [
+    "B2"
+  ],
+  "upset": [
+    "B1"
+  ],
+  "upstairs": [
+    "A1",
+    "A2"
+  ],
+  "upward": [
+    "B2"
+  ],
+  "urban": [
+    "B2"
+  ],
+  "urge": [
+    "B2"
+  ],
+  "us": [
+    "A1"
+  ],
+  "use": [
+    "A1",
+    "A2"
+  ],
+  "used1": [
+    "B1"
+  ],
+  "used2": [
+    "B1"
+  ],
+  "used to": [
+    "A2"
+  ],
+  "useful": [
+    "A1"
+  ],
+  "user": [
+    "A2"
+  ],
+  "usual": [
+    "A2"
+  ],
+  "usually": [
+    "A1"
+  ],
+  "vacation": [
+    "A1"
+  ],
+  "valley": [
+    "A2"
+  ],
+  "valuable": [
+    "B1"
+  ],
+  "value": [
+    "B1",
+    "B2"
+  ],
+  "van": [
+    "B2"
+  ],
+  "variety": [
+    "A2"
+  ],
+  "various": [
+    "B1"
+  ],
+  "vary": [
+    "B2"
+  ],
+  "vast": [
+    "B2"
+  ],
+  "vegetable": [
+    "A1"
+  ],
+  "vehicle": [
+    "A2"
+  ],
+  "venue": [
+    "B2"
+  ],
+  "version": [
+    "B1"
+  ],
+  "very": [
+    "A1",
+    "B2"
+  ],
+  "via": [
+    "B2"
+  ],
+  "victim": [
+    "B1"
+  ],
+  "victory": [
+    "B2"
+  ],
+  "video": [
+    "A1"
+  ],
+  "view": [
+    "A2",
+    "B1"
+  ],
+  "viewer": [
+    "B1"
+  ],
+  "village": [
+    "A2"
+  ],
+  "violence": [
+    "B2"
+  ],
+  "violent": [
+    "B1"
+  ],
+  "virtual": [
+    "B2"
+  ],
+  "virus": [
+    "A2"
+  ],
+  "vision": [
+    "B2"
+  ],
+  "visit": [
+    "A1"
+  ],
+  "visitor": [
+    "A1"
+  ],
+  "visual": [
+    "B2"
+  ],
+  "vital": [
+    "B2"
+  ],
+  "vitamin": [
+    "B2"
+  ],
+  "voice": [
+    "A2"
+  ],
+  "volume": [
+    "B2"
+  ],
+  "volunteer": [
+    "B1"
+  ],
+  "vote": [
+    "B1"
+  ],
+  "wage": [
+    "B2"
+  ],
+  "wait": [
+    "A1",
+    "A2"
+  ],
+  "waiter": [
+    "A1"
+  ],
+  "wake": [
+    "A1"
+  ],
+  "walk": [
+    "A1"
+  ],
+  "wall": [
+    "A1"
+  ],
+  "want": [
+    "A1"
+  ],
+  "war": [
+    "A2"
+  ],
+  "warm": [
+    "A1",
+    "B1"
+  ],
+  "warn": [
+    "B1"
+  ],
+  "warning": [
+    "B1"
+  ],
+  "wash": [
+    "A1",
+    "A2"
+  ],
+  "washing": [
+    "A2"
+  ],
+  "waste": [
+    "B1"
+  ],
+  "watch": [
+    "A1"
+  ],
+  "water": [
+    "A1",
+    "B1"
+  ],
+  "wave": [
+    "A2",
+    "B1"
+  ],
+  "way": [
+    "A1",
+    "B2"
+  ],
+  "we": [
+    "A1"
+  ],
+  "weak": [
+    "A2"
+  ],
+  "weakness": [
+    "B2"
+  ],
+  "wealth": [
+    "B2"
+  ],
+  "wealthy": [
+    "B2"
+  ],
+  "weapon": [
+    "B1"
+  ],
+  "wear": [
+    "A1"
+  ],
+  "weather": [
+    "A1"
+  ],
+  "web": [
+    "A2"
+  ],
+  "website": [
+    "A1"
+  ],
+  "wedding": [
+    "A2"
+  ],
+  "Wednesday": [
+    "A1"
+  ],
+  "week": [
+    "A1"
+  ],
+  "weekend": [
+    "A1"
+  ],
+  "weigh": [
+    "B1"
+  ],
+  "weight": [
+    "A2"
+  ],
+  "welcome": [
+    "A1",
+    "A2"
+  ],
+  "well": [
+    "A1"
+  ],
+  "west": [
+    "A1"
+  ],
+  "western": [
+    "B1"
+  ],
+  "wet": [
+    "A2"
+  ],
+  "what": [
+    "A1"
+  ],
+  "whatever": [
+    "B1"
+  ],
+  "wheel": [
+    "A2"
+  ],
+  "when": [
+    "A1"
+  ],
+  "whenever": [
+    "B1"
+  ],
+  "where": [
+    "A1"
+  ],
+  "whereas": [
+    "B2"
+  ],
+  "wherever": [
+    "B2"
+  ],
+  "whether": [
+    "B1"
+  ],
+  "which": [
+    "A1"
+  ],
+  "while": [
+    "A2",
+    "B1"
+  ],
+  "whisper": [
+    "B2"
+  ],
+  "white": [
+    "A1"
+  ],
+  "who": [
+    "A1"
+  ],
+  "whole": [
+    "A2",
+    "B1"
+  ],
+  "whom": [
+    "B2"
+  ],
+  "whose": [
+    "A2"
+  ],
+  "why": [
+    "A1"
+  ],
+  "wide": [
+    "A2"
+  ],
+  "widely": [
+    "B2"
+  ],
+  "wife": [
+    "A1"
+  ],
+  "wild": [
+    "A2"
+  ],
+  "wildlife": [
+    "B2"
+  ],
+  "will": [
+    "A1",
+    "B1"
+  ],
+  "willing": [
+    "B2"
+  ],
+  "win": [
+    "A1",
+    "B1"
+  ],
+  "wind1": [
+    "A2"
+  ],
+  "wind2": [
+    "B2"
+  ],
+  "window": [
+    "A1"
+  ],
+  "wine": [
+    "A1"
+  ],
+  "wing": [
+    "B1"
+  ],
+  "winner": [
+    "A2"
+  ],
+  "winter": [
+    "A1"
+  ],
+  "wire": [
+    "B2"
+  ],
+  "wise": [
+    "B2"
+  ],
+  "wish": [
+    "A2"
+  ],
+  "with": [
+    "A1"
+  ],
+  "within": [
+    "B1"
+  ],
+  "without": [
+    "A1"
+  ],
+  "witness": [
+    "B2"
+  ],
+  "woman": [
+    "A1"
+  ],
+  "wonder": [
+    "B1"
+  ],
+  "wonderful": [
+    "A1"
+  ],
+  "wood": [
+    "A2"
+  ],
+  "wooden": [
+    "A2"
+  ],
+  "wool": [
+    "B1"
+  ],
+  "word": [
+    "A1"
+  ],
+  "work": [
+    "A1"
+  ],
+  "worker": [
+    "A1"
+  ],
+  "working": [
+    "A2"
+  ],
+  "world": [
+    "A1"
+  ],
+  "worldwide": [
+    "B1"
+  ],
+  "worried": [
+    "A2"
+  ],
+  "worry": [
+    "A2",
+    "B1"
+  ],
+  "worse": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "worst": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "worth": [
+    "B1",
+    "B2"
+  ],
+  "would": [
+    "A1"
+  ],
+  "wound": [
+    "B2"
+  ],
+  "wow": [
+    "A2"
+  ],
+  "wrap": [
+    "B2"
+  ],
+  "write": [
+    "A1"
+  ],
+  "writer": [
+    "A1"
+  ],
+  "writing": [
+    "A1"
+  ],
+  "written": [
+    "B1"
+  ],
+  "wrong": [
+    "A1",
+    "B1",
+    "B2"
+  ],
+  "yard": [
+    "A1"
+  ],
+  "yeah": [
+    "A1"
+  ],
+  "year": [
+    "A1"
+  ],
+  "yellow": [
+    "A1"
+  ],
+  "yes": [
+    "A1"
+  ],
+  "yesterday": [
+    "A1"
+  ],
+  "yet": [
+    "A2",
+    "B2"
+  ],
+  "you": [
+    "A1"
+  ],
+  "young": [
+    "A1",
+    "B1"
+  ],
+  "your": [
+    "A1"
+  ],
+  "yours": [
+    "A2"
+  ],
+  "yourself": [
+    "A1"
+  ],
+  "youth": [
+    "B1"
+  ],
+  "zero": [
+    "A2"
+  ],
+  "zone": [
+    "B2"
+  ]
+}
