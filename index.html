@@ -2844,11 +2844,20 @@
 .profile-avatar-big{width:62px;height:62px;flex:0 0 auto;display:grid;place-items:center;border-radius:19px;border:0;background:transparent;font-size:39px;box-shadow:none}
 .profile-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:3px}.profile-stat{min-width:0;min-height:74px;padding:9px 7px;border:1px solid var(--line);border-radius:15px;background:var(--panel-2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center}.profile-stat strong{color:var(--text);font-size:20px;font-weight:950;line-height:1}.profile-stat span{color:var(--muted);font-size:9px;font-weight:800;line-height:1.45}
 .profile-sync-note{display:none!important}.profile-secondary{background:var(--panel-2);border-color:var(--line-2);color:var(--text)}.profile-secondary:hover{background:var(--panel-3)}.profile-danger{color:var(--danger)}
+.top-utility-controls{display:flex;align-items:center;gap:6px}
 @media(max-width:720px){
- .top-controls{width:auto;align-self:flex-end;justify-content:flex-start;gap:6px}
- .study-strip{align-items:stretch}.study-strip>.learned-stat{order:1}.study-strip>.best-streak-stat{order:2}.study-strip>.history-stat{order:3}.study-strip>.streak-stat{order:4}
- .study-strip>.layer-stat{order:5;grid-column:1/-1;min-height:92px;display:flex;flex-direction:column;align-items:center;justify-content:center}.study-strip>.layer-stat strong{font-size:27px}.study-strip>.layer-stat span{margin-top:6px}
- .word{white-space:nowrap;word-break:normal;overflow:visible;max-width:calc(100vw - 84px)}
+ .top-controls{width:100%;align-self:stretch;justify-content:space-between;align-items:flex-start;gap:0;direction:ltr}
+ .top-utility-controls{display:flex;align-items:center;gap:6px;direction:rtl;order:2}
+ .top-controls>.profile-toggle{order:1}
+ .study-strip{align-items:stretch}
+ .study-strip>.layer-stat{order:1;grid-column:auto;min-height:72px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+ .study-strip>.streak-stat{order:2}
+ .study-strip>.best-streak-stat{order:3}
+ .study-strip>.learned-stat{order:4}
+ .study-strip>.history-stat{order:5;grid-column:1/-1}
+ .study-strip>.layer-stat strong{font-size:24px}.study-strip>.layer-stat span{margin-top:4px}
+ .word-line{width:100%;padding:0;display:grid;place-items:center;overflow:visible}
+ .word{width:100%;max-width:100%;white-space:nowrap;word-break:normal;overflow:visible;text-align:center;margin:0}
  .distribution .layer-list{flex:0 0 auto;height:auto;grid-template-rows:repeat(var(--layer-count,5),minmax(31px,auto))}
  .help-toggle.first-visit-hint{position:relative;z-index:2;box-shadow:0 0 0 4px rgba(241,95,109,.16),0 0 18px rgba(241,95,109,.58);animation:firstVisitHelpPulse 1.2s ease-in-out infinite}
 }
@@ -2881,24 +2890,26 @@
           </div>
         </div>
         <div class="top-controls">
-          <button
-            id="helpToggle"
-            class="theme-toggle help-toggle"
-            type="button"
-            aria-label="راهنما"
-            title="راهنما"
-          >
-            ?
-          </button>
-          <button
-            id="themeToggle"
-            class="theme-toggle"
-            type="button"
-            aria-label="تغییر تم"
-            title="تغییر تم"
-          >
-            ☀️
-          </button>
+          <div class="top-utility-controls">
+            <button
+              id="helpToggle"
+              class="theme-toggle help-toggle"
+              type="button"
+              aria-label="راهنما"
+              title="راهنما"
+            >
+              ?
+            </button>
+            <button
+              id="themeToggle"
+              class="theme-toggle"
+              type="button"
+              aria-label="تغییر تم"
+              title="تغییر تم"
+            >
+              ☀️
+            </button>
+          </div>
           <button
             id="profileToggle"
             class="profile-toggle"
@@ -3103,7 +3114,7 @@
             <button class="profile-tab active" id="profileLoginTab" type="button">ورود</button>
             <button class="profile-tab" id="profileSignupTab" type="button">ثبت‌نام</button>
           </div>
-          <form class="profile-form" id="profileAuthForm">
+          <form class="profile-form" id="profileAuthForm" novalidate>
             <div id="profileUsernameWrap" style="display:none">
               <div class="profile-label">نام کاربری</div>
               <input class="profile-input" id="profileUsername" maxlength="20" autocomplete="username" placeholder="مثلاً: Mohammad" />
@@ -4707,14 +4718,21 @@
           }
         }
         function friendlyAuthError(error) {
-          const m = String(error?.message || "").toLowerCase();
-          if (m.includes("invalid login credentials")) return "ایمیل یا رمز عبور اشتباه است.";
-          if (m.includes("email not confirmed")) return "اول ایمیل تأیید حساب را باز کن و بعد دوباره وارد شو.";
-          if (m.includes("user already registered")) return "این ایمیل قبلاً ثبت‌نام شده است.";
-          if (m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
-          if (m.includes("username")) return "این نام کاربری قبلاً استفاده شده یا معتبر نیست.";
-          if (m.includes("rate limit")) return "تعداد تلاش‌ها زیاد شده؛ کمی بعد دوباره امتحان کن.";
-          return error?.message || "خطایی رخ داد. دوباره تلاش کن.";
+          const raw = String(error?.message || error?.error_description || "").trim();
+          const m = raw.toLowerCase();
+          const status = Number(error?.status || error?.code || 0);
+          if (!raw) return "خطایی رخ داد. دوباره تلاش کن.";
+          if (m.includes("invalid login credentials") || m.includes("invalid email or password") || m.includes("user not found")) return "ایمیل یا رمز عبور اشتباه است.";
+          if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب هنوز تأیید نشده است. اول ایمیل تأیید را باز کن و بعد دوباره وارد شو.";
+          if (m.includes("user already registered") || m.includes("already registered") || m.includes("already been registered")) return "این ایمیل قبلاً ثبت‌نام شده است.";
+          if (m.includes("unable to validate email") || m.includes("invalid email") || m.includes("email address is invalid") || m.includes("valid email")) return "ایمیل واردشده معتبر نیست.";
+          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short") || m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
+          if (m.includes("username") || m.includes("duplicate key") || m.includes("unique constraint")) return "این نام کاربری قبلاً استفاده شده یا معتبر نیست.";
+          if (m.includes("email rate limit exceeded") || m.includes("rate limit") || m.includes("too many requests") || m.includes("for security purposes")) return "تعداد تلاش‌ها زیاد شده؛ کمی بعد دوباره امتحان کن.";
+          if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
+          if (m.includes("email signups are disabled") || m.includes("email provider is disabled")) return "ثبت‌نام با ایمیل در حال حاضر فعال نیست.";
+          if (status === 401) return "ایمیل یا رمز عبور اشتباه است.";
+          return "خطایی در ورود یا ثبت‌نام رخ داد. دوباره تلاش کن.";
         }
         function setProfileMessage(text, type = "") {
           ["profileMessage", "accountMessage"].forEach((id) => {
@@ -4879,7 +4897,9 @@
           const email = $("profileEmail").value.trim();
           const password = $("profilePassword").value;
           const username = $("profileUsername").value.trim();
-          if (!email || password.length < 6) { setProfileMessage("ایمیل و یک رمز عبور حداقل ۶ کاراکتری وارد کن.", "error"); return; }
+          if (!email) { setProfileMessage("ایمیل را وارد کن.", "error"); return; }
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setProfileMessage("یک ایمیل معتبر وارد کن.", "error"); return; }
+          if (password.length < 6) { setProfileMessage("رمز عبور باید حداقل ۶ کاراکتر باشد.", "error"); return; }
           if (profileMode === "signup" && !/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) {
             setProfileMessage("نام کاربری باید ۳ تا ۲۰ کاراکتر باشد و فقط شامل حروف، عدد، _ یا - باشد.", "error"); return;
           }
