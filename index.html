@@ -4779,8 +4779,8 @@
           if (code === "42501" || m.includes("row-level security") || m.includes("permission denied")) {
             return "اجازهٔ ویرایش پروفایل داده نشد. دوباره وارد حساب شو و دوباره امتحان کن.";
           }
-          if (code === "23505" || m.includes("duplicate key") || m.includes("unique constraint")) {
-            return "نام کاربری هنوز در دیتابیس به‌صورت یکتا تنظیم شده است. محدودیت تکراری بودن نام کاربری باید در Supabase حذف شود.";
+          if (code === "23505" || m.includes("duplicate key") || m.includes("unique constraint") || m.includes("profiles_username_lower_unique")) {
+            return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
           }
           if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) {
             return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
@@ -5078,7 +5078,6 @@
               const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
               if (error) throw error;
               clearPendingSignup();
-              setProfileMessage("ورود موفق بود.", "success");
               closeProfile();
             }
           } catch (err) {
