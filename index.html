@@ -2811,8 +2811,12 @@
       }
     </style>
       <style id="profile-polish">
-      .profile-toggle { height:42px; min-width:116px; padding:0 14px; border-radius:14px; border:1px solid var(--line-2); background:var(--panel); color:var(--text); display:inline-flex; align-items:center; justify-content:center; gap:7px; cursor:pointer; font-family:var(--font-fa); font-size:12px; font-weight:900; box-shadow:0 7px 22px rgba(0,0,0,.08); transition:transform .18s ease, background .18s ease, border-color .18s ease; }
+      .profile-toggle { height:42px; min-width:128px; padding:0 14px; border-radius:14px; border:1px solid var(--line-2); background:var(--panel); color:var(--text); display:inline-flex; align-items:center; justify-content:center; gap:7px; cursor:pointer; font-family:var(--font-fa); font-size:12px; font-weight:900; box-shadow:0 7px 22px rgba(0,0,0,.08); transition:transform .18s ease, background .18s ease, border-color .18s ease; }
       .profile-toggle:hover { transform:translateY(-1px); background:var(--panel-3); }
+.profile-toggle.logged-in { padding-inline:9px; }
+      .profile-button-avatar { width:29px; height:29px; display:grid; place-items:center; flex:0 0 auto; border-radius:9px; background:color-mix(in srgb,var(--accent) 12%,var(--panel-2)); border:1px solid color-mix(in srgb,var(--accent) 24%,var(--line-2)); font-size:18px; line-height:1; }
+      .profile-button-name { max-width:104px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:11px; font-weight:900; }
+      .profile-login-text { white-space:nowrap; }
       .profile-toggle.logged-in { border-color:color-mix(in srgb,var(--accent) 34%,var(--line-2)); background:color-mix(in srgb,var(--accent) 10%,var(--panel)); }
       .profile-modal { width:min(520px,100%); max-height:min(760px,calc(100dvh - 28px)); padding:0; overflow:hidden; border-radius:28px; background:radial-gradient(circle at 85% 0%,rgba(130,163,255,.12),transparent 32%),radial-gradient(circle at 12% 100%,rgba(173,130,255,.09),transparent 30%),var(--panel); }
       .profile-head { min-height:74px; padding:16px 18px 14px; display:flex; align-items:center; justify-content:space-between; gap:12px; border-bottom:1px solid var(--line); background:color-mix(in srgb,var(--panel-2) 92%,transparent); }
@@ -2828,7 +2832,7 @@
       .profile-input { width:100%; min-height:48px; padding:0 13px; border:1px solid var(--line-2); border-radius:14px; outline:none; background:color-mix(in srgb,var(--panel-2) 88%,transparent); color:var(--text); font:inherit; font-size:13px; transition:border-color .16s ease,box-shadow .16s ease,background .16s ease; }
       .profile-input::placeholder { color:var(--muted-2); }
       .profile-input:focus { border-color:color-mix(in srgb,var(--accent) 62%,var(--line-2)); background:var(--panel-2); box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 12%,transparent); }
-      .avatar-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:8px; }
+      .avatar-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:9px; }
       .avatar-option { aspect-ratio:1; min-width:0; border:1px solid var(--line); border-radius:15px; background:var(--panel-2); color:var(--text); display:grid; place-items:center; padding:0; font-size:25px; cursor:pointer; transition:transform .14s ease,border-color .14s ease,background .14s ease,box-shadow .14s ease; }
       .avatar-option:hover { transform:translateY(-2px); background:var(--panel-3); }
       .avatar-option.active { border-color:color-mix(in srgb,var(--accent) 62%,var(--line-2)); background:color-mix(in srgb,var(--accent) 13%,var(--panel-2)); box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 12%,transparent) inset,0 8px 22px color-mix(in srgb,var(--accent) 12%,transparent); }
@@ -2853,8 +2857,10 @@
       .profile-secondary:hover { background:var(--panel-3); }
       .profile-danger { color:var(--danger); }
       @media (max-width:560px) {
-        .profile-toggle { min-width:42px; width:42px; padding:0; border-radius:50%; }
-        .profile-toggle span { display:none; }
+        .profile-toggle { min-width:0; width:auto; padding:0 10px; border-radius:13px; }
+        .profile-toggle span { display:inline-flex; }
+        .profile-button-name { max-width:82px; }
+        .profile-button-avatar { width:27px; height:27px; font-size:17px; }
         .profile-modal { width:100%; max-height:calc(100dvh - 14px); border-radius:24px; }
         .profile-head { padding:14px 15px 12px; }
         #profileAuthView,#profileAccountView { padding:14px; }
@@ -2883,7 +2889,7 @@
           <div>
             <div class="brand-title-row">
               <h1>تمرین لغات پرکاربرد انگلیسی</h1>
-              <span class="version-badge">v0.4.0</span>
+              <span class="version-badge">v0.3.7</span>
             </div>
             <div class="brand-sub"></div>
           </div>
@@ -3142,12 +3148,11 @@
             <div class="profile-message" id="accountMessage"></div>
             <button class="profile-action" id="saveProfileBtn" type="button">ذخیره تغییرات</button>
             <div class="profile-stats">
-              <div class="profile-stat"><strong id="accountStreak">0</strong><span>استریک فعلی</span></div>
-              <div class="profile-stat"><strong id="accountBestStreak">0</strong><span>رکورد استریک</span></div>
-              <div class="profile-stat"><strong id="accountFavorites">0</strong><span>کلمات نشان‌شده</span></div>
               <div class="profile-stat"><strong id="accountProgress">0٪</strong><span>پیشرفت</span></div>
+              <div class="profile-stat"><strong id="accountBestStreak">0</strong><span>رکورد استریک</span></div>
+              <div class="profile-stat"><strong id="accountLearned">0</strong><span>کلمات یاد گرفته شده</span></div>
+              <div class="profile-stat"><strong id="accountVisitDays">0</strong><span>روزهای سر زده</span></div>
             </div>
-            <div class="profile-sync-note">اطلاعات پیشرفت این حساب روی حساب کاربری ذخیره می‌شود و با ورود از دستگاه دیگر دوباره بازیابی خواهد شد.</div>
             <button class="profile-secondary profile-danger" id="profileLogout" type="button">خروج از حساب</button>
           </div>
         </div>
@@ -3484,6 +3489,7 @@
           progressUnits: 0,
           streak: 0,
           bestStreak: 0,
+          visitDays: new Set(),
           activeLayerCount: 5,
           enabledLevels: new Set(["A1", "A2", "B1", "B2"]),
           favoritesOnly: false,
@@ -3512,7 +3518,7 @@
           supplementaryRequestId = 0;
         const SUPABASE_URL = "https://blhmnscvdrhxyypsnjun.supabase.co";
         const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BRZYKi_19oGLouyK8gDeKg_9gw9MT37";
-        const AVATARS = ["🦊","🐼","🐸","🐱","🐯","🐰","🐵","🐨"];
+        const AVATARS = ["🐶","🦊","🦁","🐵","🐸","🐰","🐱","🐼"];
         let supabaseClient = null,
           currentUser = null,
           currentProfile = null,
@@ -4688,6 +4694,7 @@
             scoreUnits: Math.max(0, Math.floor(state.progressUnits || 0)),
             streak: Math.max(0, Math.floor(state.streak || 0)),
             bestStreak: Math.max(0, Math.floor(state.bestStreak || 0)),
+            visitDays: [...state.visitDays].sort(),
             enabledLevels: [...state.enabledLevels],
             favoritesOnly: !!state.favoritesOnly,
             theme: state.theme,
@@ -4744,8 +4751,14 @@
         function refreshProfileButton() {
           const btn = $("profileToggle");
           if (!btn) return;
+          const username = currentProfile?.username || currentUser?.user_metadata?.username || "کاربر";
+          const avatar = currentProfile?.avatar || currentUser?.user_metadata?.avatar || AVATARS[0];
           btn.classList.toggle("logged-in", !!currentUser);
-          btn.title = currentUser && currentProfile ? `پروفایل: ${currentProfile.username}` : "پروفایل";
+          btn.title = currentUser ? `پروفایل: ${username}` : "ثبت نام / ورود";
+          btn.innerHTML = currentUser
+            ? `<span class="profile-button-avatar">${avatar}</span><span class="profile-button-name">${escapeHtml(username)}</span>`
+            : `<span class="profile-login-text">ثبت نام/ورود</span>`;
+          btn.setAttribute("aria-label", currentUser ? `پروفایل ${username}` : "ثبت نام/ورود");
         }
         function renderProfileAccount() {
           const authView = $("profileAuthView"), accountView = $("profileAccountView");
@@ -4760,10 +4773,10 @@
           $("accountEmail").textContent = currentUser.email || "";
           $("accountUsernameInput").value = username;
           $("accountAvatar").textContent = selectedAvatar;
-          $("accountStreak").textContent = Math.floor(state.streak || 0).toLocaleString("fa-IR");
-          $("accountBestStreak").textContent = Math.floor(state.bestStreak || 0).toLocaleString("fa-IR");
-          $("accountFavorites").textContent = state.favorites.size.toLocaleString("fa-IR");
           $("accountProgress").textContent = formatPct();
+          $("accountBestStreak").textContent = Math.floor(state.bestStreak || 0).toLocaleString("fa-IR");
+          $("accountLearned").textContent = state.mastered.size.toLocaleString("fa-IR");
+          $("accountVisitDays").textContent = state.visitDays.size.toLocaleString("fa-IR");
           setAvatarGrid("accountAvatarGrid", selectedAvatar);
           refreshProfileButton();
         }
@@ -4852,7 +4865,19 @@
             }
             return;
           }
-          try { await hydrateCloud(); } catch (e) { console.error(e); cloudReady = true; }
+          try {
+            await hydrateCloud();
+            markVisitDay();
+            save();
+            scheduleCloudSave();
+          } catch (e) {
+            console.error(e);
+            cloudReady = true;
+            markVisitDay();
+            save();
+            scheduleCloudSave();
+          }
+          renderProfileAccount();
         }
         async function initAuth() {
           if (!initSupabase()) return;
@@ -4930,6 +4955,19 @@
           localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
           scheduleCloudSave();
         }
+        function getTodayKey() {
+          const now = new Date();
+          const y = now.getFullYear();
+          const m = String(now.getMonth() + 1).padStart(2, "0");
+          const d = String(now.getDate()).padStart(2, "0");
+          return `${y}-${m}-${d}`;
+        }
+        function markVisitDay() {
+          if (!(state.visitDays instanceof Set)) state.visitDays = new Set();
+          const before = state.visitDays.size;
+          state.visitDays.add(getTodayKey());
+          return state.visitDays.size !== before;
+        }
         function ensureHistory() {
           for (const w of Object.keys(state.words)) {
             const h = state.history[w];
@@ -4976,6 +5014,11 @@
             state.streak,
             Math.floor(Number(saved.bestStreak) || 0),
           );
+          state.visitDays = new Set(
+            Array.isArray(saved.visitDays)
+              ? saved.visitDays.filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d)))
+              : [],
+          );
           state.activeLayerCount = clamp(
             Math.floor(Number(saved.activeLayerCount) || 5),
             1,
@@ -5020,6 +5063,7 @@
           $("customMinutes").value =
             state.timerSeconds > 0 ? Math.floor(state.timerSeconds / 60) : "";
           syncTimerState();
+          markVisitDay();
         }
 
         function applyTheme() {
