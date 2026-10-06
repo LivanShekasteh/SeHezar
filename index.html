@@ -4771,6 +4771,22 @@
           if (status === 401) return "ایمیل یا رمز عبور اشتباه است.";
           return "خطایی در ورود یا ثبت‌نام رخ داد. دوباره تلاش کن.";
         }
+        function friendlyProfileError(error) {
+          const raw = String(error?.message || error?.details || error?.hint || "").trim();
+          const m = raw.toLowerCase();
+          const code = String(error?.code || "");
+          if (!raw) return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
+          if (code === "42501" || m.includes("row-level security") || m.includes("permission denied")) {
+            return "اجازهٔ ویرایش پروفایل داده نشد. دوباره وارد حساب شو و دوباره امتحان کن.";
+          }
+          if (code === "23505" || m.includes("duplicate key") || m.includes("unique constraint")) {
+            return "نام کاربری هنوز در دیتابیس به‌صورت یکتا تنظیم شده است. محدودیت تکراری بودن نام کاربری باید در Supabase حذف شود.";
+          }
+          if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) {
+            return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
+          }
+          return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
+        }
         function setProfileMessage(text, type = "") {
           ["profileMessage", "accountMessage"].forEach((id) => {
             const el = $(id);
@@ -5075,13 +5091,28 @@
           if (!/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) { setProfileMessage("نام کاربری نامعتبر است.", "error"); return; }
           const btn = $("saveProfileBtn"); btn.disabled = true;
           try {
-            const { data, error } = await supabaseClient.from("profiles").update({ username, avatar: selectedAvatar, updated_at: new Date().toISOString() }).eq("user_id", currentUser.id).select("user_id, username, avatar").single();
+            const { error } = await supabaseClient
+              .from("profiles")
+              .update({ username, avatar: selectedAvatar, updated_at: new Date().toISOString() })
+              .eq("user_id", currentUser.id);
             if (error) throw error;
-            currentProfile = data;
+            currentProfile = {
+              ...(currentProfile || {}),
+              user_id: currentUser.id,
+              username,
+              avatar: selectedAvatar,
+            };
+            if (currentUser.user_metadata?.username !== username || currentUser.user_metadata?.avatar !== selectedAvatar) {
+              await supabaseClient.auth.updateUser({
+                data: { username, avatar: selectedAvatar },
+              }).catch(() => {});
+            }
             setProfileMessage("پروفایل ذخیره شد.", "success");
+            refreshProfileButton();
             renderProfileAccount();
           } catch (err) {
-            setProfileMessage(friendlyAuthError(err), "error");
+            console.error("Profile update failed", err);
+            setProfileMessage(friendlyProfileError(err), "error");
           } finally { btn.disabled = false; }
         }
         async function logoutProfile() {
