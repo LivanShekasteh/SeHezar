@@ -2844,7 +2844,12 @@
 .profile-avatar-big{width:62px;height:62px;flex:0 0 auto;display:grid;place-items:center;border-radius:19px;border:0;background:transparent;font-size:39px;box-shadow:none}
 .profile-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:3px}.profile-stat{min-width:0;min-height:74px;padding:9px 7px;border:1px solid var(--line);border-radius:15px;background:var(--panel-2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center}.profile-stat strong{color:var(--text);font-size:20px;font-weight:950;line-height:1}.profile-stat span{color:var(--muted);font-size:9px;font-weight:800;line-height:1.45}
 .profile-sync-note{display:none!important}.profile-secondary{background:var(--panel-2);border-color:var(--line-2);color:var(--text)}.profile-secondary:hover{background:var(--panel-3)}.profile-danger{color:var(--danger)}
-.profile-auth-note{margin:0 0 4px;color:var(--muted);font-size:12px;line-height:1.9;text-align:center}.profile-auth-title{margin:2px 0 0;color:var(--text);font-size:18px;font-weight:950}.profile-auth-subtitle{margin:0;color:var(--muted);font-size:11px;line-height:1.9}.profile-link-btn{justify-self:center;padding:3px 0;border:0;background:transparent;color:var(--accent);cursor:pointer;font:inherit;font-size:11px;font-weight:850}.profile-link-btn:hover{text-decoration:underline}.profile-aux-view{display:grid;gap:11px}.profile-aux-actions{display:grid;gap:8px}.profile-secondary.small{min-height:42px;font-size:11px}.profile-password-row{display:grid;gap:10px}
+.profile-auth-note{margin:0 0 4px;color:var(--muted);font-size:12px;line-height:1.9;text-align:center}.profile-auth-title{margin:2px 0 0;color:var(--text);font-size:18px;font-weight:950}.profile-auth-subtitle{margin:0;color:var(--muted);font-size:11px;line-height:1.9}.profile-aux-view{width:min(100%,380px);margin:0 auto}.profile-link-btn{justify-self:center;padding:3px 0;border:0;background:transparent;color:var(--accent);cursor:pointer;font:inherit;font-size:11px;font-weight:850}.profile-link-btn:hover{text-decoration:underline}.profile-aux-view{display:grid;gap:11px;width:min(100%,380px);margin:0 auto}.profile-aux-actions{display:grid;gap:8px}.profile-secondary.small{min-height:42px;font-size:11px}.profile-password-row{display:grid;gap:10px}
+#profileForgotView,#profileNewPasswordView{flex:1 1 auto;min-height:0;padding:18px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+#profileNewPasswordView .profile-auth-title{text-align:center;font-size:19px}
+#profileNewPasswordView .profile-auth-subtitle{text-align:center;margin-bottom:2px}
+#profileNewPasswordView .profile-input{min-height:46px}
+#profileNewPasswordView .profile-action{min-height:46px}
 .top-utility-controls{display:flex;align-items:center;gap:6px}
 @media(max-width:720px){
  .top-controls{width:100%;align-self:stretch;justify-content:space-between;align-items:flex-start;gap:0;direction:ltr}
@@ -3562,7 +3567,26 @@
           suppressCloudSync = false,
           profileMode = "login",
           selectedAvatar = AVATARS[0],
-          passwordRecoveryActive = false;
+          passwordRecoveryActive = false,
+          recoveryUrlHint = (() => {
+            try {
+              const search = new URLSearchParams(window.location.search);
+              const hash = new URLSearchParams(String(window.location.hash || "").replace(/^#/, ""));
+              let pendingRecovery = false;
+              try {
+                const raw = localStorage.getItem("sehezar-password-recovery-pending");
+                const pending = raw ? JSON.parse(raw) : null;
+                pendingRecovery = !!pending && Date.now() - Number(pending.at || 0) < 30 * 60 * 1000;
+              } catch {}
+              return (
+                search.get("type") === "recovery" ||
+                hash.get("type") === "recovery" ||
+                (pendingRecovery && (search.has("code") || hash.has("access_token")))
+              );
+            } catch {
+              return false;
+            }
+          })();
         const $ = (id) => document.getElementById(id),
           content = $("content");
         const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -4887,9 +4911,9 @@
           $("profileAccountView").style.display = "none";
           $("profileNewPasswordView").style.display = "block";
           setAuxMessage("profileNewPasswordMessage", "");
-          $("profileNewPassword")?.focus();
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
+          requestAnimationFrame(() => $("profileNewPassword")?.focus());
         }
         function setAuxMessage(id, text, type = "") {
           const el = $(id);
@@ -4923,6 +4947,9 @@
             const redirectTo = location.origin === "null" ? undefined : location.origin + location.pathname;
             const { error } = await supabaseClient.auth.resetPasswordForEmail(email, redirectTo ? { redirectTo } : undefined);
             if (error) throw error;
+            try {
+              localStorage.setItem("sehezar-password-recovery-pending", JSON.stringify({ email: email.toLowerCase(), at: Date.now() }));
+            } catch {}
             setAuxMessage("profileForgotMessage", "اگر این ایمیل حسابی داشته باشد، لینک بازیابی برایش ارسال شد. صندوق ورودی و پوشه Spam/Junk را هم بررسی کن.", "success");
           } catch (err) {
             setAuxMessage("profileForgotMessage", friendlyAuthError(err), "error");
@@ -4941,10 +4968,11 @@
             const { error } = await supabaseClient.auth.updateUser({ password });
             if (error) throw error;
             passwordRecoveryActive = false;
+            try { localStorage.removeItem("sehezar-password-recovery-pending"); } catch {}
             $("profileNewPassword").value = "";
             $("profileNewPasswordConfirm").value = "";
             setAuxMessage("profileNewPasswordMessage", "رمز عبور با موفقیت تغییر کرد.", "success");
-            setTimeout(() => closeProfile(), 900);
+            setTimeout(() => { closeProfile(); renderProfileAccount(); }, 900);
           } catch (err) {
             setAuxMessage("profileNewPasswordMessage", friendlyAuthError(err), "error");
           } finally { btn.disabled = false; }
@@ -5006,6 +5034,7 @@
         async function handleAuthState(session) {
           const wasLoggedIn = !!currentUser;
           currentUser = session?.user || null;
+          if (recoveryUrlHint) passwordRecoveryActive = true;
           if (!currentUser) {
             currentProfile = null; cloudReady = false; cloudHydrated = false; refreshProfileButton(); closeProfile();
             if (wasLoggedIn) {
@@ -5026,16 +5055,20 @@
             save();
             scheduleCloudSave();
           }
-          renderProfileAccount();
+          if (!passwordRecoveryActive) renderProfileAccount();
+          else showNewPasswordView();
         }
         async function initAuth() {
           if (!initSupabase()) return;
+          if (recoveryUrlHint) passwordRecoveryActive = true;
           const { data: { session } } = await supabaseClient.auth.getSession();
           await handleAuthState(session);
+          if (recoveryUrlHint) showNewPasswordView();
           supabaseClient.auth.onAuthStateChange((event, nextSession) => {
             setTimeout(async () => {
+              if (event === "PASSWORD_RECOVERY") passwordRecoveryActive = true;
               await handleAuthState(nextSession);
-              if (event === "PASSWORD_RECOVERY") showNewPasswordView();
+              if (event === "PASSWORD_RECOVERY" || passwordRecoveryActive) showNewPasswordView();
             }, 0);
           });
         }
