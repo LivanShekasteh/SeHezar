@@ -2835,7 +2835,7 @@
 .avatar-option{width:68px;height:68px;border:1px solid var(--line);border-radius:14px;background:var(--panel-2);color:var(--text);display:grid;place-items:center;padding:0;font-size:36px;line-height:1;cursor:pointer;transition:transform .14s ease,border-color .14s ease,background .14s ease,box-shadow .14s ease}
 .avatar-option:hover{transform:translateY(-2px);background:var(--panel-3)}
 .avatar-option.active{border-color:color-mix(in srgb,var(--accent) 62%,var(--line-2));background:color-mix(in srgb,var(--accent) 13%,var(--panel-2));box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 12%,transparent) inset,0 8px 22px color-mix(in srgb,var(--accent) 12%,transparent)}
-.profile-message{min-height:20px;padding:1px 2px;color:var(--muted);font-size:15px;line-height:1.8}.profile-message.error{color:var(--danger)}.profile-message.success{color:var(--success)}
+.profile-message{min-height:20px;padding:1px 2px;color:var(--muted);font-size:11px;line-height:1.8}.profile-message.error{color:var(--danger)}.profile-message.success{color:var(--success)}
 .profile-action,.profile-secondary{min-height:50px;width:100%;border-radius:15px;border:1px solid transparent;cursor:pointer;font:inherit;font-size:13px;font-weight:950;transition:.16s ease}
 .profile-action{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 12px 28px color-mix(in srgb,var(--accent) 18%,transparent)}
 .profile-action:hover{filter:brightness(1.05);transform:translateY(-1px)}.profile-action:disabled{opacity:.65;cursor:default;transform:none}
@@ -2844,6 +2844,7 @@
 .profile-avatar-big{width:62px;height:62px;flex:0 0 auto;display:grid;place-items:center;border-radius:19px;border:0;background:transparent;font-size:39px;box-shadow:none}
 .profile-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:3px}.profile-stat{min-width:0;min-height:74px;padding:9px 7px;border:1px solid var(--line);border-radius:15px;background:var(--panel-2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center}.profile-stat strong{color:var(--text);font-size:20px;font-weight:950;line-height:1}.profile-stat span{color:var(--muted);font-size:9px;font-weight:800;line-height:1.45}
 .profile-sync-note{display:none!important}.profile-secondary{background:var(--panel-2);border-color:var(--line-2);color:var(--text)}.profile-secondary:hover{background:var(--panel-3)}.profile-danger{color:var(--danger)}
+.profile-auth-note{margin:0 0 4px;color:var(--muted);font-size:12px;line-height:1.9;text-align:center}.profile-auth-title{margin:2px 0 0;color:var(--text);font-size:18px;font-weight:950}.profile-auth-subtitle{margin:0;color:var(--muted);font-size:11px;line-height:1.9}.profile-link-btn{justify-self:center;padding:3px 0;border:0;background:transparent;color:var(--accent);cursor:pointer;font:inherit;font-size:11px;font-weight:850}.profile-link-btn:hover{text-decoration:underline}.profile-aux-view{display:grid;gap:11px}.profile-aux-actions{display:grid;gap:8px}.profile-secondary.small{min-height:42px;font-size:11px}.profile-password-row{display:grid;gap:10px}
 .top-utility-controls{display:flex;align-items:center;gap:6px}
 @media(max-width:720px){
  .top-controls{width:100%;align-self:stretch;justify-content:space-between;align-items:flex-start;gap:0;direction:ltr}
@@ -3130,6 +3131,40 @@
             <div class="profile-message" id="profileMessage"></div>
             <button class="profile-action" id="profileSubmit" type="submit">ورود</button>
           </form>
+          <div id="profileLoginActions" class="profile-aux-actions" style="display:block">
+            <button class="profile-link-btn" id="profileForgotLink" type="button">رمز عبورم را فراموش کرده‌ام</button>
+          </div>
+        </div>
+
+        <div id="profileForgotView" style="display:none">
+          <div class="profile-aux-view">
+            <div class="profile-auth-title">بازیابی رمز عبور</div>
+            <p class="profile-auth-subtitle">ایمیل حسابت را وارد کن تا لینک تغییر رمز برایت فرستاده شود.</p>
+            <form class="profile-form" id="profileForgotForm" novalidate>
+              <div class="profile-label">ایمیل</div>
+              <input class="profile-input" id="profileForgotEmail" type="email" autocomplete="email" inputmode="email" placeholder="example@email.com" required />
+              <div class="profile-message" id="profileForgotMessage"></div>
+              <div class="profile-aux-actions">
+                <button class="profile-action" id="profileForgotSubmit" type="submit">ارسال لینک بازیابی</button>
+                <button class="profile-secondary small" id="profileForgotBack" type="button">بازگشت به ورود</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div id="profileNewPasswordView" style="display:none">
+          <div class="profile-aux-view">
+            <div class="profile-auth-title">تغییر رمز عبور</div>
+            <p class="profile-auth-subtitle">رمز عبور جدیدت را وارد کن.</p>
+            <form class="profile-form" id="profileNewPasswordForm" novalidate>
+              <div class="profile-label">رمز عبور جدید</div>
+              <input class="profile-input" id="profileNewPassword" type="password" minlength="6" autocomplete="new-password" placeholder="حداقل ۶ کاراکتر" required />
+              <div class="profile-label">تکرار رمز عبور</div>
+              <input class="profile-input" id="profileNewPasswordConfirm" type="password" minlength="6" autocomplete="new-password" placeholder="رمز عبور را دوباره وارد کن" required />
+              <div class="profile-message" id="profileNewPasswordMessage"></div>
+              <button class="profile-action" id="profileNewPasswordSubmit" type="submit">ذخیره رمز جدید</button>
+            </form>
+          </div>
         </div>
 
         <div id="profileAccountView" style="display:none">
@@ -3148,7 +3183,7 @@
               <div class="profile-stat"><strong id="accountProgress">0٪</strong><span>پیشرفت</span></div>
               <div class="profile-stat"><strong id="accountBestStreak">0</strong><span>رکورد استریک</span></div>
               <div class="profile-stat"><strong id="accountLearned">0</strong><span>کلمات یاد گرفته شده</span></div>
-              <div class="profile-stat"><strong id="accountVisitDays">0</strong><span>روزهایی که سر زدی</span></div>
+              <div class="profile-stat"><strong id="accountVisitDays">0</strong><span>روزهای سر زده</span></div>
             </div>
             <button class="profile-secondary profile-danger" id="profileLogout" type="button">خروج از حساب</button>
           </div>
@@ -3238,7 +3273,7 @@
             <div class="help-card">
               <h4>خوش اومدی!</h4>
               <p>
-                این سایت برای تمرین 3000 کلمه مهم زبان انگلیسی آمریکایی از سطح A1 تا B2
+                این سایت برای تمرین 3000 کلمه مهم زبان انگلیسی از سطح A1 تا B2
                 شهست. تقریبا 85 تا 90 درصد کلماتی که داخل سریال ها, بازی ها,
                 برنامه ها, خبر ها و متون انگلیسی میبینید از همین 3000 کلمه تشکیل
                 شده. این لیست از کلمات توسط دانشگاه آکسفورد جمع آوری شده (<a
@@ -3247,8 +3282,7 @@
                   >منبع</a
                 >) و یادگیریش میتونه کمک بزرگی کنه به بهبود زبان انگلیسی. <br />
                 اگه تا حالا چندین بار شروع به یادگیری زبان کردی ولی وسط راه ول
-                کردی یا اینکه تازه شروع کردی به یادگیری, جای درستی اومدی! <br /> 
-                اگه بدون ثبتنام از سایت استفاده کنی اطلاعات داخل مرورگرت ذخیره میشه, ولی اگه بخوای داخل دستگاه های دیگه یا مرورگر های دیگه هم استفاده کنی, یادت نره حتما با ایمیلت ثبتنام کنی تا اطلاعاتت ذخیره بشه.
+                کردی یا اینکه تازه شروع کردی به یادگیری, جای درستی اومدی!
               </p>
             </div>
             <div class="help-card">
@@ -3527,7 +3561,8 @@
           cloudSaveQueued = false,
           suppressCloudSync = false,
           profileMode = "login",
-          selectedAvatar = AVATARS[0];
+          selectedAvatar = AVATARS[0],
+          passwordRecoveryActive = false;
         const $ = (id) => document.getElementById(id),
           content = $("content");
         const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -4722,6 +4757,7 @@
           const raw = String(error?.message || error?.error_description || "").trim();
           const m = raw.toLowerCase();
           const status = Number(error?.status || error?.code || 0);
+          if (m.includes("__signup_existing__")) return "این ایمیل قبلاً ثبت‌نام شده است. برای ورود از بخش «ورود» استفاده کن.";
           if (!raw) return "خطایی رخ داد. دوباره تلاش کن.";
           if (m.includes("invalid login credentials") || m.includes("invalid email or password") || m.includes("user not found")) return "ایمیل یا رمز عبور اشتباه است.";
           if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب هنوز تأیید نشده است. اول ایمیل تأیید را باز کن و بعد دوباره وارد شو.";
@@ -4788,24 +4824,116 @@
         function openProfile() {
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
-          renderProfileAccount();
+          if (!passwordRecoveryActive) renderProfileAccount();
+          else showNewPasswordView();
         }
         function closeProfile() {
           $("profileBackdrop")?.classList.remove("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "true");
         }
+        function hideProfileAuthAuxViews() {
+          const authView = $("profileAuthView"),
+            forgotView = $("profileForgotView"),
+            newPasswordView = $("profileNewPasswordView"),
+            accountView = $("profileAccountView");
+          if (authView) authView.style.display = "block";
+          if (forgotView) forgotView.style.display = "none";
+          if (newPasswordView) newPasswordView.style.display = "none";
+          if (accountView) accountView.style.display = "none";
+        }
         function setAuthMode(mode) {
           profileMode = mode === "signup" ? "signup" : "login";
+          hideProfileAuthAuxViews();
           $("profileLoginTab")?.classList.toggle("active", profileMode === "login");
           $("profileSignupTab")?.classList.toggle("active", profileMode === "signup");
           $("profileUsernameWrap").style.display = profileMode === "signup" ? "block" : "none";
           $("profileAvatarWrap").style.display = profileMode === "signup" ? "block" : "none";
           $("profileSubmit").textContent = profileMode === "signup" ? "ساخت حساب" : "ورود";
           $("profilePassword").autocomplete = profileMode === "signup" ? "new-password" : "current-password";
+          $("profileLoginActions").style.display = profileMode === "login" ? "block" : "none";
           if (profileMode === "signup") setAvatarGrid("profileAvatarGrid", selectedAvatar);
           setProfileMessage("");
         }
-        function profileSnapshotFromState() { return getLocalSaveObject(); }
+        function showForgotPasswordView() {
+          $("profileAuthView").style.display = "none";
+          $("profileForgotView").style.display = "block";
+          $("profileNewPasswordView").style.display = "none";
+          $("profileAccountView").style.display = "none";
+          const email = $("profileEmail")?.value.trim();
+          if (email && $("profileForgotEmail")) $("profileForgotEmail").value = email;
+          setAuxMessage("profileForgotMessage", "");
+          $("profileForgotEmail")?.focus();
+        }
+        function showNewPasswordView() {
+          passwordRecoveryActive = true;
+          $("profileAuthView").style.display = "none";
+          $("profileForgotView").style.display = "none";
+          $("profileAccountView").style.display = "none";
+          $("profileNewPasswordView").style.display = "block";
+          setAuxMessage("profileNewPasswordMessage", "");
+          $("profileNewPassword")?.focus();
+          $("profileBackdrop")?.classList.add("open");
+          $("profileBackdrop")?.setAttribute("aria-hidden", "false");
+        }
+        function setAuxMessage(id, text, type = "") {
+          const el = $(id);
+          if (!el) return;
+          el.textContent = text || "";
+          el.className = "profile-message" + (type ? " " + type : "");
+        }
+        function rememberPendingSignup(email) {
+          try { localStorage.setItem("sehezar-pending-signup", JSON.stringify({ email: email.toLowerCase(), at: Date.now() })); } catch {}
+        }
+        function clearPendingSignup() {
+          try { localStorage.removeItem("sehezar-pending-signup"); } catch {}
+        }
+        function hasRecentPendingSignup(email) {
+          try {
+            const raw = localStorage.getItem("sehezar-pending-signup");
+            if (!raw) return false;
+            const p = JSON.parse(raw);
+            return p && String(p.email || "").toLowerCase() === email.toLowerCase() && Date.now() - Number(p.at || 0) < 10 * 60 * 1000;
+          } catch { return false; }
+        }
+        async function submitPasswordReset(e) {
+          e.preventDefault();
+          if (!supabaseClient) { setAuxMessage("profileForgotMessage", "سرویس حساب کاربری هنوز بارگذاری نشده است.", "error"); return; }
+          const email = $("profileForgotEmail").value.trim();
+          if (!email) { setAuxMessage("profileForgotMessage", "ایمیل را وارد کن.", "error"); return; }
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setAuxMessage("profileForgotMessage", "یک ایمیل معتبر وارد کن.", "error"); return; }
+          const btn = $("profileForgotSubmit");
+          btn.disabled = true;
+          try {
+            const redirectTo = location.origin === "null" ? undefined : location.origin + location.pathname;
+            const { error } = await supabaseClient.auth.resetPasswordForEmail(email, redirectTo ? { redirectTo } : undefined);
+            if (error) throw error;
+            setAuxMessage("profileForgotMessage", "اگر این ایمیل حسابی داشته باشد، لینک بازیابی برایش ارسال شد. صندوق ورودی و پوشه Spam/Junk را هم بررسی کن.", "success");
+          } catch (err) {
+            setAuxMessage("profileForgotMessage", friendlyAuthError(err), "error");
+          } finally { btn.disabled = false; }
+        }
+        async function submitNewPassword(e) {
+          e.preventDefault();
+          if (!supabaseClient) { setAuxMessage("profileNewPasswordMessage", "سرویس حساب کاربری هنوز بارگذاری نشده است.", "error"); return; }
+          const password = $("profileNewPassword").value;
+          const confirm = $("profileNewPasswordConfirm").value;
+          if (password.length < 6) { setAuxMessage("profileNewPasswordMessage", "رمز عبور باید حداقل ۶ کاراکتر باشد.", "error"); return; }
+          if (password !== confirm) { setAuxMessage("profileNewPasswordMessage", "تکرار رمز عبور با رمز جدید یکسان نیست.", "error"); return; }
+          const btn = $("profileNewPasswordSubmit");
+          btn.disabled = true;
+          try {
+            const { error } = await supabaseClient.auth.updateUser({ password });
+            if (error) throw error;
+            passwordRecoveryActive = false;
+            $("profileNewPassword").value = "";
+            $("profileNewPasswordConfirm").value = "";
+            setAuxMessage("profileNewPasswordMessage", "رمز عبور با موفقیت تغییر کرد.", "success");
+            setTimeout(() => closeProfile(), 900);
+          } catch (err) {
+            setAuxMessage("profileNewPasswordMessage", friendlyAuthError(err), "error");
+          } finally { btn.disabled = false; }
+        }
+                function profileSnapshotFromState() { return getLocalSaveObject(); }
         async function pushProgressNow() {
           if (!supabaseClient || !currentUser || !cloudReady || suppressCloudSync) return;
           if (cloudSaveInFlight) { cloudSaveQueued = true; return; }
@@ -4888,8 +5016,11 @@
           if (!initSupabase()) return;
           const { data: { session } } = await supabaseClient.auth.getSession();
           await handleAuthState(session);
-          supabaseClient.auth.onAuthStateChange((_event, nextSession) => {
-            setTimeout(() => handleAuthState(nextSession), 0);
+          supabaseClient.auth.onAuthStateChange((event, nextSession) => {
+            setTimeout(async () => {
+              await handleAuthState(nextSession);
+              if (event === "PASSWORD_RECOVERY") showNewPasswordView();
+            }, 0);
           });
         }
         async function submitAuthForm(e) {
@@ -4904,20 +5035,33 @@
           if (profileMode === "signup" && !/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) {
             setProfileMessage("نام کاربری باید ۳ تا ۲۰ کاراکتر باشد و فقط شامل حروف، عدد، _ یا - باشد.", "error"); return;
           }
+          if (profileMode === "signup" && hasRecentPendingSignup(email)) {
+            setProfileMessage("برای این ایمیل همین چند دقیقهٔ قبل درخواست تأیید فرستاده شده است. صندوق ورودی و پوشه Spam/Junk را بررسی کن.", "error");
+            return;
+          }
           const btn = $("profileSubmit"); btn.disabled = true;
           try {
             if (profileMode === "signup") {
               const redirectTo = location.origin === "null" ? undefined : location.origin + location.pathname;
               const { data, error } = await supabaseClient.auth.signUp({ email, password, options: { ...(redirectTo ? { emailRedirectTo: redirectTo } : {}), data: { username, avatar: selectedAvatar } } });
               if (error) throw error;
+              const identities = Array.isArray(data?.user?.identities) ? data.user.identities : null;
+              if (identities && identities.length === 0) {
+                const existing = new Error("__signup_existing__");
+                existing.status = 400;
+                throw existing;
+              }
               if (!data.session) {
-                setProfileMessage(" حساب ساخته شد. ایمیل تأیید را باز کن؛ بعد از تأیید دوباره وارد شو. (پوشه اسپم رو هم چک کن(", "success");
+                rememberPendingSignup(email);
+                setProfileMessage("حساب ساخته شد. ایمیل تأیید را باز کن؛ اگر در Inbox نبود، پوشه Spam/Junk را هم حتماً چک کن. بعد از تأیید دوباره وارد شو.", "success");
               } else {
+                clearPendingSignup();
                 setProfileMessage("حساب ساخته شد.", "success");
               }
             } else {
-              const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
+              const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
               if (error) throw error;
+              clearPendingSignup();
               setProfileMessage("ورود موفق بود.", "success");
               closeProfile();
             }
@@ -4925,7 +5069,7 @@
             setProfileMessage(friendlyAuthError(err), "error");
           } finally { btn.disabled = false; }
         }
-        async function saveProfileChanges() {
+                async function saveProfileChanges() {
           if (!currentUser || !supabaseClient) return;
           const username = $("accountUsernameInput").value.trim();
           if (!/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) { setProfileMessage("نام کاربری نامعتبر است.", "error"); return; }
@@ -5795,6 +5939,10 @@
         $("profileLoginTab").addEventListener("click", () => setAuthMode("login"));
         $("profileSignupTab").addEventListener("click", () => setAuthMode("signup"));
         $("profileAuthForm").addEventListener("submit", submitAuthForm);
+        $("profileForgotLink").addEventListener("click", showForgotPasswordView);
+        $("profileForgotForm").addEventListener("submit", submitPasswordReset);
+        $("profileForgotBack").addEventListener("click", () => setAuthMode("login"));
+        $("profileNewPasswordForm").addEventListener("submit", submitNewPassword);
         $("saveProfileBtn").addEventListener("click", saveProfileChanges);
         $("profileLogout").addEventListener("click", logoutProfile);
         setAvatarGrid("profileAvatarGrid", selectedAvatar);
