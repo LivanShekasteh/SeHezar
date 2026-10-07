@@ -2850,18 +2850,6 @@
 #profileNewPasswordView .profile-auth-subtitle{text-align:center;margin-bottom:2px}
 #profileNewPasswordView .profile-input{min-height:46px}
 #profileNewPasswordView .profile-action{min-height:46px}
-#profileNewPasswordView .profile-aux-view{width:min(100%,340px);gap:8px;padding:4px 0 18px}
-#profileNewPasswordView .profile-auth-title{font-size:17px;line-height:1.4}
-#profileNewPasswordView .profile-auth-subtitle{font-size:10.5px;line-height:1.7}
-#profileNewPasswordView .profile-form{gap:8px}
-#profileNewPasswordView .profile-label{font-size:10.5px}
-#profileNewPasswordView .profile-input{min-height:44px;font-size:12px}
-#profileNewPasswordView .profile-message{min-height:18px;font-size:10.5px}
-#profileNewPasswordView .profile-secondary.small{min-height:40px}
-@media(max-width:560px){
-  #profileNewPasswordView{padding:12px}
-  #profileNewPasswordView .profile-aux-view{width:min(100%,330px);padding-top:2px}
-}
 .top-utility-controls{display:flex;align-items:center;gap:6px}
 @media(max-width:720px){
  .top-controls{width:100%;align-self:stretch;justify-content:space-between;align-items:flex-start;gap:0;direction:ltr}
@@ -3179,8 +3167,10 @@
               <div class="profile-label">تکرار رمز عبور</div>
               <input class="profile-input" id="profileNewPasswordConfirm" type="password" minlength="6" autocomplete="new-password" placeholder="رمز عبور را دوباره وارد کن" required />
               <div class="profile-message" id="profileNewPasswordMessage"></div>
-              <button class="profile-action" id="profileNewPasswordSubmit" type="submit">ذخیره رمز جدید</button>
-              <button class="profile-secondary small" id="profileNewPasswordCancel" type="button">لغو</button>
+              <div class="profile-aux-actions">
+                <button class="profile-action" id="profileNewPasswordSubmit" type="submit">ذخیره رمز جدید</button>
+                <button class="profile-secondary small" id="profileNewPasswordCancel" type="button">لغو</button>
+              </div>
             </form>
           </div>
         </div>
@@ -3600,7 +3590,6 @@
               return false;
             }
           })();
-        let recoveryUrlConsumed = false;
         const $ = (id) => document.getElementById(id),
           content = $("content");
         const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -4801,8 +4790,8 @@
           if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب هنوز تأیید نشده است. اول ایمیل تأیید را باز کن و بعد دوباره وارد شو.";
           if (m.includes("user already registered") || m.includes("already registered") || m.includes("already been registered")) return "این ایمیل قبلاً ثبت‌نام شده است.";
           if (m.includes("unable to validate email") || m.includes("invalid email") || m.includes("email address is invalid") || m.includes("valid email")) return "ایمیل واردشده معتبر نیست.";
-          if (m.includes("new password should be different from the old password") || m.includes("different from the old password") || m.includes("same password")) return "رمز عبور جدید نمی‌تواند با رمز عبور قبلی یکسان باشد.";
-          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
+          if (m.includes("same password") || m.includes("new password should be different") || m.includes("password should be different") || m.includes("password must be different") || m.includes("different from your current password") || m.includes("different from the old password") || m.includes("different from previous password")) return "رمز عبور جدید نمی‌تواند با رمز عبور قبلی یکسان باشد.";
+          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short") || m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
           if (m.includes("email")) return "این ایمیل معتبر نیست یا قبلاً استفاده شده است.";
           if (m.includes("email rate limit exceeded") || m.includes("rate limit") || m.includes("too many requests") || m.includes("for security purposes")) return "تعداد تلاش‌ها زیاد شده؛ کمی بعد دوباره امتحان کن.";
           if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
@@ -4885,10 +4874,6 @@
         function closeProfile() {
           $("profileBackdrop")?.classList.remove("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "true");
-          if (passwordRecoveryActive) {
-            clearRecoveryMode(true);
-            if (currentUser) renderProfileAccount();
-          }
         }
         function hideProfileAuthAuxViews() {
           const authView = $("profileAuthView"),
@@ -4923,20 +4908,8 @@
           setAuxMessage("profileForgotMessage", "");
           $("profileForgotEmail")?.focus();
         }
-        function clearRecoveryMode(cleanUrl = true) {
-          passwordRecoveryActive = false;
-          recoveryUrlHint = false;
-          recoveryUrlConsumed = true;
-          try { localStorage.removeItem("sehezar-password-recovery-pending"); } catch {}
-          if (cleanUrl) {
-            try {
-              window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
-            } catch {}
-          }
-        }
         function showNewPasswordView() {
           passwordRecoveryActive = true;
-          recoveryUrlConsumed = false;
           $("profileAuthView").style.display = "none";
           $("profileForgotView").style.display = "none";
           $("profileAccountView").style.display = "none";
@@ -4945,6 +4918,19 @@
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
           requestAnimationFrame(() => $("profileNewPassword")?.focus());
+        }
+        function clearRecoveryUrl() {
+          try {
+            window.history.replaceState({}, document.title, window.location.pathname || "/");
+          } catch {}
+        }
+        function exitPasswordRecovery() {
+          passwordRecoveryActive = false;
+          recoveryUrlHint = false;
+          try { localStorage.removeItem("sehezar-password-recovery-pending"); } catch {}
+          clearRecoveryUrl();
+          if (currentUser) renderProfileAccount();
+          else { setAuthMode("login"); closeProfile(); }
         }
         function setAuxMessage(id, text, type = "") {
           const el = $(id);
@@ -4998,11 +4984,14 @@
           try {
             const { error } = await supabaseClient.auth.updateUser({ password });
             if (error) throw error;
-            clearRecoveryMode(true);
+            passwordRecoveryActive = false;
+            recoveryUrlHint = false;
+            try { localStorage.removeItem("sehezar-password-recovery-pending"); } catch {}
+            clearRecoveryUrl();
             $("profileNewPassword").value = "";
             $("profileNewPasswordConfirm").value = "";
-            setAuxMessage("profileNewPasswordMessage", "رمز عبور با موفقیت تغییر کرد.", "success");
-            setTimeout(() => { closeProfile(); renderProfileAccount(); }, 900);
+            renderProfileAccount();
+            setProfileMessage("رمز عبور با موفقیت تغییر کرد.", "success");
           } catch (err) {
             setAuxMessage("profileNewPasswordMessage", friendlyAuthError(err), "error");
           } finally { btn.disabled = false; }
@@ -5061,17 +5050,20 @@
           }
           renderProfileAccount();
         }
-        async function handleAuthState(session, authEvent = "") {
+        async function handleAuthState(session) {
           const wasLoggedIn = !!currentUser;
           currentUser = session?.user || null;
-          if (authEvent === "PASSWORD_RECOVERY") {
+          if (recoveryUrlHint && currentUser) {
             passwordRecoveryActive = true;
-            recoveryUrlConsumed = false;
-          } else if (recoveryUrlHint && !recoveryUrlConsumed) {
-            passwordRecoveryActive = true;
+            recoveryUrlHint = false;
+            clearRecoveryUrl();
           }
           if (!currentUser) {
-            currentProfile = null; cloudReady = false; cloudHydrated = false; refreshProfileButton(); closeProfile();
+            currentProfile = null;
+            cloudReady = false;
+            cloudHydrated = false;
+            refreshProfileButton();
+            closeProfile();
             if (wasLoggedIn) {
               localStorage.removeItem(STORAGE_KEY);
               location.reload();
@@ -5090,19 +5082,22 @@
             save();
             scheduleCloudSave();
           }
-          if (!passwordRecoveryActive) renderProfileAccount();
-          else showNewPasswordView();
+          if (passwordRecoveryActive) showNewPasswordView();
+          else renderProfileAccount();
         }
         async function initAuth() {
           if (!initSupabase()) return;
-          if (recoveryUrlHint) passwordRecoveryActive = true;
           const { data: { session } } = await supabaseClient.auth.getSession();
-          await handleAuthState(session, recoveryUrlHint ? "PASSWORD_RECOVERY" : "INITIAL_SESSION");
-          if (passwordRecoveryActive) showNewPasswordView();
+          await handleAuthState(session);
           supabaseClient.auth.onAuthStateChange((event, nextSession) => {
             setTimeout(async () => {
-              await handleAuthState(nextSession, event);
-              if (event === "PASSWORD_RECOVERY" || passwordRecoveryActive) showNewPasswordView();
+              if (event === "PASSWORD_RECOVERY") {
+                passwordRecoveryActive = true;
+                recoveryUrlHint = false;
+                clearRecoveryUrl();
+              }
+              await handleAuthState(nextSession);
+              if (event === "PASSWORD_RECOVERY") showNewPasswordView();
             }, 0);
           });
         }
@@ -6040,16 +6035,7 @@
         $("profileForgotForm").addEventListener("submit", submitPasswordReset);
         $("profileForgotBack").addEventListener("click", () => setAuthMode("login"));
         $("profileNewPasswordForm").addEventListener("submit", submitNewPassword);
-        $("profileNewPasswordCancel")?.addEventListener("click", () => {
-          clearRecoveryMode(true);
-          if (currentUser) {
-            renderProfileAccount();
-            $("profileBackdrop")?.classList.add("open");
-            $("profileBackdrop")?.setAttribute("aria-hidden", "false");
-          } else {
-            setAuthMode("login");
-          }
-        });
+        $("profileNewPasswordCancel")?.addEventListener("click", exitPasswordRecovery);
         $("saveProfileBtn").addEventListener("click", saveProfileChanges);
         $("profileLogout").addEventListener("click", logoutProfile);
         setAvatarGrid("profileAvatarGrid", selectedAvatar);
@@ -6171,7 +6157,8 @@
             closeConfirm();
             closeTimerDone();
             closeHelp();
-            closeProfile();
+            if (passwordRecoveryActive) exitPasswordRecovery();
+            else closeProfile();
           }
         });
         window.addEventListener("resize", () => {
