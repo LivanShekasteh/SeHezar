@@ -4846,12 +4846,21 @@
           btn.setAttribute("aria-label", currentUser ? `پروفایل ${username}` : "ثبت نام/ورود");
         }
         function renderProfileAccount() {
-          const authView = $("profileAuthView"), accountView = $("profileAccountView");
+          const authView = $("profileAuthView"),
+            forgotView = $("profileForgotView"),
+            newPasswordView = $("profileNewPasswordView"),
+            accountView = $("profileAccountView");
           if (!authView || !accountView) return;
+          if (authView) authView.style.display = "none";
+          if (forgotView) forgotView.style.display = "none";
+          if (newPasswordView) newPasswordView.style.display = "none";
+          if (accountView) accountView.style.display = "none";
           if (!currentUser) {
-            authView.style.display = "block"; accountView.style.display = "none"; refreshProfileButton(); return;
+            authView.style.display = "block";
+            refreshProfileButton();
+            return;
           }
-          authView.style.display = "none"; accountView.style.display = "block";
+          accountView.style.display = "block";
           const username = currentProfile?.username || currentUser.user_metadata?.username || "کاربر";
           selectedAvatar = currentProfile?.avatar || currentUser.user_metadata?.avatar || AVATARS[0];
           $("accountUsername").textContent = username;
@@ -4868,8 +4877,11 @@
         function openProfile() {
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
-          if (!passwordRecoveryActive) renderProfileAccount();
-          else showNewPasswordView();
+          if (!passwordRecoveryActive) {
+            renderProfileAccount();
+          } else {
+            showNewPasswordView();
+          }
         }
         function closeProfile() {
           $("profileBackdrop")?.classList.remove("open");
