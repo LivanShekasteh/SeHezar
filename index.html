@@ -2845,6 +2845,7 @@
 .profile-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:3px}.profile-stat{min-width:0;min-height:74px;padding:9px 7px;border:1px solid var(--line);border-radius:15px;background:var(--panel-2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center}.profile-stat strong{color:var(--text);font-size:20px;font-weight:950;line-height:1}.profile-stat span{color:var(--muted);font-size:9px;font-weight:800;line-height:1.45}
 .profile-sync-note{display:none!important}.profile-secondary{background:var(--panel-2);border-color:var(--line-2);color:var(--text)}.profile-secondary:hover{background:var(--panel-3)}.profile-danger{color:var(--danger)}
 .profile-auth-note{margin:0 0 4px;color:var(--muted);font-size:12px;line-height:1.9;text-align:center}.profile-auth-title{margin:2px 0 0;color:var(--text);font-size:18px;font-weight:950}.profile-auth-subtitle{margin:0;color:var(--muted);font-size:11px;line-height:1.9}.profile-aux-view{width:min(100%,380px);margin:0 auto}.profile-link-btn{justify-self:center;padding:3px 0;border:0;background:transparent;color:var(--accent);cursor:pointer;font:inherit;font-size:11px;font-weight:850}.profile-link-btn:hover{text-decoration:underline}.profile-aux-view{display:grid;gap:11px;width:min(100%,380px);margin:0 auto}.profile-aux-actions{display:grid;gap:8px}.profile-secondary.small{min-height:42px;font-size:11px}.profile-password-row{display:grid;gap:10px}
+.profile-modal.recovery-mode{width:min(430px,calc(100vw - 24px));height:auto;max-height:min(620px,calc(100dvh - 24px));border-radius:24px}.profile-modal.recovery-mode .profile-head{min-height:62px;padding:13px 16px}.profile-modal.recovery-mode #profileNewPasswordView{padding:14px}.profile-modal.recovery-mode .profile-aux-view{width:min(100%,350px);gap:9px}.profile-modal.recovery-mode .profile-auth-title{font-size:17px}.profile-modal.recovery-mode .profile-auth-subtitle{font-size:10.5px}.profile-modal.recovery-mode .profile-input{min-height:44px;font-size:12px}.profile-modal.recovery-mode .profile-action{min-height:44px;font-size:12px}
 #profileForgotView,#profileNewPasswordView{flex:1 1 auto;min-height:0;padding:18px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 #profileNewPasswordView .profile-auth-title{text-align:center;font-size:19px}
 #profileNewPasswordView .profile-auth-subtitle{text-align:center;margin-bottom:2px}
@@ -2868,7 +2869,7 @@
  .help-toggle.first-visit-hint{position:relative;z-index:2;box-shadow:0 0 0 4px rgba(241,95,109,.16),0 0 18px rgba(241,95,109,.58);animation:firstVisitHelpPulse 1.2s ease-in-out infinite}
 }
 @keyframes firstVisitHelpPulse{0%,100%{box-shadow:0 0 0 3px rgba(241,95,109,.14),0 0 12px rgba(241,95,109,.42)}50%{box-shadow:0 0 0 6px rgba(241,95,109,.18),0 0 23px rgba(241,95,109,.72)}}
-@media(max-width:560px){.profile-toggle{min-width:52px;padding:2px 3px}.profile-button-avatar{width:34px;height:34px;font-size:27px}.profile-button-name{max-width:78px;font-size:9px}.profile-modal{width:100%;height:calc(100dvh - 14px);max-height:calc(100dvh - 14px);border-radius:24px}.profile-head{padding:14px 15px 12px}#profileAuthView,#profileAccountView{padding:14px}.avatar-grid{grid-template-columns:repeat(4,58px);gap:8px}.avatar-option{width:58px;height:58px;font-size:31px;border-radius:12px}.profile-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.profile-modal.recovery-mode{width:calc(100vw - 20px);height:auto;max-height:calc(100dvh - 20px);border-radius:20px}.profile-modal.recovery-mode #profileNewPasswordView{padding:12px}.profile-toggle{min-width:52px;padding:2px 3px}.profile-button-avatar{width:34px;height:34px;font-size:27px}.profile-button-name{max-width:78px;font-size:9px}.profile-modal{width:100%;height:calc(100dvh - 14px);max-height:calc(100dvh - 14px);border-radius:24px}.profile-head{padding:14px 15px 12px}#profileAuthView,#profileAccountView{padding:14px}.avatar-grid{grid-template-columns:repeat(4,58px);gap:8px}.avatar-option{width:58px;height:58px;font-size:31px;border-radius:12px}.profile-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style></head>
   <body>
     <main class="app">
@@ -3168,6 +3169,7 @@
               <input class="profile-input" id="profileNewPasswordConfirm" type="password" minlength="6" autocomplete="new-password" placeholder="رمز عبور را دوباره وارد کن" required />
               <div class="profile-message" id="profileNewPasswordMessage"></div>
               <button class="profile-action" id="profileNewPasswordSubmit" type="submit">ذخیره رمز جدید</button>
+              <button class="profile-secondary small" id="profileNewPasswordCancel" type="button">لغو</button>
             </form>
           </div>
         </div>
@@ -3554,6 +3556,7 @@
           meaningCache = {},
           supplementaryRequestId = 0;
         const SUPABASE_URL = "https://blhmnscvdrhxyypsnjun.supabase.co";
+        const RECOVERY_SESSION_KEY = "sehezar-password-recovery-active";
         const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BRZYKi_19oGLouyK8gDeKg_9gw9MT37";
         const AVATARS = ["🐶","🦊","🦁","🐵","🐸","🐰","🐱","🐼"];
         let supabaseClient = null,
@@ -4786,8 +4789,9 @@
           if (m.includes("invalid login credentials") || m.includes("invalid email or password") || m.includes("user not found")) return "ایمیل یا رمز عبور اشتباه است.";
           if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب هنوز تأیید نشده است. اول ایمیل تأیید را باز کن و بعد دوباره وارد شو.";
           if (m.includes("user already registered") || m.includes("already registered") || m.includes("already been registered")) return "این ایمیل قبلاً ثبت‌نام شده است.";
+          if (m.includes("new password should be different from the old password") || m.includes("different from the old password") || m.includes("same as the old password") || m.includes("same as your current password") || m.includes("password is the same as")) return "رمز جدید باید با رمز قبلی متفاوت باشد.";
           if (m.includes("unable to validate email") || m.includes("invalid email") || m.includes("email address is invalid") || m.includes("valid email")) return "ایمیل واردشده معتبر نیست.";
-          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short") || m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
+          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
           if (m.includes("email")) return "این ایمیل معتبر نیست یا قبلاً استفاده شده است.";
           if (m.includes("email rate limit exceeded") || m.includes("rate limit") || m.includes("too many requests") || m.includes("for security purposes")) return "تعداد تلاش‌ها زیاد شده؛ کمی بعد دوباره امتحان کن.";
           if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
@@ -4842,6 +4846,7 @@
           btn.setAttribute("aria-label", currentUser ? `پروفایل ${username}` : "ثبت نام/ورود");
         }
         function renderProfileAccount() {
+          $("profileBackdrop")?.classList.remove("recovery-mode");
           const authView = $("profileAuthView"), accountView = $("profileAccountView");
           if (!authView || !accountView) return;
           if (!currentUser) {
@@ -4861,6 +4866,36 @@
           setAvatarGrid("accountAvatarGrid", selectedAvatar);
           refreshProfileButton();
         }
+        function setRecoverySessionActive(active) {
+          passwordRecoveryActive = !!active;
+          try {
+            if (active) sessionStorage.setItem(RECOVERY_SESSION_KEY, "1");
+            else sessionStorage.removeItem(RECOVERY_SESSION_KEY);
+          } catch {}
+          $("profileBackdrop")?.classList.toggle("recovery-mode", !!active);
+        }
+        function clearRecoveryUrl() {
+          try {
+            if (window.history?.replaceState) {
+              window.history.replaceState({}, document.title, window.location.pathname);
+            }
+          } catch {}
+        }
+        function clearRecoveryContext() {
+          setRecoverySessionActive(false);
+          try {
+            sessionStorage.removeItem(RECOVERY_SESSION_KEY);
+            localStorage.removeItem("sehezar-password-recovery-pending");
+          } catch {}
+          clearRecoveryUrl();
+        }
+        function hasStoredRecoveryContext() {
+          try {
+            return sessionStorage.getItem(RECOVERY_SESSION_KEY) === "1";
+          } catch {
+            return false;
+          }
+        }
         function openProfile() {
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
@@ -4868,7 +4903,8 @@
           else showNewPasswordView();
         }
         function closeProfile() {
-          $("profileBackdrop")?.classList.remove("open");
+          if (passwordRecoveryActive) clearRecoveryContext();
+          $("profileBackdrop")?.classList.remove("open", "recovery-mode");
           $("profileBackdrop")?.setAttribute("aria-hidden", "true");
         }
         function hideProfileAuthAuxViews() {
@@ -4895,6 +4931,7 @@
           setProfileMessage("");
         }
         function showForgotPasswordView() {
+          $("profileBackdrop")?.classList.remove("recovery-mode");
           $("profileAuthView").style.display = "none";
           $("profileForgotView").style.display = "block";
           $("profileNewPasswordView").style.display = "none";
@@ -4905,7 +4942,7 @@
           $("profileForgotEmail")?.focus();
         }
         function showNewPasswordView() {
-          passwordRecoveryActive = true;
+          setRecoverySessionActive(true);
           $("profileAuthView").style.display = "none";
           $("profileForgotView").style.display = "none";
           $("profileAccountView").style.display = "none";
@@ -4914,6 +4951,11 @@
           $("profileBackdrop")?.classList.add("open");
           $("profileBackdrop")?.setAttribute("aria-hidden", "false");
           requestAnimationFrame(() => $("profileNewPassword")?.focus());
+        }
+        function cancelPasswordRecovery() {
+          clearRecoveryContext();
+          if (currentUser) renderProfileAccount();
+          else setAuthMode("login");
         }
         function setAuxMessage(id, text, type = "") {
           const el = $(id);
@@ -4967,12 +5009,11 @@
           try {
             const { error } = await supabaseClient.auth.updateUser({ password });
             if (error) throw error;
-            passwordRecoveryActive = false;
-            try { localStorage.removeItem("sehezar-password-recovery-pending"); } catch {}
+            clearRecoveryContext();
             $("profileNewPassword").value = "";
             $("profileNewPasswordConfirm").value = "";
-            setAuxMessage("profileNewPasswordMessage", "رمز عبور با موفقیت تغییر کرد.", "success");
-            setTimeout(() => { closeProfile(); renderProfileAccount(); }, 900);
+            renderProfileAccount();
+            setProfileMessage("رمز عبور با موفقیت تغییر کرد.", "success");
           } catch (err) {
             setAuxMessage("profileNewPasswordMessage", friendlyAuthError(err), "error");
           } finally { btn.disabled = false; }
@@ -5034,9 +5075,13 @@
         async function handleAuthState(session) {
           const wasLoggedIn = !!currentUser;
           currentUser = session?.user || null;
-          if (recoveryUrlHint) passwordRecoveryActive = true;
           if (!currentUser) {
-            currentProfile = null; cloudReady = false; cloudHydrated = false; refreshProfileButton(); closeProfile();
+            currentProfile = null;
+            cloudReady = false;
+            cloudHydrated = false;
+            if (!recoveryUrlHint && !passwordRecoveryActive) clearRecoveryContext();
+            refreshProfileButton();
+            if (!passwordRecoveryActive) closeProfile();
             if (wasLoggedIn) {
               localStorage.removeItem(STORAGE_KEY);
               location.reload();
@@ -5060,17 +5105,25 @@
         }
         async function initAuth() {
           if (!initSupabase()) return;
-          if (recoveryUrlHint) passwordRecoveryActive = true;
-          const { data: { session } } = await supabaseClient.auth.getSession();
-          await handleAuthState(session);
-          if (recoveryUrlHint) showNewPasswordView();
           supabaseClient.auth.onAuthStateChange((event, nextSession) => {
             setTimeout(async () => {
-              if (event === "PASSWORD_RECOVERY") passwordRecoveryActive = true;
+              if (event === "PASSWORD_RECOVERY") {
+                setRecoverySessionActive(true);
+              }
               await handleAuthState(nextSession);
-              if (event === "PASSWORD_RECOVERY" || passwordRecoveryActive) showNewPasswordView();
+              if (event === "PASSWORD_RECOVERY") showNewPasswordView();
             }, 0);
           });
+          const { data: { session } } = await supabaseClient.auth.getSession();
+          const recoveryWasRequested = recoveryUrlHint || hasStoredRecoveryContext();
+          if (recoveryWasRequested && session) {
+            setRecoverySessionActive(true);
+          }
+          await handleAuthState(session);
+          if (recoveryWasRequested && session) {
+            showNewPasswordView();
+            clearRecoveryUrl();
+          }
         }
         async function submitAuthForm(e) {
           e.preventDefault();
@@ -6006,6 +6059,7 @@
         $("profileForgotForm").addEventListener("submit", submitPasswordReset);
         $("profileForgotBack").addEventListener("click", () => setAuthMode("login"));
         $("profileNewPasswordForm").addEventListener("submit", submitNewPassword);
+        $("profileNewPasswordCancel").addEventListener("click", cancelPasswordRecovery);
         $("saveProfileBtn").addEventListener("click", saveProfileChanges);
         $("profileLogout").addEventListener("click", logoutProfile);
         setAvatarGrid("profileAvatarGrid", selectedAvatar);
