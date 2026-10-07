@@ -4787,19 +4787,19 @@
           const raw = String(error?.message || error?.error_description || "").trim();
           const m = raw.toLowerCase();
           const status = Number(error?.status || error?.code || 0);
-          if (m.includes("__signup_existing__")) return "این ایمیل قبلاً ثبت‌نام شده است. برای ورود از بخش «ورود» استفاده کن.";
+          if (m.includes("__signup_existing__")) return "با این ایمیل قبلاً ثبت‌نام شده. برای ورود از بخش «ورود» استفاده کن.";
           if (!raw) return "خطایی رخ داد. دوباره تلاش کن.";
-          if (m.includes("invalid login credentials") || m.includes("invalid email or password") || m.includes("user not found")) return "ایمیل یا رمز عبور اشتباه است.";
-          if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب هنوز تأیید نشده است. اول ایمیل تأیید را باز کن و بعد دوباره وارد شو.";
-          if (m.includes("user already registered") || m.includes("already registered") || m.includes("already been registered")) return "این ایمیل قبلاً ثبت‌نام شده است.";
+          if (m.includes("invalid login credentials") || m.includes("invalid email or password") || m.includes("user not found")) return "ایمیل یا رمز عبور اشتباهه";
+          if (m.includes("email not confirmed") || m.includes("email confirmation")) return "ایمیل حساب کاربری هنوز تأیید نشده. اول ایمیل رو تأیید کن.";
+          if (m.includes("user already registered") || m.includes("already registered") || m.includes("already been registered")) return "این ایمیل قبلاً ثبت‌نام شده.";
           if (m.includes("unable to validate email") || m.includes("invalid email") || m.includes("email address is invalid") || m.includes("valid email")) return "ایمیل واردشده معتبر نیست.";
-          if (m.includes("same password") || m.includes("new password should be different") || m.includes("password should be different") || m.includes("password must be different") || m.includes("different from your current password") || m.includes("different from the old password") || m.includes("different from previous password")) return "رمز عبور جدید نمی‌تواند با رمز عبور قبلی یکسان باشد.";
-          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short") || m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشد.";
-          if (m.includes("email")) return "این ایمیل معتبر نیست یا قبلاً استفاده شده است.";
+          if (m.includes("same password") || m.includes("new password should be different") || m.includes("password should be different") || m.includes("password must be different") || m.includes("different from your current password") || m.includes("different from the old password") || m.includes("different from previous password")) return "رمز عبور جدید نمی‌تونه با رمز عبور قبلی یکسان باشه.";
+          if (m.includes("password should be at least") || m.includes("password must be at least") || m.includes("signup requires a valid password") || m.includes("password is too short") || m.includes("password")) return "رمز عبور باید حداقل ۶ کاراکتر باشه.";
+          if (m.includes("email")) return "این ایمیل معتبر نیست یا قبلاً استفاده شده.";
           if (m.includes("email rate limit exceeded") || m.includes("rate limit") || m.includes("too many requests") || m.includes("for security purposes")) return "تعداد تلاش‌ها زیاد شده؛ کمی بعد دوباره امتحان کن.";
-          if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
+          if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) return "ارتباط با سرور برقرار نشد. اتصال اینترنت رو بررسی کن و دوباره تلاش کن.";
           if (m.includes("email signups are disabled") || m.includes("email provider is disabled")) return "ثبت‌نام با ایمیل در حال حاضر فعال نیست.";
-          if (status === 401) return "ایمیل یا رمز عبور اشتباه است.";
+          if (status === 401) return "ایمیل یا رمز عبور اشتباهه.";
           return "خطایی در ورود یا ثبت‌نام رخ داد. دوباره تلاش کن.";
         }
         function friendlyProfileError(error) {
@@ -4814,7 +4814,7 @@
             return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
           }
           if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) {
-            return "ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کن و دوباره تلاش کن.";
+            return "ارتباط با سرور برقرار نشد. اتصال اینترنت رو بررسی کن و دوباره تلاش کن.";
           }
           return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
         }
@@ -4969,9 +4969,9 @@
         }
         async function submitPasswordReset(e) {
           e.preventDefault();
-          if (!supabaseClient) { setAuxMessage("profileForgotMessage", "سرویس حساب کاربری هنوز بارگذاری نشده است.", "error"); return; }
+          if (!supabaseClient) { setAuxMessage("profileForgotMessage", "سرویس حساب کاربری هنوز بارگذاری نشده.", "error"); return; }
           const email = $("profileForgotEmail").value.trim();
-          if (!email) { setAuxMessage("profileForgotMessage", "ایمیل را وارد کن.", "error"); return; }
+          if (!email) { setAuxMessage("profileForgotMessage", "ایمیل رو وارد کن.", "error"); return; }
           if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setAuxMessage("profileForgotMessage", "یک ایمیل معتبر وارد کن.", "error"); return; }
           const btn = $("profileForgotSubmit");
           btn.disabled = true;
@@ -4982,17 +4982,17 @@
             try {
               localStorage.setItem("sehezar-password-recovery-pending", JSON.stringify({ email: email.toLowerCase(), at: Date.now() }));
             } catch {}
-            setAuxMessage("profileForgotMessage", "اگر این ایمیل حسابی داشته باشد، لینک بازیابی برایش ارسال شد. صندوق ورودی و پوشه Spam/Junk را هم بررسی کن.", "success");
+            setAuxMessage("profileForgotMessage", "لینک تغییر رمز عبور ارسال شد. یادت نره بخش هرزنامه(spam) رو هم چک کنی.", "success");
           } catch (err) {
             setAuxMessage("profileForgotMessage", friendlyAuthError(err), "error");
           } finally { btn.disabled = false; }
         }
         async function submitNewPassword(e) {
           e.preventDefault();
-          if (!supabaseClient) { setAuxMessage("profileNewPasswordMessage", "سرویس حساب کاربری هنوز بارگذاری نشده است.", "error"); return; }
+          if (!supabaseClient) { setAuxMessage("profileNewPasswordMessage", "سرویس حساب کاربری هنوز بارگذاری نشده.", "error"); return; }
           const password = $("profileNewPassword").value;
           const confirm = $("profileNewPasswordConfirm").value;
-          if (password.length < 6) { setAuxMessage("profileNewPasswordMessage", "رمز عبور باید حداقل ۶ کاراکتر باشد.", "error"); return; }
+          if (password.length < 6) { setAuxMessage("profileNewPasswordMessage", "رمز عبور باید حداقل ۶ کاراکتر باشه.", "error"); return; }
           if (password !== confirm) { setAuxMessage("profileNewPasswordMessage", "تکرار رمز عبور با رمز جدید یکسان نیست.", "error"); return; }
           const btn = $("profileNewPasswordSubmit");
           btn.disabled = true;
@@ -5187,14 +5187,14 @@
           const email = $("profileEmail").value.trim();
           const password = $("profilePassword").value;
           const username = $("profileUsername").value.trim();
-          if (!email) { setProfileMessage("ایمیل را وارد کن.", "error"); return; }
+          if (!email) { setProfileMessage("ایمیل رو وارد کن.", "error"); return; }
           if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setProfileMessage("یک ایمیل معتبر وارد کن.", "error"); return; }
-          if (password.length < 6) { setProfileMessage("رمز عبور باید حداقل ۶ کاراکتر باشد.", "error"); return; }
+          if (password.length < 6) { setProfileMessage("رمز عبور باید حداقل ۶ کاراکتر باشه.", "error"); return; }
           if (profileMode === "signup" && !/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) {
-            setProfileMessage("نام کاربری باید ۳ تا ۲۰ کاراکتر باشد و فقط شامل حروف، عدد، _ یا - باشد.", "error"); return;
+            setProfileMessage("نام کاربری باید ۳ تا ۲۰ کاراکتر باشه و فقط شامل حروف، عدد، _ یا - باشه.", "error"); return;
           }
           if (profileMode === "signup" && hasRecentPendingSignup(email)) {
-            setProfileMessage("برای این ایمیل همین چند دقیقهٔ قبل درخواست تأیید فرستاده شده است. صندوق ورودی و پوشه Spam/Junk را بررسی کن.", "error");
+            setProfileMessage("برای این ایمیل همین چند دقیقهٔ قبل درخواست تأیید فرستاده شده. یادت نره بخش هرزنامه(spam) رو هم چک کنی.", "error");
             return;
           }
           const btn = $("profileSubmit"); btn.disabled = true;
@@ -5211,7 +5211,7 @@
               }
               if (!data.session) {
                 rememberPendingSignup(email);
-                setProfileMessage("حساب ساخته شد. ایمیل تأیید را باز کن؛ اگر در Inbox نبود، پوشه Spam/Junk را هم حتماً چک کن. بعد از تأیید دوباره وارد شو.", "success");
+                setProfileMessage("ایمیل تایید حساب کاربری ارسال شد. یادت نره بخش هرزنامه(spam) رو هم چک کنی.", "success");
               } else {
                 clearPendingSignup();
                 setProfileMessage("حساب ساخته شد.", "success");
@@ -5230,7 +5230,7 @@
           if (!currentUser || !supabaseClient) return;
           const username = $("accountUsernameInput").value.trim();
           if (!/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) {
-            setProfileMessage("نام کاربری نامعتبر است.", "error");
+            setProfileMessage("نام کاربری نامعتبره.", "error");
             return;
           }
           const btn = $("saveProfileBtn");
