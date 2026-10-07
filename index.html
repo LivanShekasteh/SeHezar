@@ -3568,6 +3568,9 @@
           cloudSaveInFlight = false,
           cloudSaveQueued = false,
           suppressCloudSync = false,
+          cloudProgressUpdatedAt = null,
+          cloudRefreshTimer = null,
+          cloudRefreshInFlight = false,
           profileMode = "login",
           selectedAvatar = AVATARS[0],
           passwordRecoveryActive = false,
@@ -4807,7 +4810,7 @@
           if (code === "42501" || m.includes("row-level security") || m.includes("permission denied")) {
             return "اجازهٔ ویرایش پروفایل داده نشد. دوباره وارد حساب شو و دوباره امتحان کن.";
           }
-          if (code === "23505" || m.includes("duplicate key") || m.includes("unique constraint") || m.includes("profiles_username_lower_unique")) {
+          if (code === "23505" || code === "23514" || m.includes("duplicate key") || m.includes("unique constraint") || m.includes("check constraint") || m.includes("profiles_username_lower_unique")) {
             return "ذخیرهٔ پروفایل انجام نشد. دوباره تلاش کن.";
           }
           if (m.includes("network") || m.includes("fetch") || m.includes("failed to fetch") || m.includes("load failed")) {
@@ -5012,22 +5015,36 @@
         async function pushProgressNow() {
           if (!supabaseClient || !currentUser || !cloudReady || suppressCloudSync) return;
           if (cloudSaveInFlight) { cloudSaveQueued = true; return; }
-          cloudSaveInFlight = true; cloudSaveQueued = false;
+          cloudSaveInFlight = true;
+          cloudSaveQueued = false;
+          const updatedAt = new Date().toISOString();
           try {
             const payload = profileSnapshotFromState();
-            const { error } = await supabaseClient.from("user_progress").upsert({ user_id: currentUser.id, data: payload, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
+            const { error } = await supabaseClient
+              .from("user_progress")
+              .upsert(
+                { user_id: currentUser.id, data: payload, updated_at: updatedAt },
+                { onConflict: "user_id" },
+              );
             if (error) throw error;
+            cloudProgressUpdatedAt = updatedAt;
           } catch (e) {
             console.error("Cloud save failed", e);
           } finally {
             cloudSaveInFlight = false;
-            if (cloudSaveQueued) pushProgressNow();
+            if (cloudSaveQueued) {
+              cloudSaveQueued = false;
+              pushProgressNow();
+            }
           }
         }
         function scheduleCloudSave() {
           if (!currentUser || !cloudReady || suppressCloudSync) return;
           clearTimeout(cloudSaveTimer);
-          cloudSaveTimer = setTimeout(pushProgressNow, 650);
+          cloudSaveTimer = setTimeout(() => {
+            cloudSaveTimer = null;
+            pushProgressNow();
+          }, 650);
         }
         function applyRemoteProgress(saved) {
           if (!saved || typeof saved !== "object") return;
@@ -5042,6 +5059,54 @@
           if (state.current) renderCard(state.current, { preserve: true });
           else { const next = chooseWord(); if (next) renderCard(next); }
         }
+        async function refreshCloudFromServer() {
+          if (
+            !supabaseClient ||
+            !currentUser ||
+            !cloudReady ||
+            suppressCloudSync ||
+            cloudRefreshInFlight ||
+            cloudSaveInFlight ||
+            cloudSaveTimer
+          ) return;
+          cloudRefreshInFlight = true;
+          try {
+            const [{ data: profile, error: profileError }, { data: progress, error: progressError }] = await Promise.all([
+              supabaseClient.from("profiles").select("user_id, username, avatar").eq("user_id", currentUser.id).maybeSingle(),
+              supabaseClient.from("user_progress").select("data, updated_at").eq("user_id", currentUser.id).maybeSingle(),
+            ]);
+            if (profileError) throw profileError;
+            if (progressError) throw progressError;
+
+            const profileOpen = $("profileBackdrop")?.classList.contains("open");
+            if (profile) {
+              currentProfile = profile;
+              if (!profileOpen) refreshProfileButton();
+            }
+
+            const remoteUpdatedAt = progress?.updated_at || null;
+            const shouldApply =
+              progress?.data &&
+              typeof progress.data === "object" &&
+              Object.keys(progress.data).length > 2 &&
+              (!cloudProgressUpdatedAt || !remoteUpdatedAt || new Date(remoteUpdatedAt).getTime() > new Date(cloudProgressUpdatedAt).getTime());
+
+            if (shouldApply) {
+              cloudProgressUpdatedAt = remoteUpdatedAt || cloudProgressUpdatedAt;
+              if (!profileOpen) applyRemoteProgress(progress.data);
+            }
+          } catch (e) {
+            console.error("Cloud refresh failed", e);
+          } finally {
+            cloudRefreshInFlight = false;
+          }
+        }
+        function startCloudRefreshLoop() {
+          clearInterval(cloudRefreshTimer);
+          cloudRefreshTimer = setInterval(() => {
+            if (document.visibilityState === "visible") refreshCloudFromServer();
+          }, 60000);
+        }
         async function hydrateCloud() {
           if (!supabaseClient || !currentUser) return;
           cloudReady = false;
@@ -5055,12 +5120,14 @@
           cloudHydrated = true;
           cloudReady = true;
           const remote = progress?.data;
+          cloudProgressUpdatedAt = progress?.updated_at || null;
           if (remote && typeof remote === "object" && Object.keys(remote).length > 2) {
             applyRemoteProgress(remote);
           } else {
             await pushProgressNow();
           }
           renderProfileAccount();
+          startCloudRefreshLoop();
         }
         async function handleAuthState(session) {
           const wasLoggedIn = !!currentUser;
@@ -5094,6 +5161,7 @@
             save();
             scheduleCloudSave();
           }
+          startCloudRefreshLoop();
           if (passwordRecoveryActive) showNewPasswordView();
           else renderProfileAccount();
         }
@@ -5161,32 +5229,39 @@
                 async function saveProfileChanges() {
           if (!currentUser || !supabaseClient) return;
           const username = $("accountUsernameInput").value.trim();
-          if (!/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) { setProfileMessage("نام کاربری نامعتبر است.", "error"); return; }
-          const btn = $("saveProfileBtn"); btn.disabled = true;
+          if (!/^[\p{L}\p{N}_-]{3,20}$/u.test(username)) {
+            setProfileMessage("نام کاربری نامعتبر است.", "error");
+            return;
+          }
+          const btn = $("saveProfileBtn");
+          btn.disabled = true;
+          const nextProfile = {
+            user_id: currentUser.id,
+            username,
+            avatar: selectedAvatar,
+            updated_at: new Date().toISOString(),
+          };
           try {
+            // Upsert makes the save reliable even if the profile row was not created correctly.
             const { error } = await supabaseClient
               .from("profiles")
-              .update({ username, avatar: selectedAvatar, updated_at: new Date().toISOString() })
-              .eq("user_id", currentUser.id);
+              .upsert(nextProfile, { onConflict: "user_id" });
             if (error) throw error;
-            currentProfile = {
-              ...(currentProfile || {}),
-              user_id: currentUser.id,
-              username,
-              avatar: selectedAvatar,
-            };
-            if (currentUser.user_metadata?.username !== username || currentUser.user_metadata?.avatar !== selectedAvatar) {
-              await supabaseClient.auth.updateUser({
-                data: { username, avatar: selectedAvatar },
-              }).catch(() => {});
-            }
-            setProfileMessage("پروفایل ذخیره شد.", "success");
+
+            currentProfile = { ...(currentProfile || {}), ...nextProfile };
+            await supabaseClient.auth.updateUser({
+              data: { username, avatar: selectedAvatar },
+            }).catch(() => {});
+
             refreshProfileButton();
             renderProfileAccount();
+            setProfileMessage("پروفایل ذخیره شد.", "success");
           } catch (err) {
             console.error("Profile update failed", err);
             setProfileMessage(friendlyProfileError(err), "error");
-          } finally { btn.disabled = false; }
+          } finally {
+            btn.disabled = false;
+          }
         }
         async function logoutProfile() {
           if (!supabaseClient) return;
@@ -6183,7 +6258,16 @@
         });
         document.addEventListener("visibilitychange", () => {
           syncTimerState();
-          if (document.visibilityState === "visible") startTimerLoop();
+          if (document.visibilityState === "visible") {
+            startTimerLoop();
+            refreshCloudFromServer();
+          }
+        });
+        window.addEventListener("focus", () => {
+          refreshCloudFromServer();
+        });
+        window.addEventListener("pageshow", () => {
+          refreshCloudFromServer();
         });
 
         async function start() {
