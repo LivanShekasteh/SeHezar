@@ -1,14 +1,8 @@
-<div align="center">
-
 # سه هزار · Three Thousand
 
 ### تمرین و مرور ۳۰۰۰ واژهٔ پرکاربرد زبان انگلیسی
 
 [🌐 مشاهدهٔ سایت](https://livanshekasteh.github.io/SeHezar/)
-
-</div>
-
----
 
 ## دربارهٔ پروژه
 
@@ -56,8 +50,4 @@ https://livanshekasteh.github.io/SeHezar/
 
 ---
 
-<div align="center">
-
 **Learn. Review. Keep going.**
-
-</div>
